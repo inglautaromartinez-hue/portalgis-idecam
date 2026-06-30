@@ -66,6 +66,7 @@ data/indexes/
 !data/README.md
 !data/catalog/
 !data/catalog/*.json
+!data/layers/**/*.meta.json
 !data/stats/
 !data/stats/*.json
 
