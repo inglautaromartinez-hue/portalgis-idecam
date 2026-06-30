@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_infraestructura_de_transporte_AQ125_93f8a0be",
+  "title": "Estación de ómnibus",
+  "typeName": "ign:infraestructura_de_transporte_AQ125",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 639,
+  "geometryType": "Point",
+  "bbox": [
+    -72.26502059,
+    -53.78425941,
+    -53.64841197,
+    -22.05066487
+  ],
+  "syncedAt": "2026-06-29T21:10:37.284Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_infraestructura_de_transporte_AQ125_db4baf41.geojson"
+  ],
+  "indexFile": "indexes/ign_infraestructura_de_transporte_AQ125_db4baf41.index.json",
+  "statsFile": "stats/ign_infraestructura_de_transporte_AQ125_db4baf41.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

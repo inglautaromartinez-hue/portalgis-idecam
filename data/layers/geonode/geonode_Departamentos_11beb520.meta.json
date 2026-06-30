@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Departamentos_7344a527",
+  "title": "Departamentos",
+  "typeName": "geonode:Departamentos",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "OBJECTID",
+    "DEPARTAMEN",
+    "SHAPE_AREA",
+    "SHAPE_LEN",
+    "SUPERFICIE"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 18,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.58368569,
+    -37.57198764,
+    -66.47898097,
+    -31.98807902
+  ],
+  "syncedAt": "2026-06-29T21:40:46.331Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Departamentos_11beb520.geojson"
+  ],
+  "indexFile": "indexes/geonode_Departamentos_11beb520.index.json",
+  "statsFile": "stats/geonode_Departamentos_11beb520.stats.json",
+  "wfsAvailable": true
+}

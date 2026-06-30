@@ -1,0 +1,86 @@
+{
+  "featureCount": 1065,
+  "bbox": [
+    -72.23141294,
+    -64.24317613,
+    -53.67191634,
+    -22.11772234
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "rst",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "rst": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 1065
+    },
+    "objeto": {
+      "Pista": 1065
+    },
+    "fun": {
+      "0": 14,
+      "2": 4,
+      "6": 924,
+      "-1": 119,
+      "-2": 4
+    },
+    "rst": {
+      "0": 14,
+      "1": 195,
+      "13": 776,
+      "19": 4,
+      "-1": 71,
+      "-2": 5
+    },
+    "fdc": {
+      "IGN/ANAC": 532,
+      "IGN": 363,
+      "Imagery": 61,
+      "IGN/ORSNA": 46,
+      "Esri-world_imagery-2010": 8,
+      "ESRI-World_Imagery-2010": 7,
+      "Esri-World_imagery": 6,
+      "Esri-World_Imagery": 5,
+      "Esri World Imagery.": 4,
+      "Esri-Word_Imagery_2010": 3,
+      "DPCeIT Neuquén / Imagery": 3,
+      "ESRI World Imagery": 2,
+      "Esri-Word_Imagery": 2,
+      "ESRI-World_Imagery 2011/2013": 2,
+      "Esri-World Imagery 2010": 2,
+      "ESRI-World_Imagery 2013": 2,
+      "ESRI-World_Imagery 2010": 2,
+      "ESRI-World_Imagery_2010": 2,
+      "Esri-World Imagery 2010/IGN04/IGN01": 1,
+      "Esri-World_Imagery 2010": 1,
+      "IGN04": 1,
+      "IGN01": 1,
+      "IGN04/Esri-World Imagery 2010": 1,
+      "Esry-World_Imagery": 1,
+      "Esri World Imagery": 1,
+      "ESRI-World_Imagery-2010/IGN01": 1,
+      "Esri-Word imagery": 1,
+      "Esri-Word_Imagery_2010/IGN04": 1,
+      "ESRI-World_Imagery": 1,
+      "Esri_World_Imagery": 1,
+      "Esri-World Imagery/IGN04/ANAC": 1
+    },
+    "sag": {
+      "IGN": 1065
+    }
+  }
+}

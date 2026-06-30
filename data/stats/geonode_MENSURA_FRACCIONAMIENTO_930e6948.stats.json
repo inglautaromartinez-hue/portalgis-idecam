@@ -1,0 +1,139 @@
+{
+  "featureCount": 730,
+  "bbox": [
+    -69.94550781,
+    -36.06479435,
+    -67.38415805,
+    -32.47533012
+  ],
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "fid": "number",
+    "Nomenclatu": "string",
+    "Padron_ren": "string",
+    "Zona": "string",
+    "Uso_inmueb": "string",
+    "SUPERFICIE": "number",
+    "SUPERFIC_1": "number",
+    "Departamen": "string",
+    "Tipo_der_r": "string",
+    "CC_PP_rieg": "string",
+    "Uso_riego": "string",
+    "delegacion": "string",
+    "objeto": "string",
+    "anio": "string",
+    "Lat": "number",
+    "Long": "number",
+    "Sup_empad_": "number"
+  },
+  "categoricalCounts": {
+    "Zona": {
+      "ZONA URBANA": 301,
+      "ZONA RURAL": 200,
+      "ZONA INTERFAZ": 190,
+      "ZONA SECANA": 25,
+      "": 14
+    },
+    "Uso_inmueb": {
+      "VIV.FAMILIAR": 218,
+      "PROP.RUR.INCULT": 188,
+      "PROP.CULTIVADA": 128,
+      "PROP.COM-BALDIO": 106,
+      "GALPON": 32,
+      "": 14,
+      "TASACION 2018": 9,
+      "P.URB.CULTIVADA": 7,
+      "FAMI.Y COMERCIO": 3,
+      "COMERCIO": 3,
+      "BODEGAS": 2,
+      "CALLEJ.COMUNERO": 2,
+      "MUNCPAL.VIVIEND": 2,
+      "ESP EQUIP": 2,
+      "CONSULT.MEDICOS": 1,
+      "ETDO PROVINCIAL": 1,
+      "PROP.COM-PAS.C.": 1,
+      "PROVINC.-BALDIO": 1,
+      "BALDIO SIN ADIC": 1,
+      "MATRIZ P.H.": 1,
+      "MUNICIP.-BALDIO": 1,
+      "ESTAC.DE SERVIC": 1,
+      "CANCH.FUTBOL 5": 1,
+      "OFICINAS": 1,
+      "SERV.MECANICOS": 1,
+      "GIMNASIO DEPORT": 1,
+      "EDUCAC.PRIVADO": 1,
+      "BALDIO C/MEJORA": 1
+    },
+    "Departamen": {
+      "SAN RAFAEL": 105,
+      "MAIPU": 78,
+      "LUJAN": 74,
+      "GUAYMALLEN": 66,
+      "SAN MARTIN": 65,
+      "LAS HERAS": 46,
+      "GRAL. ALVEAR": 43,
+      "TUNUYAN": 40,
+      "TUPUNGATO": 37,
+      "SAN CARLOS": 31,
+      "LAVALLE": 28,
+      "JUNIN": 28,
+      "MALARGUE": 27,
+      "RIVADAVIA": 23,
+      "GODOY CRUZ": 13,
+      "SANTA ROSA": 10,
+      "CAPITAL": 9,
+      "LA PAZ": 7
+    },
+    "Tipo_der_r": {
+      "": 409,
+      "DEFINITIVO": 245,
+      "EVENTUAL": 53,
+      "PERMISO PRECARIO": 13,
+      "DESAGUE": 7,
+      "DOMINIO PRIVADO": 2,
+      "REFUERZO DE VERANO": 1
+    },
+    "Uso_riego": {
+      "": 409,
+      "Agricola": 245,
+      "Recreativo": 72,
+      "Recreat./Urbano-h/500 m": 2,
+      "Uso Publico": 1,
+      "Industrial": 1
+    },
+    "delegacion": {
+      "Centro": 454,
+      "Sur": 163,
+      "Este": 113
+    },
+    "objeto": {
+      "MENSURA Y FRACCIONAMIENTO": 730
+    },
+    "anio": {
+      "2023": 139,
+      "2024": 182,
+      "2025": 218,
+      "2026": 191
+    }
+  }
+}

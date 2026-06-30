@@ -1,0 +1,96 @@
+{
+  "featureCount": 6002,
+  "bbox": [
+    -73.21969604,
+    -54.8462863,
+    -53.67174911,
+    -21.96200507
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "tup",
+    "mcc",
+    "bsc",
+    "feo",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "tup": "number",
+    "mcc": "number",
+    "bsc": "number",
+    "feo": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 6002
+    },
+    "objeto": {
+      "Puente": 6002
+    },
+    "fun": {
+      "2": 1,
+      "4": 1,
+      "6": 5807,
+      "-1": 172,
+      "-2": 21
+    },
+    "tup": {
+      "1": 5472,
+      "2": 403,
+      "3": 5,
+      "-1": 118,
+      "-2": 4
+    },
+    "mcc": {
+      "9": 1268,
+      "64": 158,
+      "77": 3986,
+      "138": 47,
+      "-1": 538,
+      "-2": 5
+    },
+    "bsc": {
+      "2": 20,
+      "10": 5654,
+      "11": 6,
+      "28": 17,
+      "-1": 302,
+      "-2": 3
+    },
+    "feo": {
+      "-1": 5655
+    },
+    "sag": {
+      "IGN": 6000,
+      "IG": 1
+    },
+    "gna": {
+      "Puente": 97,
+      "Puente Internacional": 15,
+      "-2": 10,
+      "Viaducto": 2,
+      "Puente Colgante": 2,
+      "Puente Ferroviario": 2,
+      "Puente Carretero": 1,
+      "Puente Ferrocarretero": 1,
+      "Puente Binacional": 1,
+      "Complejo Ferrovial": 1
+    }
+  }
+}

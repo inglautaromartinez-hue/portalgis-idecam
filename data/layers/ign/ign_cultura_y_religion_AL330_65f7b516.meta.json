@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_cultura_y_religion_AL330_841a639a",
+  "title": "Edificio religioso",
+  "typeName": "ign:cultura_y_religion_AL330",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "rfa",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 9804,
+  "geometryType": "Point",
+  "bbox": [
+    -72.33889965,
+    -54.82759769,
+    -53.65053184,
+    -21.8776371
+  ],
+  "syncedAt": "2026-06-29T21:10:06.989Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_cultura_y_religion_AL330_65f7b516.geojson"
+  ],
+  "indexFile": "indexes/ign_cultura_y_religion_AL330_65f7b516.index.json",
+  "statsFile": "stats/ign_cultura_y_religion_AL330_65f7b516.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_gravimetria_igsn71_7fa92394",
+  "title": "Red gravimétrica IGSN 71",
+  "typeName": "ign:gravimetria_igsn71",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota"
+  ],
+  "group": "ign",
+  "featureCount": 34,
+  "geometryType": "Point",
+  "bbox": [
+    -69.25,
+    -54.81666667,
+    -57.93333333,
+    -23.15
+  ],
+  "syncedAt": "2026-06-29T21:17:45.534Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_gravimetria_igsn71_37df6e08.geojson"
+  ],
+  "indexFile": "indexes/ign_gravimetria_igsn71_37df6e08.index.json",
+  "statsFile": "stats/ign_gravimetria_igsn71_37df6e08.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,100 @@
+{
+  "featureCount": 21,
+  "bbox": [
+    -68.28915286,
+    -54.80496427,
+    -56.68601561,
+    -31.71936317
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "31": 1,
+      "32": 1,
+      "33": 1,
+      "34": 1,
+      "35": 1,
+      "36": 1,
+      "37": 1,
+      "38": 1,
+      "39": 1,
+      "40": 1,
+      "41": 1,
+      "42": 1,
+      "43": 1,
+      "44": 1,
+      "45": 1,
+      "46": 1,
+      "47": 1,
+      "48": 1,
+      "49": 1,
+      "50": 1,
+      "51": 1
+    },
+    "entidad": {
+      "0": 21
+    },
+    "objeto": {
+      "Mareógrafo": 21
+    },
+    "fna": {
+      "Estación San Fernando": 1,
+      "Estación Puerto Buenos Aires": 1,
+      "Estación La Plata": 1,
+      "Estación Atalaya": 1,
+      "Estación Santa Teresita": 1,
+      "Estación San Clemente del Tuyú": 1,
+      "Estación Torre Oyarvide": 1,
+      "Estación Mar del Plata": 1,
+      "Estación Quequén": 1,
+      "Estación Puerto Belgrano": 1,
+      "Estación Puerto Madryn": 1,
+      "Estación Puerto Deseado": 1,
+      "Estación Ushuaia": 1
+    },
+    "gna": {
+      "Estación": 13
+    },
+    "nam": {
+      "San Fernando": 1,
+      "Puerto Buenos Aires": 1,
+      "La Plata": 1,
+      "Atalaya": 1,
+      "Santa Teresita": 1,
+      "San Clemente del Tuyú": 1,
+      "Torre Oyarvide": 1,
+      "Mar del Plata": 1,
+      "Quequén": 1,
+      "Puerto Belgrano": 1,
+      "Puerto Madryn": 1,
+      "Puerto Deseado": 1,
+      "Ushuaia": 1
+    },
+    "fdc": {
+      "IGN/SHN": 13,
+      "IGN": 8
+    },
+    "sag": {
+      "IGN": 21
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "featureCount": 28,
+  "bbox": [
+    -70.07194708,
+    -32.8356461,
+    -60.50179122,
+    -22.81122613
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "feo",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "feo": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "102111": 1,
+      "102113": 1,
+      "102114": 1,
+      "102115": 1,
+      "102116": 1,
+      "102117": 1,
+      "102118": 1,
+      "102119": 1,
+      "102120": 1,
+      "102121": 1,
+      "102126": 1,
+      "102127": 1,
+      "156512": 1,
+      "156513": 1,
+      "156514": 1,
+      "156515": 1,
+      "156516": 1,
+      "156517": 1,
+      "156518": 1,
+      "156519": 1,
+      "156520": 1,
+      "156521": 1,
+      "156522": 1,
+      "156523": 1,
+      "156524": 1,
+      "156525": 1,
+      "158991": 1,
+      "163065": 1
+    },
+    "entidad": {
+      "2": 28
+    },
+    "objeto": {
+      "Túnel": 28
+    },
+    "fun": {
+      "6": 28
+    },
+    "feo": {
+      "-1": 12
+    },
+    "fdc": {
+      "Vialidad Nacional": 23,
+      "ESRI World Imagery": 2,
+      "IGN01": 1,
+      "Portal del Túnel Subfluvial": 1,
+      "IGN01/ESRI World Imagery": 1
+    },
+    "sag": {
+      "IGN": 28
+    },
+    "fna": {
+      "Túnel Dique Los Sauces": 1,
+      "Túnel Subfluvial Raúl Uranga - Carlos Sylvestre Begnis": 1,
+      "Túnel Internacional Cristo Redentor": 1,
+      "Túnel Nº 14": 1,
+      "Túnel Nº 13": 1,
+      "Túnel Nº 12": 1,
+      "Tunel Nº 11": 1
+    },
+    "gna": {
+      "Túnel": 5,
+      "Túnel Subfluvial": 1,
+      "Túnel Internacional": 1
+    },
+    "nam": {
+      "Dique Los Sauces": 1,
+      "Raúl Uranga - Carlos Sylvestre Begnis": 1,
+      "Cristo Redentor": 1,
+      "Nº 14": 1,
+      "Nº 13": 1,
+      "Nº 12": 1,
+      "Nº 11": 1
+    }
+  }
+}

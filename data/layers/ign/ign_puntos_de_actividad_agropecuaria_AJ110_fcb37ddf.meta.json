@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_actividad_agropecuaria_AJ110_27fd2023",
+  "title": "Invernadero, vivero, huerta",
+  "typeName": "ign:puntos_de_actividad_agropecuaria_AJ110",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 278,
+  "geometryType": "Point",
+  "bbox": [
+    -71.63258878,
+    -51.69541885,
+    -56.55499268,
+    -23.37162312
+  ],
+  "syncedAt": "2026-06-29T21:11:56.660Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_actividad_agropecuaria_AJ110_fcb37ddf.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_actividad_agropecuaria_AJ110_fcb37ddf.index.json",
+  "statsFile": "stats/ign_puntos_de_actividad_agropecuaria_AJ110_fcb37ddf.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

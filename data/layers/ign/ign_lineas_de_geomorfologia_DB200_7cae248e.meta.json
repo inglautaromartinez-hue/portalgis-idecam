@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_DB200_5683062a",
+  "title": "Quebrada, cañadón, garganta",
+  "typeName": "ign:lineas_de_geomorfologia_DB200",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1686,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.55986205,
+    -63.67748687,
+    -58.14124797,
+    -21.8254437
+  ],
+  "syncedAt": "2026-06-29T21:17:38.990Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_DB200_7cae248e.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_DB200_7cae248e.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_DB200_7cae248e.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

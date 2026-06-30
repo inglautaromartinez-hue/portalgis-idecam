@@ -1,0 +1,45 @@
+{
+  "id": "geonode_red_riego_actual_4326_4a86bf8c_7670_4800_911a_8e365057a562",
+  "title": "Red de Riego",
+  "typeName": "geonode:red_riego_actual_4326",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "gid",
+    "codcau",
+    "categoria",
+    "material",
+    "estado",
+    "long_m",
+    "cauce",
+    "jerarquia",
+    "inspeccion",
+    "cod_distri"
+  ],
+  "group": "IRRIGACION",
+  "wmsAvailable": true,
+  "featureCount": 89944,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -69.76484318,
+    -35.99964351,
+    -67.18513208,
+    -32.46791708
+  ],
+  "syncedAt": "2026-06-29T21:45:08.957Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 41.5 MB."
+  ],
+  "files": [
+    "layers/geonode/geonode_red_riego_actual_4326_4bad8bbf.geojson"
+  ],
+  "indexFile": "indexes/geonode_red_riego_actual_4326_4bad8bbf.index.json",
+  "statsFile": "stats/geonode_red_riego_actual_4326_4bad8bbf.stats.json",
+  "wfsAvailable": true
+}

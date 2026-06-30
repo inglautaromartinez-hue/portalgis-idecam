@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_transporte_aereo_GB055_c5867317",
+  "title": "Pista",
+  "typeName": "ign:lineas_de_transporte_aereo_GB055",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "rst",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1065,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.23141294,
+    -64.24317613,
+    -53.67191634,
+    -22.11772234
+  ],
+  "syncedAt": "2026-06-29T21:16:47.961Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_transporte_aereo_GB055_8c9d536f.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_transporte_aereo_GB055_8c9d536f.index.json",
+  "statsFile": "stats/ign_lineas_de_transporte_aereo_GB055_8c9d536f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

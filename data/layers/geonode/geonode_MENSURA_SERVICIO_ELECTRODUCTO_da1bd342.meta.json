@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_SERVICIO_ELECTRODUCTO_9c7084bc_7fb4_4aab_b1d0_e4eca012f020",
+  "title": "SERVICIO ELECTRODUCTO",
+  "typeName": "geonode:MENSURA_SERVICIO_ELECTRODUCTO",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "Sup_empad_",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 175,
+  "geometryType": "Point",
+  "bbox": [
+    -69.94291269,
+    -35.39777646,
+    -67.61749378,
+    -32.71467018
+  ],
+  "syncedAt": "2026-06-29T21:41:16.642Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_SERVICIO_ELECTRODUCTO_da1bd342.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_SERVICIO_ELECTRODUCTO_da1bd342.index.json",
+  "statsFile": "stats/geonode_MENSURA_SERVICIO_ELECTRODUCTO_da1bd342.stats.json",
+  "wfsAvailable": true
+}

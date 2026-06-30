@@ -1,0 +1,83 @@
+{
+  "featureCount": 434,
+  "bbox": [
+    -70.93603662,
+    -39.22941873,
+    -57.25,
+    -26.74042843
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "fdc",
+    "fna",
+    "nam",
+    "gna"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fun": "number",
+    "fdc": "string",
+    "fna": "string",
+    "nam": "string",
+    "gna": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 434
+    },
+    "objeto": {
+      "Establecimiento Agropecuario": 434
+    },
+    "sag": {
+      "IGN": 434
+    },
+    "fun": {
+      "6": 2,
+      "-1": 432
+    },
+    "fdc": {
+      "Esri-World_Imagery 2010": 166,
+      "IGN": 97,
+      "IGN03": 46,
+      "Esri-World_Imagery  2001-2002-2006-2010": 30,
+      "Gabinete TIG-SIG": 23,
+      "Imagery Esri 2002-2003": 17,
+      "Esri-word_Imagery_2010": 16,
+      "Imagery Esri 2000-2001-2006-2008": 8,
+      "Esri-Word_Imagery_2010": 6,
+      "Esri-Word_Imagery": 4,
+      "Esri-World Imagery 2010": 3,
+      "Esri-World_Imagery 2010-2002-2001": 3,
+      "Esri-word_Imagery": 3,
+      "Interpretación y Nomenclatura": 3,
+      "Imagery Esri 2001-2002-2006-2010": 3,
+      "Esri-World_imagery": 2,
+      "Esri-word_imagery_2010": 1,
+      "Departamento Geocartografía": 1,
+      "Esri-World_Imagery 2006": 1,
+      "Imagery Esri 2001-2002-2003-2010": 1
+    },
+    "fna": {
+      "Control Unión": 1,
+      "Ingenio La Fronterita": 1,
+      "Ingenio Leales": 1,
+      "Ingenio Santa Rosa": 1
+    },
+    "nam": {
+      "Control Unión": 1,
+      "La Fronterita": 1,
+      "Leales": 1,
+      "Santa Rosa": 1
+    },
+    "gna": {
+      "Ingenio": 3
+    }
+  }
+}

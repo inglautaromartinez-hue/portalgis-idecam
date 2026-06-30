@@ -1,0 +1,42 @@
+{
+  "featureCount": 2,
+  "bbox": [
+    -180,
+    -23.43633102,
+    179.99967355,
+    23.43637149
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "ttr",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "ttr": "number",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "9": 1,
+      "10": 1
+    },
+    "entidad": {
+      "1": 2
+    },
+    "objeto": {
+      "Trópico": 2
+    },
+    "ttr": {
+      "1": 1,
+      "2": 1
+    },
+    "sag": {
+      "IGN": 2
+    }
+  }
+}

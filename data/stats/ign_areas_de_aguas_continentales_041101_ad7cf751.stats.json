@@ -1,0 +1,77 @@
+{
+  "featureCount": 918,
+  "bbox": [
+    -71.08180945,
+    -40.51317373,
+    -58.12847496,
+    -21.97883399
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "4": 918
+    },
+    "objeto": {
+      "Embalse rural": 918
+    },
+    "fdc": {
+      "Imagen Sentinel - 2/ Carta 100K": 599,
+      "Esri-World Imagery 2010": 167,
+      "Esri World Imagery 2010": 42,
+      "Esri_word Imagery 2010": 21,
+      "Esri-World_Imagery": 14,
+      "Esri-world_imagery": 10,
+      "IGN04": 9,
+      "Esri-Word_Imagery_2010": 5,
+      "Esri-World_Imagery 2010": 5,
+      "Esri World Imagery": 4,
+      "ESRI-World_Imagery 2010": 3,
+      "Esri-Word_Imagery": 2,
+      "Esri-Word imagery": 1,
+      "Esri-World_imagery": 1,
+      "Esri-World Imagery 2010/IGN01": 1,
+      "Esri_word Imagery 2010/IGN01/IGN04": 1,
+      "IGN04/IGN01": 1,
+      "IGN/ Esri World Imagery": 1,
+      "IGN/ Esri World Imagry": 1,
+      "IGN02/IGN04/Comité Argentino de Presas": 1,
+      "IGN03/IGN01/IGN04": 1
+    },
+    "sag": {
+      "IGN": 917,
+      "IGN\r\n": 1
+    },
+    "fna": {
+      "Represa El Rosario": 1,
+      "Dique de cola Minera Aguilar": 1,
+      "Dique de cola": 1
+    },
+    "gna": {
+      "Dique de cola": 2,
+      "Represa": 1
+    },
+    "nam": {
+      "El Rosario": 1,
+      "Minera Aguilar": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "featureCount": 994,
+  "bbox": [
+    -71.96568587,
+    -44.78776169,
+    -57.33038876,
+    -21.78113479
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 994
+    },
+    "objeto": {
+      "Cumbre rocosa": 994
+    },
+    "sag": {
+      "IGN": 994
+    }
+  }
+}

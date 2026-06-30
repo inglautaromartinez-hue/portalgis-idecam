@@ -1,0 +1,47 @@
+{
+  "featureCount": 2959,
+  "bbox": [
+    -73.02555847,
+    -52.23945236,
+    -59.22916031,
+    -22.23600201
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 2959
+    },
+    "objeto": {
+      "Barrial, Barrizal": 2959
+    },
+    "sag": {
+      "IGN": 2959
+    },
+    "fna": {
+      "Barrial Colorado": 1
+    },
+    "gna": {
+      "Barrial": 1
+    },
+    "nam": {
+      "Colorado": 1
+    }
+  }
+}

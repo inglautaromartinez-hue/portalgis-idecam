@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_barranca_ffe194d6",
+  "title": "Barranca",
+  "typeName": "ign:lineas_de_geomorfologia_barranca",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 793,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.22969919,
+    -56.7032196,
+    -27.13903955,
+    -22.84341774
+  ],
+  "syncedAt": "2026-06-29T21:06:52.409Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_barranca_97e547c8.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_barranca_97e547c8.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_barranca_97e547c8.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

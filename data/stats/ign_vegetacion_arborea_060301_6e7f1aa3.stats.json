@@ -1,0 +1,79 @@
+{
+  "featureCount": 2938,
+  "bbox": [
+    -71.45979394,
+    -54.33884048,
+    -53.80570984,
+    -25.48180199
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 2938
+    },
+    "objeto": {
+      "Bosque artificial": 2936,
+      "Plantación permanente": 1
+    },
+    "fdc": {
+      "IGN": 1666,
+      "Esri-World_Imagery 2010": 221,
+      "Esri-Word_Imagery_2010": 135,
+      "Imagery Esri 2002-2003": 84,
+      "Imagery Esri 2001-2002-2003-2010": 54,
+      "Imagery Esri 2010": 48,
+      "Esri-World_Imagery 2001-2002-2006-2010": 47,
+      "Esri-World_Imagery": 42,
+      "ESRI-World_Imagery 2011/2013": 39,
+      "Esri-World_Imagery_2010": 25,
+      "Esri. World_Imagery 2010": 22,
+      "Esri-World_Imagery 2010-2002-2001": 22,
+      "-": 20,
+      "Esri-Word_Imagery": 19,
+      "ESRI-World_Imagery": 9,
+      "Esri-Word imagery": 9,
+      "Esri World Imagery": 7,
+      "Esri-World_Imagery 2006": 4,
+      "Esri-word_Imagery_2010": 4,
+      "Esri-Word_Imagery 2010": 4,
+      "Gabinete": 3,
+      "Imagery Esri 1991-2001-2002-2006": 2,
+      "Imagery Esri 2000-2001-2006-2008": 1,
+      "Esri_Word_Imagery": 1
+    },
+    "sag": {
+      "IGN": 2935
+    },
+    "fna": {
+      "-2": 89,
+      "-1": 21
+    },
+    "gna": {
+      "-2": 89,
+      "-1": 21
+    },
+    "nam": {
+      "-2": 89,
+      "-1": 21
+    }
+  }
+}

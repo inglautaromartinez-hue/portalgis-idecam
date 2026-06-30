@@ -1,0 +1,42 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_gobiernoslocales_2022_fc74f03b",
+  "title": "Gobierno Local",
+  "typeName": "ign:gobiernoslocales_2022",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "in1",
+    "tgl",
+    "cod_tgl",
+    "nam_prov",
+    "cod_prov",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 2313,
+  "geometryType": "MultiPoint",
+  "bbox": [
+    -72.88591142,
+    -54.80740398,
+    -53.64673457,
+    -21.94710868
+  ],
+  "syncedAt": "2026-06-29T21:10:45.038Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_gobiernoslocales_2022_886a4bcd.geojson"
+  ],
+  "indexFile": "indexes/ign_gobiernoslocales_2022_886a4bcd.index.json",
+  "statsFile": "stats/ign_gobiernoslocales_2022_886a4bcd.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

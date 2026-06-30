@@ -1,0 +1,47 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_sublocalidad_entidad_bahra_8f364cba",
+  "title": "Sublocalidad",
+  "typeName": "ign:sublocalidad_entidad_bahra",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "cod_pcia",
+    "nom_pcia",
+    "cod_depto",
+    "nom_depto",
+    "cod_ase",
+    "fna",
+    "tipo_asent",
+    "cod_aglo",
+    "nom_aglo",
+    "cod_agl",
+    "nom_agl",
+    "lat_gd",
+    "long_gd",
+    "lat_gs",
+    "long_gs",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 707,
+  "geometryType": "MultiPoint",
+  "bbox": [
+    -71.51471566,
+    -45.8625644,
+    -54.66491269,
+    -22.13171901
+  ],
+  "syncedAt": "2026-06-29T21:20:12.247Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_sublocalidad_entidad_bahra_a8f4af1a.geojson"
+  ],
+  "indexFile": "indexes/ign_sublocalidad_entidad_bahra_a8f4af1a.index.json",
+  "statsFile": "stats/ign_sublocalidad_entidad_bahra_a8f4af1a.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

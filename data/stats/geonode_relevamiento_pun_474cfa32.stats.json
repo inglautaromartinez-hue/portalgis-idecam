@@ -1,0 +1,39 @@
+{
+  "featureCount": 3,
+  "bbox": [
+    -68.88669895,
+    -32.99425437,
+    -68.88158448,
+    -32.99149787
+  ],
+  "fields": [
+    "fid",
+    "tipo",
+    "prof",
+    "contac"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "tipo": "string",
+    "prof": "string",
+    "contac": "string"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "tipo": {
+      "punto georref": 1,
+      "punto altim": 1,
+      "mojon encontrado": 1
+    },
+    "prof": {
+      "Alberdi": 3
+    },
+    "contac": {
+      "3424683416": 3
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_estructura_asociada_010601_a3a584c2",
+  "title": "Zona de extracción minera",
+  "typeName": "ign:areas_de_estructura_asociada_010601",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 80,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.68862781,
+    -40.19094023,
+    -64.4653623,
+    -22.09215094
+  ],
+  "syncedAt": "2026-06-29T21:20:32.724Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_estructura_asociada_010601_ef4dc261.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_estructura_asociada_010601_ef4dc261.index.json",
+  "statsFile": "stats/ign_areas_de_estructura_asociada_010601_ef4dc261.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

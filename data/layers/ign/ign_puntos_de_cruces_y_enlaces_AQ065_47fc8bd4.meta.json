@@ -1,0 +1,42 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_cruces_y_enlaces_AQ065_cf9e425e",
+  "title": "Alcantarilla",
+  "typeName": "ign:puntos_de_cruces_y_enlaces_AQ065",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "feo",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 20910,
+  "geometryType": "Point",
+  "bbox": [
+    -71.98548182,
+    -52.2000034,
+    -54.61303711,
+    -21.85711958
+  ],
+  "syncedAt": "2026-06-29T21:59:24.366Z",
+  "status": "partial",
+  "errors": [
+    "Feature omitida gid=160151: Unexpected token '<', \"<?xml vers\"... is not valid JSON",
+    "Feature omitida gid=160772: Unexpected token '<', \"<?xml vers\"... is not valid JSON",
+    "Feature omitida gid=164323: Unexpected token '<', \"<?xml vers\"... is not valid JSON",
+    "WFS anuncio 20913 features y se sincronizaron 20910."
+  ],
+  "warnings": [],
+  "files": [
+    "layers/ign/ign_puntos_de_cruces_y_enlaces_AQ065_47fc8bd4.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_cruces_y_enlaces_AQ065_47fc8bd4.index.json",
+  "statsFile": "stats/ign_puntos_de_cruces_y_enlaces_AQ065_47fc8bd4.stats.json",
+  "wfsAvailable": true
+}

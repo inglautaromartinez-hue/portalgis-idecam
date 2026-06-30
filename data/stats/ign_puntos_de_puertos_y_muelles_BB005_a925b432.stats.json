@@ -1,0 +1,76 @@
+{
+  "featureCount": 155,
+  "bbox": [
+    -71.81386022,
+    -54.81046957,
+    -54.57970906,
+    -25.37332171
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fuc",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fuc": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 155
+    },
+    "objeto": {
+      "Puerto": 155
+    },
+    "gna": {
+      "Puerto": 142,
+      "Base Naval": 2,
+      "Terminal": 1,
+      "Club Náutico": 1,
+      "Club Naútico": 1
+    },
+    "fuc": {
+      "2": 115,
+      "20": 20,
+      "37": 2,
+      "-1": 18
+    },
+    "fdc": {
+      "IGN/Min. de Transporte": 109,
+      "IGN": 12,
+      "Imagery": 7,
+      "IGN01/IGN04": 6,
+      "Esri-Word_Imagery/Open Street View": 3,
+      "IGN/Ministerio de Transporte de la Nación": 2,
+      "Carta IGN 250.000": 2,
+      "Esri World Imágery": 2,
+      "Esri-World_imagery": 2,
+      "IGN/OSM": 1,
+      "IGN/Min. de Transporte/OSM": 1,
+      "IGN/Sitio web de la empresa": 1,
+      "Esri-World_Imagery 2010/Open Street View/Sitio web de la institución": 1,
+      "Esri-World_Imagery 2010/Sitio web de la municipalidad": 1,
+      "Esri-Word_Imagery/OSM": 1,
+      "IGN04/Subsecretaría de Turismo Pcial": 1,
+      "Esri-Word_Imagery/IGN01/IGN04": 1,
+      "IGN01/IGN04/OSM": 1,
+      "IGN01/IGN04/Subsecretaría de Turismo Pcial.": 1
+    },
+    "sag": {
+      "IGN": 155
+    }
+  }
+}

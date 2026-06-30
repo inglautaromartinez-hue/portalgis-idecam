@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_almacenamiento_y_logistica_AM080_a2d616f8",
+  "title": "Tanque de agua elevado",
+  "typeName": "ign:puntos_de_almacenamiento_y_logistica_AM080",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 137,
+  "geometryType": "Point",
+  "bbox": [
+    -71.09728359,
+    -51.703319,
+    -57.80166288,
+    -21.93501432
+  ],
+  "syncedAt": "2026-06-29T21:20:12.309Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_almacenamiento_y_logistica_AM080_fb4eedaa.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_almacenamiento_y_logistica_AM080_fb4eedaa.index.json",
+  "statsFile": "stats/ign_puntos_de_almacenamiento_y_logistica_AM080_fb4eedaa.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

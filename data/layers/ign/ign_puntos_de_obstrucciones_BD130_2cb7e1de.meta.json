@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_obstrucciones_BD130_2dccd37a",
+  "title": "Roca",
+  "typeName": "ign:puntos_de_obstrucciones_BD130",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 179,
+  "geometryType": "Point",
+  "bbox": [
+    -68.27646596,
+    -65.3968554,
+    -26.44937094,
+    -44.48127173
+  ],
+  "syncedAt": "2026-06-29T21:19:50.160Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_obstrucciones_BD130_2cb7e1de.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_obstrucciones_BD130_2cb7e1de.index.json",
+  "statsFile": "stats/ign_puntos_de_obstrucciones_BD130_2cb7e1de.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

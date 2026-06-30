@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_transporte_aereo_GB005_9a5814f3",
+  "title": "Aeropuerto",
+  "typeName": "ign:puntos_de_transporte_aereo_GB005",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 60,
+  "geometryType": "Point",
+  "bbox": [
+    -72.05379495,
+    -54.83951379,
+    -54.47626506,
+    -22.15100499
+  ],
+  "syncedAt": "2026-06-29T21:06:34.621Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_transporte_aereo_GB005_54e9a370.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_transporte_aereo_GB005_54e9a370.index.json",
+  "statsFile": "stats/ign_puntos_de_transporte_aereo_GB005_54e9a370.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

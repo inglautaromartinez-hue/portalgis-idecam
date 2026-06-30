@@ -1,0 +1,35 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -69.1480992,
+    -59.6550801,
+    -25.9043038,
+    -35.63306234
+  ],
+  "fields": [
+    "gid",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "3": 1
+    },
+    "objeto": {
+      "Mar Territorial Argentino": 1
+    },
+    "sag": {
+      "Servicio de Hidrografía Naval": 1
+    },
+    "fdc": {
+      "Servicio de Hidrografía Naval": 1
+    }
+  }
+}

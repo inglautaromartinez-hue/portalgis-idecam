@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_aguas_continentales_BH170_e897cb19",
+  "title": "Fuente natural",
+  "typeName": "ign:puntos_de_aguas_continentales_BH170",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "swt",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 110,
+  "geometryType": "Point",
+  "bbox": [
+    -71.63660187,
+    -41.00998193,
+    -64.90989785,
+    -22.97379474
+  ],
+  "syncedAt": "2026-06-29T21:10:43.525Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_aguas_continentales_BH170_b3feef42.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_aguas_continentales_BH170_b3feef42.index.json",
+  "statsFile": "stats/ign_puntos_de_aguas_continentales_BH170_b3feef42.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

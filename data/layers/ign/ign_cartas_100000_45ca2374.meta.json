@@ -1,0 +1,41 @@
+{
+  "id": "ign_cartas_100000_9e95cc44_38a7_4782_9f50_e47d5a96c69e",
+  "title": "Cartas 1:100.000",
+  "typeName": "ign:cartas_100000",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "carac",
+    "nombre",
+    "num_faja",
+    "fecha_edic",
+    "meridiano_",
+    "elipsoide",
+    "fecha_lev_",
+    "tipo_lev_c",
+    "marco_de_r",
+    "sist_de_pr"
+  ],
+  "group": "Capas IGN",
+  "featureCount": 1898,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.5,
+    -55.33333333,
+    -53.5,
+    -21.66666667
+  ],
+  "syncedAt": "2026-06-29T21:07:12.162Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_cartas_100000_45ca2374.geojson"
+  ],
+  "indexFile": "indexes/ign_cartas_100000_45ca2374.index.json",
+  "statsFile": "stats/ign_cartas_100000_45ca2374.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

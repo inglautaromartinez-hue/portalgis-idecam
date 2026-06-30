@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_FRACCIONAMIENTO_f93cd680_d708_4e7d_be7e_389972d37315",
+  "title": "FRACCIONAMIENTO",
+  "typeName": "geonode:MENSURA_FRACCIONAMIENTO",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 730,
+  "geometryType": "Point",
+  "bbox": [
+    -69.94550781,
+    -36.06479435,
+    -67.38415805,
+    -32.47533012
+  ],
+  "syncedAt": "2026-06-29T21:41:16.042Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_FRACCIONAMIENTO_930e6948.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_FRACCIONAMIENTO_930e6948.index.json",
+  "statsFile": "stats/geonode_MENSURA_FRACCIONAMIENTO_930e6948.stats.json",
+  "wfsAvailable": true
+}

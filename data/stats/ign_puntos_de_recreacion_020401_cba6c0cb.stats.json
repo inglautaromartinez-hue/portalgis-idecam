@@ -1,0 +1,110 @@
+{
+  "featureCount": 16,
+  "bbox": [
+    -72.35111454,
+    -54.72414861,
+    -68.0170415,
+    -32.8246169
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "3563": 1,
+      "5213": 1,
+      "5214": 1,
+      "5215": 1,
+      "5216": 1,
+      "5217": 1,
+      "5218": 1,
+      "5847": 1,
+      "6259": 1,
+      "6260": 1,
+      "6296": 1,
+      "6310": 1,
+      "6322": 1,
+      "6432": 1,
+      "6433": 1,
+      "6434": 1
+    },
+    "entidad": {
+      "1": 16
+    },
+    "objeto": {
+      "Centro de Esquí": 16
+    },
+    "fdc": {
+      "IGN/Secretaría de deportes/Google Earth": 6,
+      "IGN04/Sitio web de la empresa": 2,
+      "IGN": 1,
+      "IGN/Sitio web de turismo del municipio": 1,
+      "IGN/Secretaría de deportes/Street View": 1,
+      "IGN/Secretaría de deportes/Sitio web de la empresa": 1,
+      "IGN01OtrasEdificaciones/IGN04/Catastro Pcial./IGN Dirección de Geografía": 1,
+      "IGN04/IGN Dirección de Geografía/Catastro Pcial.": 1,
+      "IGN01": 1,
+      "IGN04/Sitio web de la empresa/Open Street View": 1
+    },
+    "sag": {
+      "IGN": 16
+    },
+    "fna": {
+      "Centro de Esquí Las Leñas": 1,
+      "Centro de Esquí Vallecitos": 1,
+      "Centro de Esquí Cerro Perito Moreno": 1,
+      "Centro de Esquí La Hoya": 1,
+      "Centro de Esquí Valdelén": 1,
+      "Centro de Esquí Cerro Castor": 1,
+      "Centro de Esquí Hoya del Chingue": 1,
+      "Centro de Esquí Los Penitentes": 1,
+      "Centro de Esquí Los Puquios": 1,
+      "Base Centro Invernal Cerro Chapelco": 1,
+      "Parque de Nieve Primeros Pinos": 1,
+      "Centro de Sky Caviahue": 1,
+      "Centro de Esquí Nórdico": 1,
+      "Centro de Esquí Piedras Blancas": 1,
+      "Centro de Esquí Catedral Alta Patagonia": 1
+    },
+    "gna": {
+      "Centro de Esquí": 12,
+      "Base Centro Invernal": 1,
+      "Parque de Nieve": 1,
+      "Centro de Sky": 1
+    },
+    "nam": {
+      "Las Leñas": 1,
+      "Vallecitos": 1,
+      "Cerro Perito Moreno": 1,
+      "La Hoya": 1,
+      "Valdelén": 1,
+      "Cerro Castor": 1,
+      "Hoya del Chingue": 1,
+      "Los Penitentes": 1,
+      "Los Puquios": 1,
+      "Cerro Chapelco": 1,
+      "Primeros Pinos": 1,
+      "Caviahue": 1,
+      "Nórdico": 1,
+      "Piedras Blancas": 1,
+      "Catedral Alta Patagonia": 1
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "featureCount": 7908,
+  "bbox": [
+    -71.5650783,
+    -54.82857921,
+    -57.13957408,
+    -21.85575063
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 7908
+    },
+    "objeto": {
+      "Galpón, Tinglado": 7908
+    },
+    "sag": {
+      "IGN": 7907
+    },
+    "fdc": {
+      "Interpretación y Nomenclatura": 4072,
+      "Campo 2010": 885,
+      "IGN02": 706,
+      "Esri-World_Imagery 2010": 371,
+      "Esri World Imagery 2010": 187,
+      "IGN01": 182,
+      "Esri-World Imagery 2010": 176,
+      "Campaña Año 2010": 147,
+      "ESRI World Imagery": 146,
+      "Esri_word Imagery 2010": 80,
+      "Esri World Imagery": 79,
+      "Esri-Word_Imagery_2010": 69,
+      "Esri-World_Imagery": 60,
+      "Esri-Word_Imagery": 59,
+      "ESRI-World_Imagery-2010": 55,
+      "Plancheta Año 1993": 52,
+      "Esri-word_Imagery_2010": 36,
+      "IGN01 / IGN04": 32,
+      "Esri-World_Imagery  2010": 29,
+      "Esri-World Imagery": 25,
+      "Esri World_Imagery_2008": 24,
+      "Imagery Esri 1991-2001-2002-2006": 22,
+      "Imagery Esri 2002-2003": 22,
+      "Esri-World_Imagery 2003": 20,
+      "Esri-Word imagery": 20,
+      "IGN02 / IGN04": 16,
+      "ESRI-World_Imagery 2010": 14,
+      "Esri-world_imagery-2010": 13,
+      "ESRI-World_Imagery": 10,
+      "Esri WorldImagery2010": 9,
+      "Esri-World_imagery": 9,
+      "ESRI_World-Imagery": 9,
+      "ESRI_World-Imagery/IGN01": 9,
+      "Esri-world_imagery": 8,
+      "Esri-World_Imagery 2002": 7,
+      "Esri_word Imagery 2010/IGN01": 6,
+      "IGN": 4,
+      "Esri-World_Imagery 2010-2002-2001": 3,
+      "Google Earth": 3,
+      "Esri-word_imagery": 2,
+      "Imagery Esri 2010": 2,
+      "Imagery": 2,
+      "ESRI-World_Imagery 2013": 2,
+      "Esri-World_Imagery 2001": 1,
+      "TRANSPORTADORA DE GAS DEL SUR S.A.": 1,
+      "IGN01/IGN04": 1,
+      "IGN/ESRI World Imagery": 1,
+      "ESRI World imagery": 1,
+      "Street View": 1,
+      "ESRI-World_Imagery 2011/2013": 1,
+      "ESRI-World_Imagery_2010": 1
+    }
+  }
+}

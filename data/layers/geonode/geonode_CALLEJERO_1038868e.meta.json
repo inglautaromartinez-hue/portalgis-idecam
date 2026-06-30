@@ -1,0 +1,34 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_CALLEJERO_ebb40f02",
+  "title": "CALLEJERO",
+  "typeName": "geonode:CALLEJERO",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "NOMBRE",
+    "Longitud"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 1169,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -68.89405926,
+    -32.96028153,
+    -68.80388247,
+    -32.8999661
+  ],
+  "syncedAt": "2026-06-29T21:40:45.216Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_CALLEJERO_1038868e.geojson"
+  ],
+  "indexFile": "indexes/geonode_CALLEJERO_1038868e.index.json",
+  "statsFile": "stats/geonode_CALLEJERO_1038868e.stats.json",
+  "wfsAvailable": true
+}

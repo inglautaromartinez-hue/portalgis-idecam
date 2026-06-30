@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_relevamiento_pol_e0edf836",
+  "title": "relevamiento_pol",
+  "typeName": "geonode:relevamiento_pol",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "tipo",
+    "prof",
+    "contac"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 3,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -68.89170467,
+    -33.00594925,
+    -68.86812365,
+    -32.99250636
+  ],
+  "syncedAt": "2026-06-29T21:45:13.473Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_relevamiento_pol_e9895da6.geojson"
+  ],
+  "indexFile": "indexes/geonode_relevamiento_pol_e9895da6.index.json",
+  "statsFile": "stats/geonode_relevamiento_pol_e9895da6.stats.json",
+  "wfsAvailable": true
+}

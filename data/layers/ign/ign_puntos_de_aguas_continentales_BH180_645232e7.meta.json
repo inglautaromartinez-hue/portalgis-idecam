@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_aguas_continentales_BH180_16404f07",
+  "title": "Catarata, cascada, salto",
+  "typeName": "ign:puntos_de_aguas_continentales_BH180",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 80,
+  "geometryType": "Point",
+  "bbox": [
+    -72.91467768,
+    -54.77262246,
+    -53.88799925,
+    -23.45942768
+  ],
+  "syncedAt": "2026-06-29T21:07:18.655Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_aguas_continentales_BH180_645232e7.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_aguas_continentales_BH180_645232e7.index.json",
+  "statsFile": "stats/ign_puntos_de_aguas_continentales_BH180_645232e7.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

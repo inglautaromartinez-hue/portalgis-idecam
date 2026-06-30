@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_terreno_para_cultivo_EA010_22d2f88c",
+  "title": "Terreno para cultivo",
+  "typeName": "ign:terreno_para_cultivo_EA010",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 5045,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.73154884,
+    -42.94317627,
+    -53.63556671,
+    -21.93062574
+  ],
+  "syncedAt": "2026-06-29T21:20:23.757Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_terreno_para_cultivo_EA010_76852efa.geojson"
+  ],
+  "indexFile": "indexes/ign_terreno_para_cultivo_EA010_76852efa.index.json",
+  "statsFile": "stats/ign_terreno_para_cultivo_EA010_76852efa.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

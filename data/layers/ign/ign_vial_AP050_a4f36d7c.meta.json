@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vial_AP050_e8557ebd",
+  "title": "Senda rural",
+  "typeName": "ign:vial_AP050",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "caa",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 20965,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.11321258,
+    -50.694664,
+    -56.9418602,
+    -22.10405372
+  ],
+  "syncedAt": "2026-06-29T21:20:11.154Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_vial_AP050_a4f36d7c.geojson"
+  ],
+  "indexFile": "indexes/ign_vial_AP050_a4f36d7c.index.json",
+  "statsFile": "stats/ign_vial_AP050_a4f36d7c.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

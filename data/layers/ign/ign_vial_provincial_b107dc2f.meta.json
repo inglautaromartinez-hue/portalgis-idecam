@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vial_provincial_ed670d5e",
+  "title": "Red vial provincial",
+  "typeName": "ign:vial_provincial",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "rtn",
+    "typ",
+    "rst",
+    "hct",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 12928,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.0300211,
+    -54.81811052,
+    -53.6993695,
+    -21.856798
+  ],
+  "syncedAt": "2026-06-29T21:17:57.198Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_vial_provincial_b107dc2f.geojson"
+  ],
+  "indexFile": "indexes/ign_vial_provincial_b107dc2f.index.json",
+  "statsFile": "stats/ign_vial_provincial_b107dc2f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

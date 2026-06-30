@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vegetacion_hidrofila_ED020_85a7129d",
+  "title": "Pajonal, juncal, totoral",
+  "typeName": "ign:vegetacion_hidrofila_ED020",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 7547,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.81241613,
+    -53.45686722,
+    -55.6703949,
+    -21.78113479
+  ],
+  "syncedAt": "2026-06-29T21:29:38.354Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 100.6 MB."
+  ],
+  "files": [
+    "layers/ign/ign_vegetacion_hidrofila_ED020_5f7338c7.part-0001.geojson.gz",
+    "layers/ign/ign_vegetacion_hidrofila_ED020_5f7338c7.part-0002.geojson.gz",
+    "layers/ign/ign_vegetacion_hidrofila_ED020_5f7338c7.part-0003.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_vegetacion_hidrofila_ED020_5f7338c7.index.json",
+  "statsFile": "stats/ign_vegetacion_hidrofila_ED020_5f7338c7.stats.json",
+  "wfsAvailable": true
+}

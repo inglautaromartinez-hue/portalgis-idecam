@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_vuturb_ec8144a9",
+  "title": "vuturb",
+  "typeName": "geonode:vuturb",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "nomenc",
+    "vuth"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 43688,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.31320651,
+    -33.34164379,
+    -68.73028303,
+    -32.95078559
+  ],
+  "syncedAt": "2026-06-29T21:45:39.226Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_vuturb_0ea80451.geojson"
+  ],
+  "indexFile": "indexes/geonode_vuturb_0ea80451.index.json",
+  "statsFile": "stats/geonode_vuturb_0ea80451.stats.json",
+  "wfsAvailable": true
+}

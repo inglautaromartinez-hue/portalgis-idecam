@@ -1,0 +1,52 @@
+{
+  "featureCount": 4117,
+  "bbox": [
+    -73.14563982,
+    -54.8443521,
+    -53.6457167,
+    -21.87729764
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tes",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "tes": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 4117
+    },
+    "objeto": {
+      "Edificio de seguridad": 4117
+    },
+    "tes": {
+      "1": 219,
+      "2": 100,
+      "3": 136,
+      "4": 1097,
+      "5": 2167,
+      "7": 161,
+      "8": 210,
+      "-1": 27
+    },
+    "sag": {
+      "IGN": 4117
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_energia_AT030_48c2a581",
+  "title": "Línea de transmisión eléctrica",
+  "typeName": "ign:lineas_de_energia_AT030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "ten",
+    "sag",
+    "fna",
+    "nam",
+    "fdc"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 333208,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.23190257,
+    -51.65729963,
+    -55.64561198,
+    -22.54156044
+  ],
+  "syncedAt": "2026-06-29T21:29:11.777Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 136.5 MB."
+  ],
+  "files": [
+    "layers/ign/ign_lineas_de_energia_AT030_d5677294.part-0001.geojson.gz",
+    "layers/ign/ign_lineas_de_energia_AT030_d5677294.part-0002.geojson.gz",
+    "layers/ign/ign_lineas_de_energia_AT030_d5677294.part-0003.geojson.gz",
+    "layers/ign/ign_lineas_de_energia_AT030_d5677294.part-0004.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_lineas_de_energia_AT030_d5677294.index.json",
+  "statsFile": "stats/ign_lineas_de_energia_AT030_d5677294.stats.json",
+  "wfsAvailable": true
+}

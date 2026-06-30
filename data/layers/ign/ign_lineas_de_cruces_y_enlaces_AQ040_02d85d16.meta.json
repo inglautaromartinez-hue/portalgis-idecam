@@ -1,0 +1,43 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_cruces_y_enlaces_AQ040_697eb53c",
+  "title": "Puente",
+  "typeName": "ign:lineas_de_cruces_y_enlaces_AQ040",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "tup",
+    "mcc",
+    "bsc",
+    "feo",
+    "fdc",
+    "sag",
+    "fna",
+    "nam",
+    "gna"
+  ],
+  "group": "ign",
+  "featureCount": 1049,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.05368344,
+    -52.18792312,
+    -55.80710297,
+    -21.9480936
+  ],
+  "syncedAt": "2026-06-29T21:17:21.728Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_cruces_y_enlaces_AQ040_02d85d16.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_cruces_y_enlaces_AQ040_02d85d16.index.json",
+  "statsFile": "stats/ign_lineas_de_cruces_y_enlaces_AQ040_02d85d16.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,75 @@
+{
+  "featureCount": 147,
+  "bbox": [
+    -71.35721208,
+    -51.89513408,
+    -54.49523447,
+    -23.35271822
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 147
+    },
+    "objeto": {
+      "Vertedero, basurero": 147
+    },
+    "fdc": {
+      "Defensoría Provincia de Buenos Aires": 62,
+      "Google Earth": 45,
+      "ESRI World Imagery 2010": 4,
+      "IGN04/IGN01": 4,
+      "Min. Ambiente de San Luis": 4,
+      "Esri-world_imagery-2010": 3,
+      "ESRI-World_Imagery-2010": 3,
+      "OPDS": 3,
+      "IGN01": 3,
+      "Open Street Map": 2,
+      "Imagery": 2,
+      "Portal de la provincia de Catamarca": 1,
+      "Secretaria de Ambiente de la provincia de San Juan": 1,
+      "Min. Ambiente de la provincia de San Luis": 1,
+      "Gobierno de Santa Fe": 1,
+      "Esri-world_imagery-2010/IGN01": 1,
+      "Esri-World_imagery/IGN01": 1,
+      "Esri-Word_Imagery_2010/Catastro Pcial.": 1,
+      "ESRI-World_Imagery-2010/IGN01": 1,
+      "Esri-Word_Imagery_2010/IGN01OtrasEdificaciones": 1,
+      "IGN01 Otras Edificaciones": 1,
+      "ESRI-World_Imagery 2010/Open Street View": 1,
+      "IGN04/Catastro Pcial.": 1
+    },
+    "sag": {
+      "IGN": 147
+    },
+    "gna": {
+      "Basural Municipal": 97,
+      "Vertedero Municipal": 4,
+      "Basurero Municipal": 4,
+      "Basurero": 4,
+      "Vertedero": 3,
+      "Basural": 1,
+      "Vertedero Regional": 1,
+      "Vertedero Provincial": 1
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_gestion_de_residuos_relleno_sanitario_b810efe8",
+  "title": "Relleno sanitario",
+  "typeName": "ign:areas_de_gestion_de_residuos_relleno_sanitario",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 46,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.16981319,
+    -53.66464737,
+    -57.64870074,
+    -24.29600247
+  ],
+  "syncedAt": "2026-06-29T21:19:50.079Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_gestion_de_residuos_relleno_sanitario_55e8fa06.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_gestion_de_residuos_relleno_sanitario_55e8fa06.index.json",
+  "statsFile": "stats/ign_areas_de_gestion_de_residuos_relleno_sanitario_55e8fa06.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

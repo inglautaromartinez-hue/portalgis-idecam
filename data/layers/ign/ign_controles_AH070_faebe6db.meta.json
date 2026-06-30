@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_controles_AH070_403bd955",
+  "title": "Puesto de Control",
+  "typeName": "ign:controles_AH070",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "bcp",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 228,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88508937,
+    -54.86802653,
+    -53.64404686,
+    -22.05369405
+  ],
+  "syncedAt": "2026-06-29T21:17:22.834Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_controles_AH070_faebe6db.geojson"
+  ],
+  "indexFile": "indexes/ign_controles_AH070_faebe6db.index.json",
+  "statsFile": "stats/ign_controles_AH070_faebe6db.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

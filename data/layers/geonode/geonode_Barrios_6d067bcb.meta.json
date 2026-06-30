@@ -1,0 +1,48 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Barrios_4d862aac",
+  "title": "Barrios",
+  "typeName": "geonode:Barrios",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "id",
+    "barrios",
+    "caracteris",
+    "tipo",
+    "estado",
+    "ano",
+    "lotes",
+    "inicio",
+    "distritos",
+    "revision",
+    "expediente",
+    "ordenanza",
+    "area",
+    "equipamien",
+    "latitud",
+    "longitud"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 2969,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.32630086,
+    -33.34102009,
+    -68.73526028,
+    -32.90203363
+  ],
+  "syncedAt": "2026-06-29T21:40:43.656Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Barrios_6d067bcb.geojson"
+  ],
+  "indexFile": "indexes/geonode_Barrios_6d067bcb.index.json",
+  "statsFile": "stats/geonode_Barrios_6d067bcb.stats.json",
+  "wfsAvailable": true
+}

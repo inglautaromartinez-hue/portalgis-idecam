@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_transporte_ferroviario_AN070_35382c73",
+  "title": "Estación de ferrocarril",
+  "typeName": "ign:puntos_de_transporte_ferroviario_AN070",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 2672,
+  "geometryType": "Point",
+  "bbox": [
+    -72.31004392,
+    -54.83319943,
+    -54.44514395,
+    -22.05530535
+  ],
+  "syncedAt": "2026-06-29T21:10:36.360Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_transporte_ferroviario_AN070_d755bc13.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_transporte_ferroviario_AN070_d755bc13.index.json",
+  "statsFile": "stats/ign_puntos_de_transporte_ferroviario_AN070_d755bc13.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

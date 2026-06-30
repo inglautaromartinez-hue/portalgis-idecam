@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vial_AP010_0560c0ee",
+  "title": "Huella",
+  "typeName": "ign:vial_AP010",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "caa",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 84606,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.94816589,
+    -54.84688187,
+    -55.77057475,
+    -21.8029283
+  ],
+  "syncedAt": "2026-06-29T21:11:55.348Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_vial_AP010_a517439c.part-0001.geojson.gz",
+    "layers/ign/ign_vial_AP010_a517439c.part-0002.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_vial_AP010_a517439c.index.json",
+  "statsFile": "stats/ign_vial_AP010_a517439c.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

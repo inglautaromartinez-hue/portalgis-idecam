@@ -1,0 +1,67 @@
+{
+  "featureCount": 236,
+  "bbox": [
+    -71.31115467,
+    -52.327437,
+    -57.99461744,
+    -22.68567945
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 236
+    },
+    "objeto": {
+      "Cámara de Válvulas": 235,
+      "Camara de Valvulas": 1
+    },
+    "sag": {
+      "IGN": 236
+    },
+    "fdc": {
+      "Esri World Imagery 2010": 32,
+      "TRANSPORTADORA DE GAS DEL SUR S.A.": 29,
+      "IGN04/IGN Dirección de Geografía": 24,
+      "IGN Dirección de Geografía/IGN04": 23,
+      "TRANSPORTADORA DE GAS DEL NORTE S.A.": 17,
+      "Esri-Word imagery": 15,
+      "Interpretación y Nomenclatura": 13,
+      "Esri-World Imagery": 11,
+      "ESRI-World_Imagery-2010": 9,
+      "IGN01": 8,
+      "IGN04/Dir. Geografía IGN": 6,
+      "Esri-world_imagery-2010": 4,
+      "Esri-World Imagery 2010": 4,
+      "Esri-Word_Imagery": 4,
+      "IGN01 / IGN04 / Secretaría de Energía": 3,
+      "Esri-World_Imagery": 3,
+      "ESRI-World_Imagery 2010": 3,
+      "ESRI-World_Imagery_2010": 3,
+      "ESRI-World_Imagery": 3,
+      "GASODUCTO GASANDES ARGENTINA S.A.": 2,
+      "IGN04/DIr. Geografía IGN": 2,
+      "IGN04/Secretaría de Energía de la Nación": 2,
+      "Esri-World_imagery": 2,
+      "IGN": 1,
+      "Street View": 1,
+      "ESRI-World_Imagery 2010/IGN01": 1,
+      "Esri-World Imagery/IGN04/IGN Dirección de Geografía": 1,
+      "IGN Dirección de Geografía": 1,
+      "IGN04/Open Street View": 1,
+      "Esri World Imagery/Open Street View": 1
+    }
+  }
+}

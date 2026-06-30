@@ -1,0 +1,64 @@
+{
+  "featureCount": 430,
+  "bbox": [
+    -72.82670179,
+    -84.4900548,
+    -26.17229463,
+    -22.011446
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "alt": "number",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 430
+    },
+    "objeto": {
+      "Sierra": 430
+    },
+    "gna": {
+      "Sierra": 362,
+      "Serranía": 20,
+      "Sierras": 19,
+      "Cadena": 6,
+      "Paramillo": 2,
+      "Macizo": 2,
+      "Serranías": 2,
+      "Nevado": 1,
+      "Picos": 1,
+      "Morro": 1,
+      "Montañas": 1,
+      "Nevados": 1,
+      "Sierrita": 1,
+      "Alturas": 1,
+      "Montes": 1
+    },
+    "alt": {
+      "0": 159,
+      "-1": 271
+    },
+    "sag": {
+      "IGN": 383,
+      "IGN02": 47
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "portalgis-idecam",
+  "version": "0.1.0",
+  "private": true,
+  "author": "laugis",
+  "description": "PORTALGIS IDECAM - monorepo WebGIS. Parte 1: backend, catálogo, WFS proxy, CRS/BBOX.",
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "build": "corepack pnpm -r --sort run build",
+    "dev": "corepack pnpm --filter @portalgis/api dev",
+    "lint": "corepack pnpm -r --sort run lint",
+    "typecheck": "corepack pnpm -r --sort run typecheck",
+    "db:generate": "corepack pnpm --filter @portalgis/api db:generate",
+    "db:migrate": "corepack pnpm --filter @portalgis/api db:migrate",
+    "db:migrate:dev": "corepack pnpm --filter @portalgis/api db:migrate:dev",
+    "db:seed": "corepack pnpm --filter @portalgis/api db:seed",
+    "db:push": "corepack pnpm --filter @portalgis/api db:push",
+    "api:dev": "corepack pnpm --filter @portalgis/api dev",
+    "web:dev": "corepack pnpm --filter @portalgis/web dev",
+    "web:build": "corepack pnpm --filter @portalgis/web build",
+    "web:typecheck": "corepack pnpm --filter @portalgis/web typecheck",
+    "data:sync": "corepack pnpm --filter @portalgis/api data:sync",
+    "data:sync:critical": "corepack pnpm --filter @portalgis/api data:sync:critical"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}

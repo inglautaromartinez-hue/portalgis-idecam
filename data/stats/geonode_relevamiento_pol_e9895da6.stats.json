@@ -1,0 +1,39 @@
+{
+  "featureCount": 3,
+  "bbox": [
+    -68.89170467,
+    -33.00594925,
+    -68.86812365,
+    -32.99250636
+  ],
+  "fields": [
+    "fid",
+    "tipo",
+    "prof",
+    "contac"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "tipo": "string",
+    "prof": "string",
+    "contac": "string"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "tipo": {
+      "nivelacion": 1,
+      "vuelo": 1,
+      "planimetria": 1
+    },
+    "prof": {
+      "Alberdi": 3
+    },
+    "contac": {
+      "3424683416": 3
+    }
+  }
+}

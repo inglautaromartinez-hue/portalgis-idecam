@@ -1,0 +1,94 @@
+{
+  "featureCount": 359,
+  "bbox": [
+    -71.82120554,
+    -54.81457116,
+    -55.13533525,
+    -22.50255184
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fdc": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 359
+    },
+    "objeto": {
+      "Muelle": 359
+    },
+    "sag": {
+      "IGN": 359
+    },
+    "fdc": {
+      "Esri-World_imagery": 86,
+      "Esri World Imagery": 69,
+      "Imagery": 48,
+      "Esri-World_Imagery": 37,
+      "IGN": 25,
+      "ESRI-World_Imagery 2010": 17,
+      "Esri-Word_Imagery": 14,
+      "World_imagery": 9,
+      "SHN1107": 5,
+      "Esri-Word_Imagery_2010": 5,
+      "Esri-World_Imagery_2010": 3,
+      "ESRI-World_Imagery-2010": 3,
+      "IGN/SHN": 2,
+      "SHN1004": 2,
+      "Carta IGN 250.000": 2,
+      "ESRI World Imagery": 2,
+      "Esri-World-imagery": 1,
+      "Esri-Word_Imagery/IGN04/Subsecretaría de Turismo Pcial.": 1,
+      "ESRI-World_Imagery 2010/Open Stree View": 1,
+      "ESRI-World_Imagery 2010/Open Street View": 1,
+      "Esri-Word_Imagery/IGN04/SUbsecretaría de Turismo Pcial.": 1,
+      "Esri_World_Imagery": 1,
+      "Esri-Word_Imagery_2010\r\nEsri-Word_Imagery_2010\r\n": 1,
+      "Esri_Word Imagery": 1,
+      "Esri-Word_Imagery_2010/IGN04/Subsecretaría de Turismo Pcial.": 1
+    },
+    "fna": {
+      "Muelle Orión": 1,
+      "Muelle Piedra Buena": 1,
+      "Muelle Piapsa": 1,
+      "Muelle Siderca": 1,
+      "Muelle Bahía Mansa": 1,
+      "Club Náutico Arelauquen": 1,
+      "Puerto Pireo": 1,
+      "Muelle Bahía Brava": 1,
+      "Muelle Lago Lácar": 1
+    },
+    "gna": {
+      "Muelle": 7,
+      "Club Náutico": 1,
+      "Puerto": 1
+    },
+    "nam": {
+      "Orión": 1,
+      "Piedra Buena": 1,
+      "Piapsa": 1,
+      "Siderca": 1,
+      "Bahía Mansa": 1,
+      "Arelauquen": 1,
+      "Pireo": 1,
+      "Bahía Brava": 1,
+      "Lago Lácar": 1
+    }
+  }
+}

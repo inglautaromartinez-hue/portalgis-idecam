@@ -1,0 +1,99 @@
+{
+  "featureCount": 884,
+  "bbox": [
+    -72.2277659,
+    -64.23996824,
+    -53.67128327,
+    -22.12311735
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "atv",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fun": "number",
+    "atv": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 884
+    },
+    "gna": {
+      "Aeródromo": 776,
+      "Aeroclub": 43,
+      "Club de Planeadores": 1,
+      "Gendarmería Nacional": 1,
+      "Club": 1
+    },
+    "fun": {
+      "2": 6,
+      "6": 780,
+      "-1": 98
+    },
+    "atv": {
+      "8": 10,
+      "9": 816,
+      "-1": 49,
+      "-2": 9
+    },
+    "fdc": {
+      "IGN/ANAC": 776,
+      "Imagery": 34,
+      "IGN": 23,
+      "ESRI-World_Imagery_2010": 5,
+      "Ministerio deTransporte": 4,
+      "Esri-World_Imagery": 3,
+      "Esri-World_imagery": 3,
+      "IGN/Dirección de Observatorio Nacional de Transporte": 3,
+      "ESRI World Imagery": 2,
+      "IGN/Ministerio de Transporte": 1,
+      "IGN/Open Street View": 1,
+      "IGN/Imagery": 1,
+      "Google Earth": 1,
+      "ESRI-World_Imagery-2010/IGN04/IGN Dirección de Geografía": 1,
+      "ESRI-World_Imagery-2010/IGN01/IGN04/IGN Dirección de Geografía": 1,
+      "ESRI-World_Imagery-2010/IGN01/IGN04/Ministerio de Transporte de la Nación/IGN Dirección de Geograf": 1,
+      "ESRI-World_Imagery": 1,
+      "IGN04/ANAC/Sitio Web de la Empresa": 1,
+      "ESRI-World_Imagery/IGN01/ANAC/Ministerio de Transporte de la Nación": 1,
+      "IGN04/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 1,
+      "ESRI-World_Imagery-2010": 1,
+      "IGN04/IGN01": 1,
+      "DPCeIT Neuquén/Imagery/IGN01/IGN04/IGN Dirección de Geografía/ANAC": 1,
+      "Esri-World_Imagery/IGN01/IGN04": 1,
+      "Esri_World_Imagery": 1,
+      "IGN01/IGN04/Ministerio de Transporte de la Nación": 1,
+      "ESRI-World_Imagery/IGN04/Geografía": 1,
+      "IGN01/IGN04/IGN Dirección de Geografía": 1,
+      "IGN01/IGN Dirección de Geografía/Ministerio de Transporte de la Nación": 1,
+      "IGN Dir. Geografía": 1,
+      "IGN04/IGN Dirección de Geografía": 1,
+      "IGN01/IGN04/ANAC/Ministerio de Transporte//IGN Dirección de Geografía/Fundación Marambio": 1,
+      "Esri-World_Imagery/IGN04/IGN Dirección de Geografía/Sitio Web de la Institución": 1,
+      "Esri-Word_Imagery/IGN04/ANAC": 1,
+      "Esri-Word_Imagery": 1,
+      "Esri World Imagery": 1,
+      "Street View/Dirección de Observatorio Nacional de Transporte": 1,
+      "IGN/Dirección de Observatorio Nacional de Transporte/IGN01": 1,
+      "Esry-World_Imagery": 1,
+      "IGN01": 1
+    },
+    "sag": {
+      "IGN": 884
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Barrios_guaymallen_epsg4326_839e2845",
+  "title": "Barrios_guaymallen_epsg4326",
+  "typeName": "geonode:Barrios_guaymallen_epsg4326",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "dominio",
+    "distrito",
+    "nombre",
+    "fecha_alta"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 989,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -68.83818624,
+    -32.94240276,
+    -68.65164033,
+    -32.83887153
+  ],
+  "syncedAt": "2026-06-29T21:40:44.783Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Barrios_guaymallen_epsg4326_3a5221c2.geojson"
+  ],
+  "indexFile": "indexes/geonode_Barrios_guaymallen_epsg4326_3a5221c2.index.json",
+  "statsFile": "stats/geonode_Barrios_guaymallen_epsg4326_3a5221c2.stats.json",
+  "wfsAvailable": true
+}

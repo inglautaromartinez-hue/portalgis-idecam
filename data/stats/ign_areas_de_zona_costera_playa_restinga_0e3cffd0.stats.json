@@ -1,0 +1,67 @@
+{
+  "featureCount": 153,
+  "bbox": [
+    -72.09777069,
+    -53.33096695,
+    -58.1329192,
+    -34.98385795
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "smc",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "smc": "number",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 153
+    },
+    "objeto": {
+      "Playa": 149,
+      "Playa Restinga": 4
+    },
+    "smc": {
+      "89": 153
+    },
+    "fdc": {
+      "IGN": 145,
+      "Imagery": 4,
+      "IGN/IGN 4566-31 1951": 3,
+      "IGN04/IGN 4569-36 1951": 1
+    },
+    "sag": {
+      "IGN": 153
+    },
+    "fna": {
+      "Restinga del Sur": 1,
+      "Restinga Coronel": 1,
+      "Restinga del Medio": 1,
+      "Restinga Alí": 1
+    },
+    "gna": {
+      "Restinga": 4
+    },
+    "nam": {
+      "del Sur": 1,
+      "Coronel": 1,
+      "del Medio": 1,
+      "Alí": 1
+    }
+  }
+}

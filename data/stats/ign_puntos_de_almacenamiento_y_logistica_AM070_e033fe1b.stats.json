@@ -1,0 +1,70 @@
+{
+  "featureCount": 1242,
+  "bbox": [
+    -72.29654694,
+    -54.74180646,
+    -57.81887863,
+    -22.20238686
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 1242
+    },
+    "objeto": {
+      "Tanque de Combustible": 1242
+    },
+    "fun": {
+      "6": 56,
+      "-1": 1186
+    },
+    "fdc": {
+      "IGN": 668,
+      "Esri-World_Imagery": 146,
+      "ESRI-World_Imagery-2010": 120,
+      "Esri-Word imagery": 90,
+      "Esri World Imagery": 58,
+      "Esri-world_imagery-2010": 26,
+      "Imagery": 16,
+      "ESRI-World_Imagery 2013": 16,
+      "IGN01": 13,
+      "Esri-World_imagery": 13,
+      "ESRI-World_Imagery_2010": 11,
+      "ESRI-World_Imagery": 11,
+      "ESRI World Imagery": 10,
+      "Esri-Word_Imagery": 10,
+      "ESRI-World_Imagery 2010": 7,
+      "Esri World Imágery": 7,
+      "Interpretación y Nomenclatura": 5,
+      "IGN04": 3,
+      "Esri-World Imagery 2010": 3,
+      "IGN04/Open Street View": 2,
+      "Esri_word Imagery 2010": 1,
+      "IGN/ESRI World Imagery": 1,
+      "ESRI-World\u001f\u001f_Imagery 2013": 1,
+      "ESRI-World_Imagery 2017": 1,
+      "ESRI-World Imagery 2013": 1,
+      "Esri world imagery": 1,
+      "Esri-World_Imagery/Secretaría de Gobierno de Energía de la Nación": 1
+    },
+    "sag": {
+      "IGN": 1232,
+      "‌IGN": 10
+    }
+  }
+}

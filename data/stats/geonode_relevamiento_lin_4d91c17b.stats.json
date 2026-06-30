@@ -1,0 +1,45 @@
+{
+  "featureCount": 3,
+  "bbox": [
+    -68.88802825,
+    -33.0122034,
+    -68.87503218,
+    -32.99343226
+  ],
+  "fields": [
+    "fid",
+    "id",
+    "tipo",
+    "prof",
+    "contac"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "id": "number",
+    "tipo": "string",
+    "prof": "string",
+    "contac": "string"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "id": {
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "tipo": {
+      "nivelacion": 2,
+      "curvas de nivel": 1
+    },
+    "prof": {
+      "Alberdi": 3
+    },
+    "contac": {
+      "3424683416": 3
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_LEY_24374_0c00bed8_139d_47dd_9642_ef25f4ebe230",
+  "title": "LEY 24374",
+  "typeName": "geonode:MENSURA_LEY_24374",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 194,
+  "geometryType": "Point",
+  "bbox": [
+    -69.14183987,
+    -34.62184445,
+    -68.33867309,
+    -32.80191975
+  ],
+  "syncedAt": "2026-06-29T21:41:16.155Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_LEY_24374_a6f5026b.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_LEY_24374_a6f5026b.index.json",
+  "statsFile": "stats/geonode_MENSURA_LEY_24374_a6f5026b.stats.json",
+  "wfsAvailable": true
+}

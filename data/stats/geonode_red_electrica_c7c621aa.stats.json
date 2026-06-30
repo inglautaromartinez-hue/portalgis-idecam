@@ -1,0 +1,16 @@
+{
+  "featureCount": 94358,
+  "bbox": [
+    -70.1513877,
+    -36.8140515,
+    -66.4891887,
+    -32.1212256
+  ],
+  "fields": [
+    "fid"
+  ],
+  "fieldTypes": {
+    "fid": "number"
+  },
+  "categoricalCounts": {}
+}

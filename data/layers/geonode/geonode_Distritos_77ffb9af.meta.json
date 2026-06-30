@@ -1,0 +1,43 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Distritos_6553443b",
+  "title": "Distritos",
+  "typeName": "geonode:Distritos",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "gid",
+    "objectid",
+    "distrito",
+    "nom_comple",
+    "sup_m2",
+    "sup_ha",
+    "shapelengt",
+    "shapearea",
+    "asq_lasted",
+    "asq_last_1",
+    "asq_locked"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 15,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.09660647,
+    -33.39049293,
+    -68.62742882,
+    -32.61932887
+  ],
+  "syncedAt": "2026-06-29T21:40:46.449Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Distritos_77ffb9af.geojson"
+  ],
+  "indexFile": "indexes/geonode_Distritos_77ffb9af.index.json",
+  "statsFile": "stats/geonode_Distritos_77ffb9af.stats.json",
+  "wfsAvailable": true
+}

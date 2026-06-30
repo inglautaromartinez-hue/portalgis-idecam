@@ -1,0 +1,64 @@
+{
+  "featureCount": 154,
+  "bbox": [
+    -71.96890789,
+    -54.23359139,
+    -54.48147165,
+    -22.70110505
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fun": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 154
+    },
+    "gna": {
+      "Helipuerto": 137,
+      "Heliplataforma": 4
+    },
+    "fun": {
+      "6": 141,
+      "-1": 13
+    },
+    "fdc": {
+      "IGN/ANAC": 119,
+      "IGN": 12,
+      "Imagery": 6,
+      "ESRI-World_Imagery": 2,
+      "ESRI-World_Imagery_2010/IGN04/Ministerio de Transporte de la Nación": 2,
+      "ESRI World Imagery": 2,
+      "IGN/Ministerio de Transporte": 1,
+      "IGN/ANAC/Street View": 1,
+      "ESRI-World_Imagery/Ministerio de Transporte  de la Nación/ANAC": 1,
+      "IGN04/ANAC": 1,
+      "Ministerio de Transporte de la Nación": 1,
+      "IGN04/Ministerio de Transporte de la Nación/Sitio web del complejo": 1,
+      "IGN04/Ministerio de Transporte de la Nación": 1,
+      "OSM": 1,
+      "IGN/ANAC/BAHRA": 1,
+      "ESRI World Imagery/IGN01": 1,
+      "ESRI-Wolrd Imagery": 1
+    },
+    "sag": {
+      "IGN": 154
+    }
+  }
+}

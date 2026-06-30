@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_ramsac_05d8d8b8",
+  "title": "Red de estaciones GPS/GNSS RAMSAC",
+  "typeName": "ign:ramsac",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "codigo_estacion",
+    "tipo_estacion",
+    "estado",
+    "link"
+  ],
+  "group": "ign",
+  "featureCount": 153,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88556285,
+    -64.2403916,
+    -44.74061546,
+    -22.01710345
+  ],
+  "syncedAt": "2026-06-29T21:17:39.116Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_ramsac_808509f0.geojson"
+  ],
+  "indexFile": "indexes/ign_ramsac_808509f0.index.json",
+  "statsFile": "stats/ign_ramsac_808509f0.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

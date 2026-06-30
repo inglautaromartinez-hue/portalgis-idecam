@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_estructura_asociada_AA051_2ed166cb",
+  "title": "Cámara de válvulas",
+  "typeName": "ign:puntos_de_estructura_asociada_AA051",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 236,
+  "geometryType": "Point",
+  "bbox": [
+    -71.31115467,
+    -52.327437,
+    -57.99461744,
+    -22.68567945
+  ],
+  "syncedAt": "2026-06-29T21:08:21.108Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_estructura_asociada_AA051_4e555744.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_estructura_asociada_AA051_4e555744.index.json",
+  "statsFile": "stats/ign_puntos_de_estructura_asociada_AA051_4e555744.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

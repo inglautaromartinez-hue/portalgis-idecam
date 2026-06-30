@@ -1,0 +1,60 @@
+{
+  "featureCount": 157,
+  "bbox": [
+    -69.19366099,
+    -68.1375541,
+    -56.21019902,
+    -33.80429368
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 157
+    },
+    "objeto": {
+      "Baliza": 157
+    },
+    "gna": {
+      "Baliza": 119,
+      "Balizas": 2
+    },
+    "fdc": {
+      "SHN": 79,
+      "IGN": 34,
+      "IGN/SHN": 9,
+      "SHP SHN": 7,
+      "6565_EdDiciembre1970_IGN": 5,
+      "6356_abril1970": 3,
+      "IGN/SHN H100401": 3,
+      "Actualización 2016 Atlas 500K": 2,
+      "6361_EdAbril1970_IGN": 2,
+      "IGN/SHN  11501": 2,
+      "IGN/SHN 100601": 2,
+      "hoja-6356_IGN": 1,
+      "IGN/SHN 105,5": 1,
+      "Carta IGN 250.000": 1
+    },
+    "sag": {
+      "IGN": 157
+    }
+  }
+}

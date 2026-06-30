@@ -1,0 +1,43 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_aguas_continentales_intermitentes_32a2f0b0",
+  "title": "Corriente de agua intermitente",
+  "typeName": "ign:lineas_de_aguas_continentales_intermitentes",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 137000,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.40245056,
+    -54.99591064,
+    -55.49837112,
+    -21.74892727
+  ],
+  "syncedAt": "2026-06-29T21:50:52.904Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 162.1 MB."
+  ],
+  "files": [
+    "layers/ign/ign_lineas_de_aguas_continentales_intermitentes_1cd55294.part-0001.geojson.gz",
+    "layers/ign/ign_lineas_de_aguas_continentales_intermitentes_1cd55294.part-0002.geojson.gz",
+    "layers/ign/ign_lineas_de_aguas_continentales_intermitentes_1cd55294.part-0003.geojson.gz",
+    "layers/ign/ign_lineas_de_aguas_continentales_intermitentes_1cd55294.part-0004.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_lineas_de_aguas_continentales_intermitentes_1cd55294.index.json",
+  "statsFile": "stats/ign_lineas_de_aguas_continentales_intermitentes_1cd55294.stats.json",
+  "wfsAvailable": true
+}

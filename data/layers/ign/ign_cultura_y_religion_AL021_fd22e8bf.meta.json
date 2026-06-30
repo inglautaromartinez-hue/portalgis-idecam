@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_cultura_y_religion_AL021_a93a9128",
+  "title": "Edificio de cultura",
+  "typeName": "ign:cultura_y_religion_AL021",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 3723,
+  "geometryType": "Point",
+  "bbox": [
+    -72.8921234,
+    -64.23850107,
+    -44.73784227,
+    -21.94697144
+  ],
+  "syncedAt": "2026-06-29T21:10:03.997Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_cultura_y_religion_AL021_fd22e8bf.geojson"
+  ],
+  "indexFile": "indexes/ign_cultura_y_religion_AL021_fd22e8bf.index.json",
+  "statsFile": "stats/ign_cultura_y_religion_AL021_fd22e8bf.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

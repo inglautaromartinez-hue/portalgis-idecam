@@ -1,0 +1,81 @@
+{
+  "featureCount": 11541,
+  "bbox": [
+    -71.5956741,
+    -53.36303597,
+    -57.2851073,
+    -22.20058883
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "tdu",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fun": "number",
+    "tdu": "number",
+    "fdc": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 11541
+    },
+    "objeto": {
+      "Ducto": 11484,
+      "Ducto subterraneo": 57
+    },
+    "sag": {
+      "IGN": 11103,
+      "Relev GPS dif": 365,
+      "PLUSPETROL S.A": 5,
+      "Tecpetrol": 3,
+      "ENARGAS 2010": 3,
+      "De YPF": 1,
+      "TECPETROL": 1,
+      "YPF": 1
+    },
+    "fun": {
+      "2": 6,
+      "6": 7060,
+      "9": 1,
+      "-1": 4380,
+      "-2": 94
+    },
+    "tdu": {
+      "0": 2,
+      "1": 6594,
+      "2": 2630,
+      "3": 1884,
+      "4": 62,
+      "-2": 195,
+      "-1": 174
+    },
+    "gna": {
+      "Gasoducto": 684,
+      "Ducto": 113,
+      "Oleoducto": 108,
+      "Línea de Conducción": 41,
+      "Colector": 2,
+      "Gasoducto de Evacuación": 2,
+      "Ramal": 2,
+      "Salida": 1,
+      "Gadoducto": 1,
+      "Oleodufcto": 1,
+      "Subramal": 1
+    }
+  }
+}

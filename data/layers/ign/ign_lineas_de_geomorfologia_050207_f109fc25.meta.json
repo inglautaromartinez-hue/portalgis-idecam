@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_050207_18fe6d97",
+  "title": "Cuchilla",
+  "typeName": "ign:lineas_de_geomorfologia_050207",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 299,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.38337707,
+    -54.73488893,
+    -58.25069592,
+    -22.54470339
+  ],
+  "syncedAt": "2026-06-29T21:08:19.549Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_050207_f109fc25.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_050207_f109fc25.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_050207_f109fc25.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

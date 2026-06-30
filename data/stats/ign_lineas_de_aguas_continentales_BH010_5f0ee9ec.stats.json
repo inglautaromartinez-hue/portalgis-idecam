@@ -1,0 +1,53 @@
+{
+  "featureCount": 290,
+  "bbox": [
+    -71.5037235,
+    -41.5763503,
+    -57.92286483,
+    -22.09976897
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "loc",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "loc": "number",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 290
+    },
+    "objeto": {
+      "Acueducto": 290
+    },
+    "loc": {
+      "3": 4,
+      "5": 271,
+      "7": 15
+    },
+    "sag": {
+      "IGN": 290
+    },
+    "fdc": {
+      "IGN02": 17,
+      "IGN02/IGN04": 11,
+      "Esri-World Imagery 2010": 7,
+      "Esri World Imagery 2010": 3,
+      "Esri-world_imagery-2010/IGN01": 2,
+      "IGN01": 1,
+      "Esri-World_Imagery": 1,
+      "Esri-world_imagery": 1,
+      "Esri-Word_Imagery_2010": 1,
+      "Esri-world_imagery/IGN01": 1
+    }
+  }
+}

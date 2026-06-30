@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA0_90d8eb63_4cac_4799_976e_774fa0e55915",
+  "title": "MENSURA",
+  "typeName": "geonode:MENSURA0",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 12441,
+  "geometryType": "Point",
+  "bbox": [
+    -69.95044797,
+    -37.27005313,
+    -66.55101604,
+    -32.29378683
+  ],
+  "syncedAt": "2026-06-29T21:41:11.283Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA0_8baf7bc8.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA0_8baf7bc8.index.json",
+  "statsFile": "stats/geonode_MENSURA0_8baf7bc8.stats.json",
+  "wfsAvailable": true
+}

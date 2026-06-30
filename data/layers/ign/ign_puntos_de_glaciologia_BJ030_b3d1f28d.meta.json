@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_glaciologia_BJ030_9ea5c4b5",
+  "title": "Glaciar",
+  "typeName": "ign:puntos_de_glaciologia_BJ030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 404,
+  "geometryType": "Point",
+  "bbox": [
+    -73.47342015,
+    -82.56028803,
+    -27,
+    -27.73614869
+  ],
+  "syncedAt": "2026-06-29T21:10:44.718Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_glaciologia_BJ030_b3d1f28d.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_glaciologia_BJ030_b3d1f28d.index.json",
+  "statsFile": "stats/ign_puntos_de_glaciologia_BJ030_b3d1f28d.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

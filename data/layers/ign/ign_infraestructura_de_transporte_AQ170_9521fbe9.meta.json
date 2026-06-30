@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_infraestructura_de_transporte_AQ170_7c881e91",
+  "title": "Estación de servicio",
+  "typeName": "ign:infraestructura_de_transporte_AQ170",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag",
+    "gna"
+  ],
+  "group": "ign",
+  "featureCount": 5383,
+  "geometryType": "Point",
+  "bbox": [
+    -72.87102278,
+    -54.81506,
+    -53.6452046,
+    -22.05583487
+  ],
+  "syncedAt": "2026-06-29T21:10:37.191Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_infraestructura_de_transporte_AQ170_9521fbe9.geojson"
+  ],
+  "indexFile": "indexes/ign_infraestructura_de_transporte_AQ170_9521fbe9.index.json",
+  "statsFile": "stats/ign_infraestructura_de_transporte_AQ170_9521fbe9.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

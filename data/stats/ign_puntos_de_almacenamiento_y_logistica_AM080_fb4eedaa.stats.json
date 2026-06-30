@@ -1,0 +1,51 @@
+{
+  "featureCount": 137,
+  "bbox": [
+    -71.09728359,
+    -51.703319,
+    -57.80166288,
+    -21.93501432
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 137
+    },
+    "objeto": {
+      "Tanque de agua elevado": 137
+    },
+    "fun": {
+      "6": 11,
+      "-1": 125,
+      "-2": 1
+    },
+    "fdc": {
+      "IGN01": 66,
+      "Imagery": 6,
+      "IGN01/IGN04": 4,
+      "Esri-World_Imagery": 2,
+      "Esri-World_Imagery 2010": 1,
+      "ESRI-World_Imagery 2010": 1,
+      "Esri World Imagery": 1,
+      "Esri World Imaery": 1
+    },
+    "sag": {
+      "IGN": 137
+    }
+  }
+}

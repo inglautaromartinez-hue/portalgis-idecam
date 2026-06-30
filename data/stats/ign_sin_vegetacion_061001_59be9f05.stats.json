@@ -1,0 +1,79 @@
+{
+  "featureCount": 640,
+  "bbox": [
+    -71.44352227,
+    -41.18588026,
+    -58.59366957,
+    -25.99999994
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 640
+    },
+    "objeto": {
+      "Desmonte": 631,
+      "Yacimiento de Hidrocarburos": 7,
+      "Área de fabricación y procesamiento": 2
+    },
+    "fdc": {
+      "IGN03": 193,
+      "Esri-World_Imagery": 168,
+      "Esri-Word_Imagery": 45,
+      "Esri-world_imagery-2010": 40,
+      "ESRI-World_Imagery-2010": 40,
+      "ESRI-World_Imagery": 23,
+      "Esri-world_imagery": 20,
+      "Departamento de Fotogrametría": 16,
+      "Esri World Imagery": 15,
+      "Esri-World_imagery": 12,
+      "-": 10,
+      "Esri-world_imagery-2010/Dirección de Geografía IGN/IGN04": 6,
+      "Esri Word Imagery": 6,
+      "Gabinete Tig Sig": 5,
+      "Departamento Fotogrametría": 5,
+      "Secr. Energía / Prov. NQN / Imagery": 3,
+      "YPF S.A.": 3,
+      "ESRI_World-Imagery": 2,
+      "PLUSPETROL S.A.": 2,
+      "Departamento Tig Sig": 1,
+      "TIG SIG Gabinete": 1,
+      "IGN02": 1,
+      "Esri-world_imagery-2010/Dirección de GeografíaIGN/IGN04": 1,
+      "Esri-world_imagery-2010/Dirección de Gepgrafía IGN/Pluspetrol/IGN04": 1,
+      "MINEM/Dirección de Geografía IGN/Comgreso Geológico Argentino/Localidades IGN01 3969-16/IGN04": 1,
+      "Esri-world_imagery-2010/IGN01/IGN04": 1,
+      "Esri-world_imagery-2010/Subsecretaría de Energía, Minería e Hidrocarburos  Pcial./IGN04": 1,
+      "Esri_World_Imagery": 1,
+      "Esri_world_Imagery": 1,
+      "Esri_Word_Imagery": 1,
+      "ESRI-Wold_Imagery": 1,
+      "Esri_Word\u001f_Imagery": 1,
+      "Esri- Word_Imagery": 1,
+      "ESRI-World_Imagery 2010": 1,
+      "Ministerio de Industria / Imagery": 1,
+      "IGN": 1,
+      "ESRI-World_Imagery 2011/2013": 1,
+      "IGN/RENPI": 1,
+      "https://hidrocarburos.energianeuquen.gob.ar/geoserver/wms": 1,
+      "IESRI-World_Imagery-2010": 1,
+      "ESRI-World_Imagery-2010ESRI-World_Imagery-2010": 1
+    },
+    "sag": {
+      "IGN": 629
+    }
+  }
+}

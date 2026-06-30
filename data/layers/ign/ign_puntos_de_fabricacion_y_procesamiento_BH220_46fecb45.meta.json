@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_fabricacion_y_procesamiento_BH220_23d6c32e",
+  "title": "Planta potabilizadora de agua",
+  "typeName": "ign:puntos_de_fabricacion_y_procesamiento_BH220",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 205,
+  "geometryType": "Point",
+  "bbox": [
+    -72.32071771,
+    -54.83539412,
+    -54.57063447,
+    -22.10197194
+  ],
+  "syncedAt": "2026-06-29T21:16:48.472Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_fabricacion_y_procesamiento_BH220_46fecb45.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_fabricacion_y_procesamiento_BH220_46fecb45.index.json",
+  "statsFile": "stats/ign_puntos_de_fabricacion_y_procesamiento_BH220_46fecb45.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

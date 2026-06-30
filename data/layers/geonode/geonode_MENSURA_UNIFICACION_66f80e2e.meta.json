@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_UNIFICACION_e82c3c14_886f_4d4c_a38c_0e6197cb10a9",
+  "title": "UNIFICACIÓN",
+  "typeName": "geonode:MENSURA_UNIFICACION",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 94,
+  "geometryType": "Point",
+  "bbox": [
+    -69.57573714,
+    -35.47847006,
+    -67.41653665,
+    -32.72153326
+  ],
+  "syncedAt": "2026-06-29T21:41:17.807Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_UNIFICACION_66f80e2e.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_UNIFICACION_66f80e2e.index.json",
+  "statsFile": "stats/geonode_MENSURA_UNIFICACION_66f80e2e.stats.json",
+  "wfsAvailable": true
+}

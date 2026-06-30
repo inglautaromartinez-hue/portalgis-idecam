@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_red_vial_dpv_2c7e75a1",
+  "title": "red_vial_dpv",
+  "typeName": "geonode:red_vial_dpv",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "OBJECTID",
+    "NAME_1",
+    "CATEGORIA",
+    "CODIGO",
+    "SHAPE_LEN"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 6037,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -70.52180357,
+    -37.55884909,
+    -66.49363857,
+    -31.9634056
+  ],
+  "syncedAt": "2026-06-29T21:45:10.492Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_red_vial_dpv_d91666a5.geojson"
+  ],
+  "indexFile": "indexes/geonode_red_vial_dpv_d91666a5.index.json",
+  "statsFile": "stats/geonode_red_vial_dpv_d91666a5.stats.json",
+  "wfsAvailable": true
+}

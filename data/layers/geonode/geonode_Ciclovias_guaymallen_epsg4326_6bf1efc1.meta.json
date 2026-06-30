@@ -1,0 +1,34 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Ciclovias_guaymallen_epsg4326_8793efab",
+  "title": "Ciclovias_guaymallen_epsg4326",
+  "typeName": "geonode:Ciclovias_guaymallen_epsg4326",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "NOMBRE",
+    "Longitud"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 41,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -68.83745998,
+    -32.93667771,
+    -68.69707681,
+    -32.86579824
+  ],
+  "syncedAt": "2026-06-29T21:40:45.319Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Ciclovias_guaymallen_epsg4326_6bf1efc1.geojson"
+  ],
+  "indexFile": "indexes/geonode_Ciclovias_guaymallen_epsg4326_6bf1efc1.index.json",
+  "statsFile": "stats/geonode_Ciclovias_guaymallen_epsg4326_6bf1efc1.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,57 @@
+{
+  "featureCount": 1686,
+  "bbox": [
+    -71.55986205,
+    -63.67748687,
+    -58.14124797,
+    -21.8254437
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "alt": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 1686
+    },
+    "objeto": {
+      "Quebrada, cañadón, garganta": 1686
+    },
+    "gna": {
+      "Quebrada": 1344,
+      "Cañadón": 271,
+      "Cajón": 64,
+      "Callejón": 1,
+      "Quebrado": 1,
+      "Garganta": 1,
+      "Quebradas": 1,
+      "Huaico": 1
+    },
+    "alt": {
+      "0": 1003,
+      "-2": 683
+    },
+    "sag": {
+      "IGN": 1254,
+      "IGN02": 427
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "featureCount": 529,
+  "bbox": [
+    -74,
+    -90.00000001,
+    -25,
+    -21.78085676
+  ],
+  "fields": [
+    "gid",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "in1",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "in1": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "objeto": {
+      "Departamento": 529
+    },
+    "gna": {
+      "Departamento": 379,
+      "Partido": 135,
+      "Comuna": 15
+    },
+    "fdc": {
+      "ARBA - Gerencia de Servicios Catastrales": 135,
+      "IGN": 75,
+      "Direc. de Catastro": 34,
+      "Catastro Provinciales": 27,
+      "IDE Cordoba": 26,
+      "IDE Chaco": 24,
+      "Direccion General de Inmuebles de Salta": 23,
+      "Direc. Grl. de Catastro": 22,
+      "Servicio de Catastro e Información Territorial": 19,
+      "Oficina Provincial de Mendoza": 18,
+      "ATER - Direc. de Catastro": 17,
+      "Ministerio de Ecología": 17,
+      "IDE Tucuman": 17,
+      "Direc. Grl. de Inmuebles": 16,
+      "Direc. Pcial. de Catastro e Inf. Territorial": 16,
+      "IDE Catamarca": 16,
+      "IDE Rio Negro": 13,
+      "Direc. de Geodesia y Catastro": 9,
+      "Gerencia de Catastro Pcial.": 3,
+      "Direc. Pcial. de Catastro y Cartografía": 1,
+      "SCAR": 1
+    },
+    "sag": {
+      "IGN": 529
+    }
+  }
+}

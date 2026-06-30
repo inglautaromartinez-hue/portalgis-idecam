@@ -1,0 +1,78 @@
+{
+  "featureCount": 1395,
+  "bbox": [
+    -72.88538643,
+    -54.80568208,
+    -53.64783676,
+    -22.0518954
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tc1",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "tc1": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 1395
+    },
+    "objeto": {
+      "Edificio de Comunicaciones": 1395
+    },
+    "gna": {
+      "Correo Argentino": 1379,
+      "Unidad Postal": 5,
+      "Andreani": 1,
+      "OCA": 1
+    },
+    "tc1": {
+      "1": 1391,
+      "-1": 4
+    },
+    "fdc": {
+      "SIG Planificación Territorial/IGN/Correo Argentino": 1096,
+      "Correo Argentino": 193,
+      "Interpretación y Nomenclatura IGN/Correo Argentino": 37,
+      "IGN04/Correo Argentino": 19,
+      "IGN/Correo Argentino": 7,
+      "IGN01": 7,
+      "OSM": 6,
+      "IGN01/IGN04/Correo Argentino": 5,
+      "IGN04/Sitio web de la empresa": 4,
+      "Correo Argentina": 3,
+      "Imagery": 3,
+      "SIG Planificación Territorial/IGN01/Correo Argentino": 2,
+      "SIG Planificación Territorial/IGN/Correo Argentino/IGN01/ESRI World Imagery": 2,
+      "SIG Planificación Territorial/IGN/Correo Argentino/Ley Provincial Nº V-1001-201": 1,
+      "Street View/Correo Argentino": 1,
+      "Carta IGN 250.000": 1,
+      "ING01/Pagina oficial Correo Argentino": 1,
+      "SIG Planificación Territorial/IGN04/Correo Argentino": 1,
+      "IGN04/Street View/Web Correo Argentino": 1,
+      "IGN01/Sitio web de la empresa.": 1,
+      "ESRI-World_Imagery/Correo Argentino": 1,
+      "IGN01/Correo Argentino": 1,
+      "Sitio web de la empresa": 1,
+      "OSM/Correo Argentino": 1
+    },
+    "sag": {
+      "IGN": 1395
+    }
+  }
+}

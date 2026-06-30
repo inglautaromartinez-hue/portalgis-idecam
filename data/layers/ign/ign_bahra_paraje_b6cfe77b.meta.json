@@ -1,0 +1,45 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_bahra_paraje_2ae14eba",
+  "title": "Paraje",
+  "typeName": "ign:bahra_paraje",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "cod_pcia",
+    "nom_pcia",
+    "cod_depto",
+    "nom_depto",
+    "cod_ase",
+    "fna",
+    "tipo_asent",
+    "cod_agl",
+    "nom_agl",
+    "lat_gd",
+    "long_gd",
+    "lat_gs",
+    "long_gs",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 10425,
+  "geometryType": "MultiPoint",
+  "bbox": [
+    -73.02492106,
+    -59.49734039,
+    -27.70878685,
+    -21.78255017
+  ],
+  "syncedAt": "2026-06-29T21:16:14.202Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_bahra_paraje_b6cfe77b.geojson"
+  ],
+  "indexFile": "indexes/ign_bahra_paraje_b6cfe77b.index.json",
+  "statsFile": "stats/ign_bahra_paraje_b6cfe77b.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_050206_0eb297b0",
+  "title": "Cordón",
+  "typeName": "ign:lineas_de_geomorfologia_050206",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 229,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.40740967,
+    -64.39875893,
+    -55.07286039,
+    -22.123926
+  ],
+  "syncedAt": "2026-06-29T21:07:22.178Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_050206_26aa75f4.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_050206_26aa75f4.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_050206_26aa75f4.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_energia_AD030_ca555245",
+  "title": "Planta transformadora",
+  "typeName": "ign:puntos_de_energia_AD030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "sag",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 493,
+  "geometryType": "Point",
+  "bbox": [
+    -72.23200828,
+    -51.65572323,
+    -54.57793045,
+    -22.09230703
+  ],
+  "syncedAt": "2026-06-29T21:16:48.559Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_energia_AD030_a06da4e9.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_energia_AD030_a06da4e9.index.json",
+  "statsFile": "stats/ign_puntos_de_energia_AD030_a06da4e9.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

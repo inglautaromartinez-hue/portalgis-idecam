@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_GASODUCTOS_TRANSPORTE_ENARGAS_a6461605",
+  "title": "GASODUCTOS_TRANSPORTE_ENARGAS",
+  "typeName": "geonode:GASODUCTOS_TRANSPORTE_ENARGAS",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "NOMBRE",
+    "NOMBRE_DE_",
+    "EMPRESA_LI",
+    "TIPO_DE_TR",
+    "SUBTIPO_DE",
+    "GEOJSON"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 15,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -69.80530303,
+    -36.00000249,
+    -66.7285346,
+    -33.32576281
+  ],
+  "syncedAt": "2026-06-29T21:40:47.610Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_GASODUCTOS_TRANSPORTE_ENARGAS_c711bae9.geojson"
+  ],
+  "indexFile": "indexes/geonode_GASODUCTOS_TRANSPORTE_ENARGAS_c711bae9.index.json",
+  "statsFile": "stats/geonode_GASODUCTOS_TRANSPORTE_ENARGAS_c711bae9.stats.json",
+  "wfsAvailable": true
+}

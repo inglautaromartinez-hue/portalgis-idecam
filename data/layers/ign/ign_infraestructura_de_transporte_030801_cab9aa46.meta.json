@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_infraestructura_de_transporte_030801_6d42c475",
+  "title": "Estación de peaje",
+  "typeName": "ign:infraestructura_de_transporte_030801",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "feo",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 161,
+  "geometryType": "Point",
+  "bbox": [
+    -70.06732505,
+    -38.54510679,
+    -54.61756613,
+    -24.77752245
+  ],
+  "syncedAt": "2026-06-29T21:10:36.428Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_infraestructura_de_transporte_030801_cab9aa46.geojson"
+  ],
+  "indexFile": "indexes/ign_infraestructura_de_transporte_030801_cab9aa46.index.json",
+  "statsFile": "stats/ign_infraestructura_de_transporte_030801_cab9aa46.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

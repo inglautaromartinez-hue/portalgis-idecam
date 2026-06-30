@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_geomorfologia_CA030_51c9061e",
+  "title": "Punto acotado",
+  "typeName": "ign:puntos_de_geomorfologia_CA030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "alt",
+    "pdt",
+    "mo1",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 77287,
+  "geometryType": "Point",
+  "bbox": [
+    -73.45863342,
+    -52.4336608,
+    -53.65565872,
+    -21.7827161
+  ],
+  "syncedAt": "2026-06-29T21:17:36.505Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_geomorfologia_CA030_5d6426b4.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_geomorfologia_CA030_5d6426b4.index.json",
+  "statsFile": "stats/ign_puntos_de_geomorfologia_CA030_5d6426b4.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

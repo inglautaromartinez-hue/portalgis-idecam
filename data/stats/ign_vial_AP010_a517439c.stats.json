@@ -1,0 +1,44 @@
+{
+  "featureCount": 84606,
+  "bbox": [
+    -72.94816589,
+    -54.84688187,
+    -55.77057475,
+    -21.8029283
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "caa",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "caa": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 84606
+    },
+    "objeto": {
+      "Huella": 84602,
+      "Red Vial": 4
+    },
+    "caa": {
+      "0": 19,
+      "17": 30322,
+      "-2": 32969,
+      "-1": 15003
+    },
+    "sag": {
+      "IGN": 84601,
+      "IGN01/ESRI World Imagery": 1
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "featureCount": 333208,
+  "bbox": [
+    -72.23190257,
+    -51.65729963,
+    -55.64561198,
+    -22.54156044
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "ten",
+    "sag",
+    "fna",
+    "nam",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "ten": "number",
+    "sag": "string",
+    "fna": "string",
+    "nam": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 333208
+    },
+    "objeto": {
+      "Línea de transmisión eléctrica": 333156,
+      "Línea de Transmisión eléctrica": 52
+    },
+    "fun": {
+      "0": 2,
+      "6": 5162,
+      "-1": 328043,
+      "-2": 1
+    },
+    "ten": {
+      "2": 4236,
+      "3": 244559,
+      "6": 2622,
+      "-1": 81791
+    },
+    "sag": {
+      "IGN": 333206,
+      "IGN.": 1
+    }
+  }
+}

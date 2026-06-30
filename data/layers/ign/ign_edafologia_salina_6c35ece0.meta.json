@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_edafologia_salina_ef91b7ff",
+  "title": "Salina, Salar, Salitral, Boratera",
+  "typeName": "ign:edafologia_salina",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 429,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.6158205,
+    -49.41676288,
+    -59.49348068,
+    -22.15051101
+  ],
+  "syncedAt": "2026-06-29T21:19:51.636Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_edafologia_salina_6c35ece0.geojson"
+  ],
+  "indexFile": "indexes/ign_edafologia_salina_6c35ece0.index.json",
+  "statsFile": "stats/ign_edafologia_salina_6c35ece0.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

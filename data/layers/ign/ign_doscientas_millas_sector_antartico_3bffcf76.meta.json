@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_doscientas_millas_sector_antartico_339f836e",
+  "title": "200 millas desde la costa del sector antártico",
+  "typeName": "ign:doscientas_millas_sector_antartico",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -74,
+    -83.467653,
+    -25,
+    -57.02995872
+  ],
+  "syncedAt": "2026-06-29T21:24:19.077Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 79.9 MB."
+  ],
+  "files": [
+    "layers/ign/ign_doscientas_millas_sector_antartico_3bffcf76.part-0001.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_doscientas_millas_sector_antartico_3bffcf76.index.json",
+  "statsFile": "stats/ign_doscientas_millas_sector_antartico_3bffcf76.stats.json",
+  "wfsAvailable": true
+}

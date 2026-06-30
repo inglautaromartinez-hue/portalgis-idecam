@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_EXPROPIACION_599d1d2c_b0fe_4260_9dca_05d8b18feb26",
+  "title": "EXPROPIACIÓN",
+  "typeName": "geonode:MENSURA_EXPROPIACION",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 48,
+  "geometryType": "Point",
+  "bbox": [
+    -69.11748542,
+    -34.60979302,
+    -68.26457733,
+    -32.86717987
+  ],
+  "syncedAt": "2026-06-29T21:41:15.839Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_EXPROPIACION_e6648cb8.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_EXPROPIACION_e6648cb8.index.json",
+  "statsFile": "stats/geonode_MENSURA_EXPROPIACION_e6648cb8.stats.json",
+  "wfsAvailable": true
+}

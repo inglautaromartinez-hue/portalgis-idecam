@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_nivelacion_topografica_f8d4ffec",
+  "title": "Red de nivelación Topográfica",
+  "typeName": "ign:nivelacion_topografica",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota",
+    "marca",
+    "estado",
+    "ultima_visita"
+  ],
+  "group": "ign",
+  "featureCount": 8576,
+  "geometryType": "Point",
+  "bbox": [
+    -68.13509151,
+    -41.03608348,
+    -55.22041803,
+    -22.73004406
+  ],
+  "syncedAt": "2026-06-29T21:17:40.279Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_nivelacion_topografica_7bf28fca.geojson"
+  ],
+  "indexFile": "indexes/ign_nivelacion_topografica_7bf28fca.index.json",
+  "statsFile": "stats/ign_nivelacion_topografica_7bf28fca.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

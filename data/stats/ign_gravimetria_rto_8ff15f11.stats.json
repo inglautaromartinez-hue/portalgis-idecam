@@ -1,0 +1,30 @@
+{
+  "featureCount": 1246,
+  "bbox": [
+    -71.7189781,
+    -47.62261124,
+    -57.52372905,
+    -25.19357431
+  ],
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "nomenclatura": "string",
+    "red": "string",
+    "latitud": "string",
+    "longitud": "string",
+    "cota": "number"
+  },
+  "categoricalCounts": {
+    "red": {
+      "RTO": 1246
+    }
+  }
+}

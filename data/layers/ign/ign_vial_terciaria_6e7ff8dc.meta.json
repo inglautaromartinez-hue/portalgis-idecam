@@ -1,0 +1,52 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vial_terciaria_9f154727",
+  "title": "Red vial terciaria",
+  "typeName": "ign:vial_terciaria",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna1",
+    "gna1",
+    "fun",
+    "rst",
+    "typ",
+    "mes",
+    "hct",
+    "loc",
+    "fdc",
+    "sag",
+    "nam1",
+    "nr",
+    "fna2",
+    "gna2",
+    "nam2"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 136168,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.19385529,
+    -54.810478,
+    -53.72441101,
+    -21.7288999
+  ],
+  "syncedAt": "2026-06-29T21:32:25.416Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 84.5 MB."
+  ],
+  "files": [
+    "layers/ign/ign_vial_terciaria_6e7ff8dc.part-0001.geojson.gz",
+    "layers/ign/ign_vial_terciaria_6e7ff8dc.part-0002.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_vial_terciaria_6e7ff8dc.index.json",
+  "statsFile": "stats/ign_vial_terciaria_6e7ff8dc.stats.json",
+  "wfsAvailable": true
+}

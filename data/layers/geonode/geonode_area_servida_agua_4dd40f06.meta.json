@@ -1,0 +1,34 @@
+{
+  "id": "geonode_area_servida_agua_6f6bab79_4da5_4222_9139_2e6c758722e0",
+  "title": "Areas con servicio AGUA",
+  "typeName": "geonode:area_servida_agua",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "id",
+    "fid"
+  ],
+  "group": "IDECAM – WFS (Demo) / AREAS CON SERVICIOS",
+  "wmsAvailable": true,
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.05641201,
+    -35.49866828,
+    -67.45517217,
+    -32.3652658
+  ],
+  "syncedAt": "2026-06-29T21:44:24.939Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_area_servida_agua_4dd40f06.geojson"
+  ],
+  "indexFile": "indexes/geonode_area_servida_agua_4dd40f06.index.json",
+  "statsFile": "stats/geonode_area_servida_agua_4dd40f06.stats.json",
+  "wfsAvailable": true
+}

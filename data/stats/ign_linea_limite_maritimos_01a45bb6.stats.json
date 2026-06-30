@@ -1,0 +1,90 @@
+{
+  "featureCount": 115,
+  "bbox": [
+    -74,
+    -74.71839905,
+    -19.90706944,
+    -35.63333333
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "nam",
+    "gna",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "nam": "string",
+    "gna": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 89,
+      "4": 13,
+      "5": 5,
+      "6": 4,
+      "7": 4
+    },
+    "objeto": {
+      "Línea de base": 89,
+      "Límite del Mar Territorial Argentino": 13,
+      "Límite de la Zona Contigua": 5,
+      "Límite de la Zona Económica Exclusiva": 4,
+      "Límite de la Plataforma Continental": 4
+    },
+    "fna": {
+      "-2": 96,
+      "Límite del Mar Territorial Argentino Tramo 07": 1,
+      "Límite del Mar Territorial Argentino Tramo 10": 1,
+      "Límite del Mar Territorial Argentino Tramo 13": 1,
+      "Límite del Mar Territorial Argentino Tramo 05": 1,
+      "Límite del Mar Territorial Argentino Tramo 06": 1,
+      "Límite del Mar Territorial Argentino Tramo 09": 1,
+      "Límite del Mar Territorial Argentino Tramo 01": 1,
+      "Límite del Mar Territorial Argentino Tramo 08": 1,
+      "Límite del Mar Territorial Argentino Tramo 11": 1,
+      "Límite del Mar Territorial Argentino Tramo 12": 1,
+      "Límite del Mar Territorial Argentino Tramo 04": 1,
+      "Límite de la Zona Contigua Tramo 04": 1,
+      "Límite de la Zona Contigua Tramo 03": 1,
+      "Límite de la Zona Contigua Tramo 05": 1,
+      "Límite de la Zona Contigua Tramo 01": 1,
+      "Límite de la Zona Económica Exclusiva Tramo 01": 1,
+      "Límite de la Zona Económica Exclusiva Tramo 02": 1,
+      "Límite de la Zona Económica Exclusiva Tramo 03": 1,
+      " ": 1
+    },
+    "nam": {
+      "-2": 96,
+      "Límite del Mar Territorial Argentino": 11,
+      "Límite de la Zona Contigua": 4,
+      "Límite de la Zona Económica Exclusiva": 3,
+      "200 M desde la costa del Sector Antártico Argentino": 1
+    },
+    "gna": {
+      "-2": 96,
+      "Límite del Mar Territorial Argentino": 11,
+      "Límite de la Zona Contigua": 4,
+      "Límite de la Zona Económica Exclusiva": 3,
+      " ": 1
+    },
+    "fdc": {
+      "Servicio de Hidrografía Naval": 110,
+      "COPLA": 4,
+      " ": 1
+    },
+    "sag": {
+      "IGN": 94,
+      "Servicio de Hidrografía Naval": 21
+    }
+  }
+}

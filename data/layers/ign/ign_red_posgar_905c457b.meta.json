@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_red_posgar_c6f53c3b",
+  "title": "Red geodésica POSGAR07",
+  "typeName": "ign:red_posgar",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "altura_elip",
+    "estado",
+    "ultima_visita"
+  ],
+  "group": "ign",
+  "featureCount": 178,
+  "geometryType": "Point",
+  "bbox": [
+    -72.85882244,
+    -54.94220856,
+    -53.64477592,
+    -22.15375341
+  ],
+  "syncedAt": "2026-06-29T21:17:44.736Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_red_posgar_905c457b.geojson"
+  ],
+  "indexFile": "indexes/ign_red_posgar_905c457b.index.json",
+  "statsFile": "stats/ign_red_posgar_905c457b.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

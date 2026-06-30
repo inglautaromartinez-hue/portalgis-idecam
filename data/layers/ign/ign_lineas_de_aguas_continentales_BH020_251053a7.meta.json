@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_aguas_continentales_BH020_a187f5de",
+  "title": "Canal",
+  "typeName": "ign:lineas_de_aguas_continentales_BH020",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 5614,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.46763611,
+    -45.74123383,
+    -56.95145416,
+    -22.10347284
+  ],
+  "syncedAt": "2026-06-29T21:07:09.139Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_aguas_continentales_BH020_251053a7.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_aguas_continentales_BH020_251053a7.index.json",
+  "statsFile": "stats/ign_lineas_de_aguas_continentales_BH020_251053a7.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,119 @@
+{
+  "featureCount": 186,
+  "bbox": [
+    -72.32195459,
+    -54.83598396,
+    -54.57041802,
+    -22.10137411
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "sag": "string",
+    "fun": "number",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 186
+    },
+    "objeto": {
+      "Planta potabilizadora de agua": 186
+    },
+    "gna": {
+      "Planta Potabilizadora": 143,
+      "Establecimiento Potabilizador": 14,
+      "Planta Potabilizadora de Agua": 7,
+      "Planta de Ósmosis": 3,
+      "Planta Desarenadora": 2,
+      "Planta de Tratamiento de Agua Subterránea": 2,
+      "Planta potabilizadora de agua": 1,
+      "Estación de Bombeo": 1,
+      "Planta Desalinizadora": 1,
+      "Planta de Potabilizadora": 1
+    },
+    "sag": {
+      "IGN": 186
+    },
+    "fun": {
+      "2": 1,
+      "6": 175,
+      "9": 2,
+      "-1": 8
+    },
+    "fdc": {
+      "IGN/Open Street View": 16,
+      "IGN/GEOINFRA": 16,
+      "IGN01": 14,
+      "IGN/Google Earth": 14,
+      "IGN/OSSE San Juan": 12,
+      "IGN/Aguas Santafesinas S.A.": 10,
+      "IGN/D.I.O.S.S.E.": 8,
+      "IGN/Agua y Saneamiento Mendoza": 8,
+      "IGN/Sitio web de la provincia": 6,
+      "IGN/Aguas de Corrientes S.A.": 6,
+      "IGN/GEOINFRA/Open Street View": 6,
+      "IGN/AySA": 4,
+      "IGN01/IGN04/Ley Nº 5890": 4,
+      "IGN/D.P.O.S.S.": 4,
+      "IGN/Aguas de Catamarca SAPEM": 3,
+      "IGN/Aguas del Norte": 3,
+      "IGN/SAMEEP": 2,
+      "IGN/Aguas Cordobesas": 2,
+      "IGN/Aguas Bonaerenses S.A.": 2,
+      "IGN/Servicios de Aguas de Misiones S.A.": 2,
+      "IGN/Cooperativa de Servicios de Trelew": 2,
+      "IGN/Sitio web de la gobernación": 2,
+      "IGN/Aguas Rionegrinas": 2,
+      "IGN/San Luis Agua/Open Street View": 2,
+      "IGN/Obras Sanitarias de Paraná": 2,
+      "Imagery": 2,
+      "Esri-World_Imagery/IGN01": 1,
+      "Esri-World Imagery 2010/IGN01/IGN04/IGN Dirección de Geografía": 1,
+      "Esri World Imagery": 1,
+      "Esri-World Imagery 2010/IGN04/IGN01": 1,
+      "IGN/D.I.O.S.S.E./Open Street View": 1,
+      "IGN/Aguas Santafesinas S.A./Open Street View": 1,
+      "IGN01/IGN04/MIP/ENOHSa": 1,
+      "IGN01/IGN04": 1,
+      "IGN/Obras Sanitarias Mercedes": 1,
+      "IGN/Dirección Provincial de Obras Sanitarias de Entre Ríos/Open Street View": 1,
+      "IGN": 1,
+      "IGN/Sitio Oficial de la Municipalidad": 1,
+      "IGN/Cooperativa Eléctrica Ltda. Oberá": 1,
+      "IGN/Instituto Misionero de Agua y Saneamiento": 1,
+      "IGN/Sitio web de la ciudad": 1,
+      "IGN/Catastro Pcial": 1,
+      "IGN/Sociedad de Aguas de Tucumán": 1,
+      "IGN/Cooperativa de Servicios Públicos Consumo y Vivienda Rawson": 1,
+      "IGN/Ley provincial 10015/2011": 1,
+      "IGN/Aguas de Corrientes/Open Street View": 1,
+      "IGN/Cooperativa Limitada de Obras Sanitarias y Servicios Anexos de Venado Tuert": 1,
+      "IGN/Aguas de Catamarca S.A.P.E.M./Open Street View": 1,
+      "Esri-World_Imagery 2010": 1,
+      "Esri-World_Imagery 2010IGN01/IGN04/Agua de los Andes": 1,
+      "IGN/Sitio web de la Nación": 1,
+      "IGN/SPAP Formosa": 1,
+      "IGN/Aguas de Santiago": 1,
+      "IGN/Aguas de Catamarca SAPEM/Open Street View": 1,
+      "IGN/Aguas Santafesinas/Open Street View": 1,
+      "IGN/Sitio web de la Casa Rosada": 1,
+      "IGN/Aguas Santafesinas/Open Steet View": 1
+    }
+  }
+}

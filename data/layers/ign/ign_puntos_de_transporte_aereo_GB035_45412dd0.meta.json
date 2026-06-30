@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_transporte_aereo_GB035_50f2d2dd",
+  "title": "Helipuerto",
+  "typeName": "ign:puntos_de_transporte_aereo_GB035",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 154,
+  "geometryType": "Point",
+  "bbox": [
+    -71.96890789,
+    -54.23359139,
+    -54.48147165,
+    -22.70110505
+  ],
+  "syncedAt": "2026-06-29T21:11:01.514Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_transporte_aereo_GB035_45412dd0.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_transporte_aereo_GB035_45412dd0.index.json",
+  "statsFile": "stats/ign_puntos_de_transporte_aereo_GB035_45412dd0.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

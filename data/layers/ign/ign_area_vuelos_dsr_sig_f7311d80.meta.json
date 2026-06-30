@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_area_vuelos_dsr_sig_62917d3a",
+  "title": "Área de vuelos",
+  "typeName": "ign:area_vuelos_dsr_sig",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "num_proyec",
+    "nombre_ign",
+    "sector",
+    "fecha_vuel",
+    "cant_fotos",
+    "pixel_cm",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 99,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -72.37381982,
+    -54.89738066,
+    -53.95685149,
+    -22.40694795
+  ],
+  "syncedAt": "2026-06-29T21:40:39.462Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/ign/ign_area_vuelos_dsr_sig_f7311d80.geojson"
+  ],
+  "indexFile": "indexes/ign_area_vuelos_dsr_sig_f7311d80.index.json",
+  "statsFile": "stats/ign_area_vuelos_dsr_sig_f7311d80.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_asentamientos_y_edificios_AL015_f90f6d54",
+  "title": "Edificación",
+  "typeName": "ign:puntos_de_asentamientos_y_edificios_AL015",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 183509,
+  "geometryType": "Point",
+  "bbox": [
+    -73.31760406,
+    -55.04592908,
+    -53.7528305,
+    -21.82803685
+  ],
+  "syncedAt": "2026-06-29T21:25:56.432Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 63.8 MB."
+  ],
+  "files": [
+    "layers/ign/ign_puntos_de_asentamientos_y_edificios_AL015_35708e17.part-0001.geojson.gz",
+    "layers/ign/ign_puntos_de_asentamientos_y_edificios_AL015_35708e17.part-0002.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_puntos_de_asentamientos_y_edificios_AL015_35708e17.index.json",
+  "statsFile": "stats/ign_puntos_de_asentamientos_y_edificios_AL015_35708e17.stats.json",
+  "wfsAvailable": true
+}

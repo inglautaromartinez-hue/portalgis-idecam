@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_red_provincialPoint_6185a895",
+  "title": "red_provincialPoint",
+  "typeName": "geonode:red_provincialPoint",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "gid",
+    "nomenclatu",
+    "red",
+    "latitud",
+    "longitud",
+    "altura_eli",
+    "estado",
+    "ultima_vis"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 2471,
+  "geometryType": "Point",
+  "bbox": [
+    -71.94462975,
+    -54.97538575,
+    -53.74120565,
+    -21.94830855
+  ],
+  "syncedAt": "2026-06-29T21:44:52.689Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_red_provincialPoint_6a566206.geojson"
+  ],
+  "indexFile": "indexes/geonode_red_provincialPoint_6a566206.index.json",
+  "statsFile": "stats/geonode_red_provincialPoint_6a566206.stats.json",
+  "wfsAvailable": true
+}

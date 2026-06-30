@@ -1,0 +1,20 @@
+{
+  "featureCount": 1169,
+  "bbox": [
+    -68.89405926,
+    -32.96028153,
+    -68.80388247,
+    -32.8999661
+  ],
+  "fields": [
+    "fid",
+    "NOMBRE",
+    "Longitud"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "NOMBRE": "string",
+    "Longitud": "number"
+  },
+  "categoricalCounts": {}
+}

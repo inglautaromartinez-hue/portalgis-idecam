@@ -1,0 +1,42 @@
+{
+  "featureCount": 3751,
+  "bbox": [
+    -73.29837851,
+    -58.3880758,
+    -53.72456759,
+    -21.81487826
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "13": 3751
+    },
+    "objeto": {
+      "Límite de área protegida": 3751
+    },
+    "fdc": {
+      " ": 1943,
+      "MAyDS": 1743,
+      "Ley 1461": 24,
+      " MAyDS": 1,
+      "IGN": 1,
+      "Ley provincial 272": 1
+    },
+    "sag": {
+      "IGN": 3693
+    }
+  }
+}

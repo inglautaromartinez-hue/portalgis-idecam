@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_DEPARTAMENTOS_4326_d643b88f",
+  "title": "DEPARTAMENTOS_4326",
+  "typeName": "geonode:DEPARTAMENTOS_4326",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "CODIGO_DEP",
+    "DEPARTAMEN",
+    "CANT_DIST",
+    "SUP_M2",
+    "SUP_HA"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 18,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.58368569,
+    -37.57198764,
+    -66.47898097,
+    -31.98807902
+  ],
+  "syncedAt": "2026-06-29T21:40:45.769Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_DEPARTAMENTOS_4326_e03c08a9.geojson"
+  ],
+  "indexFile": "indexes/geonode_DEPARTAMENTOS_4326_e03c08a9.index.json",
+  "statsFile": "stats/geonode_DEPARTAMENTOS_4326_e03c08a9.stats.json",
+  "wfsAvailable": true
+}

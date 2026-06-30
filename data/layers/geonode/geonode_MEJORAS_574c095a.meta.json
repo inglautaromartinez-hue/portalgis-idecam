@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_MEJORAS_ad6e3981",
+  "title": "MEJORAS",
+  "typeName": "geonode:MEJORAS",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "OBJECTID",
+    "NOMENCLATU",
+    "SHAPE_AREA",
+    "SHAPE_LEN"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 27986,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.61195849,
+    -35.51982893,
+    -67.42727967,
+    -32.46529387
+  ],
+  "syncedAt": "2026-06-29T21:41:09.266Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MEJORAS_574c095a.geojson"
+  ],
+  "indexFile": "indexes/geonode_MEJORAS_574c095a.index.json",
+  "statsFile": "stats/geonode_MEJORAS_574c095a.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_complejos_fronterizos_3ef8c404",
+  "title": "Complejos Fronterizos",
+  "typeName": "ign:complejos_fronterizos",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "cod_cf",
+    "nom_cf",
+    "cod_pfi",
+    "nom_pfi",
+    "region",
+    "nom_adf",
+    "num_adf",
+    "prov",
+    "depto",
+    "muni",
+    "lat_cf",
+    "lon_cf",
+    "cruce_pfi",
+    "pvecino"
+  ],
+  "group": "ign",
+  "featureCount": 144,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88476,
+    -54.86991,
+    -53.64128,
+    -22.05192836
+  ],
+  "syncedAt": "2026-06-29T21:07:21.491Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_complejos_fronterizos_71211ff4.geojson"
+  ],
+  "indexFile": "indexes/ign_complejos_fronterizos_71211ff4.index.json",
+  "statsFile": "stats/ign_complejos_fronterizos_71211ff4.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

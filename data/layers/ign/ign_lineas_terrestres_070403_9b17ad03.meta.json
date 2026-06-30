@@ -1,0 +1,34 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_terrestres_070403_c4f77953",
+  "title": "Ecuador",
+  "typeName": "ign:lineas_terrestres_070403",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -179.99997283,
+    0.00000659,
+    179.99967355,
+    0.00000912
+  ],
+  "syncedAt": "2026-06-29T21:08:51.958Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_terrestres_070403_9b17ad03.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_terrestres_070403_9b17ad03.index.json",
+  "statsFile": "stats/ign_lineas_terrestres_070403_9b17ad03.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

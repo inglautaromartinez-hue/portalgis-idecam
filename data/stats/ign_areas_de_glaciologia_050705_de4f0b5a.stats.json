@@ -1,0 +1,27 @@
+{
+  "featureCount": 390,
+  "bbox": [
+    -180,
+    -85.41203151,
+    180,
+    -46.08288507
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "4": 390
+    },
+    "objeto": {
+      "Barrera de hielo": 390
+    }
+  }
+}

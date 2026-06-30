@@ -1,0 +1,65 @@
+{
+  "featureCount": 2582,
+  "bbox": [
+    -74.00008996,
+    -83.467653,
+    -25,
+    -21.99933346
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "vlp",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "vlp": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "9": 2582
+    },
+    "objeto": {
+      "Límite interdepartamental o de partido": 2582
+    },
+    "vlp": {
+      "0": 2,
+      "1": 1078,
+      "2": 86,
+      "-1": 1416
+    },
+    "fdc": {
+      "Scar": 886,
+      "ARBA - Gerencia de Servicios Catastrales": 345,
+      " ": 323,
+      "World_Imagery": 210,
+      "IGN": 178,
+      "Direc. Grl. de Catastro": 87,
+      "Direc. de Catastro": 78,
+      "Direc. Grl. de Inmuebles": 75,
+      "Direc. Pcial. de Catastro y Cartografía": 60,
+      "Catastro": 57,
+      "Catastro Provinciales": 56,
+      "ATER - Direc. de Catastro": 45,
+      "Oficina Provincial de Mendoza": 38,
+      "Servicio de Catastro e Información Territorial": 38,
+      "Adm. Grl. de Catastro": 33,
+      "Direc. Pcial. de Catastro e Inf. Territorial": 30,
+      "A.R.T - Gerencia de Catastro": 24,
+      "Direc. de Geodesia y Catastro": 18,
+      "IDESA": 1
+    },
+    "sag": {
+      " ": 1405,
+      "IGN": 1144,
+      "Dirección de Catastro de Misiones": 33
+    }
+  }
+}

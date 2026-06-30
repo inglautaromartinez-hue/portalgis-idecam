@@ -1,0 +1,89 @@
+{
+  "featureCount": 136,
+  "bbox": [
+    -73.30233765,
+    -54.79912676,
+    -64.78919724,
+    -21.90689829
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 136
+    },
+    "objeto": {
+      "Refugio": 136
+    },
+    "fdc": {
+      "IGN": 40,
+      "Turismo provincial/IGN": 18,
+      "IGN/Sitio web del Parque Nacional Perito Moreno": 9,
+      "IGN01": 8,
+      "SIB": 7,
+      "Street View": 7,
+      "IGN/Club Andino de Córdoba": 4,
+      "OSM": 3,
+      "IGN04/Sitio web de turismo de Bariloche": 3,
+      "IGN/Sitio web de turismo de Córdoba": 2,
+      "IDEIGN02": 2,
+      "ESRI World Imagery": 2,
+      "ESRI-Wolrd Imagery": 2,
+      "ESRI-World_Imagery 2010/Club Andino de Bariloche": 2,
+      "Esri-Word_Imagery/Sitio web de turismo de Bariloche": 2,
+      "Esri-World_Imagery/Open Street View": 2,
+      "IGN01/IGN04": 1,
+      "Esri World_Imagery_2010/IGN01/IGN04": 1,
+      "IGN/Sitio web de turismo de la Patagonia": 1,
+      "IGN/Open Street View/Secretaría de Ambiente Provincial": 1,
+      "IGN/Club Andino de Córdobao": 1,
+      "IGN/Club Andino de Villa Carlos Paz": 1,
+      "IGN/Casa Provincial de Jujuy": 1,
+      "IGN04/Street View": 1,
+      "IGN/BAHRA": 1,
+      "IGN01/IGN 3169-32 1983": 1,
+      "IGN04/Sitio web del Club Andino Mercedario": 1,
+      "Esri World Imagery": 1,
+      "IGN01/ESRI World Imagery": 1,
+      "Dirección de Geografía IGN/IGN 04": 1,
+      "Esri-Word_Imagery/Sitio web del Club Andino de Bariloche": 1,
+      "IGN04/Dirección de Geografía IGN": 1,
+      "IGN04/IGN Dirección de Geografía IGN": 1,
+      "IGN04/Sitio web de la empresa": 1,
+      "IGN04/Sitio web del Club Andino de Bariloche": 1,
+      "IGN04/Club Andino de Bariloche": 1,
+      "IGN04/Sitio web del Club Andino": 1,
+      "Esri-World_Imagery/IGN01": 1,
+      "ESRI-World Imagery 2010/Open Street View": 1
+    },
+    "sag": {
+      "IGN": 135
+    },
+    "gna": {
+      "Refugio": 113,
+      "Refugio Militar": 5,
+      "Campamento": 4,
+      "Puesto": 3,
+      "Camping Organizado": 1,
+      "Vivac": 1
+    }
+  }
+}

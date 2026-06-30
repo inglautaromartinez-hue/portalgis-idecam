@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vegetacion_arborea_060301_6c2d187d",
+  "title": "Bosque artificial",
+  "typeName": "ign:vegetacion_arborea_060301",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 2938,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.45979394,
+    -54.33884048,
+    -53.80570984,
+    -25.48180199
+  ],
+  "syncedAt": "2026-06-29T21:06:56.188Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_vegetacion_arborea_060301_6e7f1aa3.geojson"
+  ],
+  "indexFile": "indexes/ign_vegetacion_arborea_060301_6e7f1aa3.index.json",
+  "statsFile": "stats/ign_vegetacion_arborea_060301_6e7f1aa3.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

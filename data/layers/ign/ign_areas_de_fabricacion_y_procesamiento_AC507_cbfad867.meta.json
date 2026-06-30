@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_fabricacion_y_procesamiento_AC507_11653cbb",
+  "title": "Planta de tratamiento de efluentes cloacales",
+  "typeName": "ign:areas_de_fabricacion_y_procesamiento_AC507",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 249,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.37118749,
+    -49.29498361,
+    -55.96047827,
+    -22.08819661
+  ],
+  "syncedAt": "2026-06-29T21:16:48.128Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_fabricacion_y_procesamiento_AC507_cbfad867.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_fabricacion_y_procesamiento_AC507_cbfad867.index.json",
+  "statsFile": "stats/ign_areas_de_fabricacion_y_procesamiento_AC507_cbfad867.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

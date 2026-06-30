@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_DB001_3bf34204",
+  "title": "Lugar geomorfológico",
+  "typeName": "ign:lineas_de_geomorfologia_DB001",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tlg",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 217,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.03940909,
+    -71.1229642,
+    -60.964233,
+    -25.87553215
+  ],
+  "syncedAt": "2026-06-29T21:12:15.288Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_DB001_7501a4ee.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_DB001_7501a4ee.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_DB001_7501a4ee.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

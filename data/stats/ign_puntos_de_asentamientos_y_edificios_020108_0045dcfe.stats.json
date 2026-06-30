@@ -1,0 +1,51 @@
+{
+  "featureCount": 121,
+  "bbox": [
+    -71.45985413,
+    -48.23181534,
+    -58.77057266,
+    -24.38578224
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "6": 121
+    },
+    "objeto": {
+      "Tapera": 121
+    },
+    "fdc": {
+      "IGN": 50,
+      "Campaña Año 2010": 16,
+      "Esri-World_Imagery": 10,
+      "IGN01": 10,
+      "Actualización 2016 Atlas 500K": 9,
+      "ESRI-World_Imagery 2010": 9,
+      "Esri-world_imagery": 6,
+      "Esri-World_Imagery/IGN01": 3,
+      "Esri-Word_Imagery": 2,
+      "Esri-Word_Imagery/IGN01": 1,
+      "ESRI-World_Imagery 2013": 1,
+      "Esri-Word_Imagery_2010/IGN01": 1,
+      "ESRI-World_Imagery-2010/IGN01": 1,
+      "IGN01/IGN04": 1,
+      "Esri-Wolrd imagery": 1
+    },
+    "sag": {
+      "IGN": 121
+    }
+  }
+}

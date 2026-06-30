@@ -1,0 +1,30 @@
+{
+  "featureCount": 60025,
+  "bbox": [
+    -69.83655072,
+    -35.9992341,
+    -67.18531582,
+    -32.31791841
+  ],
+  "fields": [
+    "fid_1",
+    "fid",
+    "nomenclatu",
+    "ZONA"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "fid": "number",
+    "nomenclatu": "string",
+    "ZONA": "string"
+  },
+  "categoricalCounts": {
+    "ZONA": {
+      "ZONA RURAL": 34729,
+      "ZONA URBANA": 17026,
+      "ZONA SUBURBANA": 6372,
+      "": 1486,
+      "ZONA SECANA": 412
+    }
+  }
+}

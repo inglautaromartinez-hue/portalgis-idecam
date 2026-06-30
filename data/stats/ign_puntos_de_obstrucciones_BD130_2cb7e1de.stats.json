@@ -1,0 +1,81 @@
+{
+  "featureCount": 179,
+  "bbox": [
+    -68.27646596,
+    -65.3968554,
+    -26.44937094,
+    -44.48127173
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 179
+    },
+    "objeto": {
+      "Roca": 179
+    },
+    "gna": {
+      "Roca": 86,
+      "Rocas": 83,
+      "Arrecifes": 3,
+      "Arrecife": 3
+    },
+    "fdc": {
+      "Nomenclator Malvinas": 28,
+      "IGN 6361_EdAbril1970_IGN": 13,
+      "Carta IGN 250.000": 13,
+      "IGN/Dirección de Catastro Pcial. Hoja 5563-13-2": 12,
+      "IGN/Dirección de Catastro Pcial. Hoja 5563-14-1": 12,
+      "IGN04/IGN 4566-22 1942": 11,
+      "IGN/Dirección de Catastro Pcial. Hoja 5563-13-1": 11,
+      "IGN 5437_EdJulio1972_IGN": 9,
+      "IGN 6356_abril1970": 9,
+      "6356_abril1970": 9,
+      "IGN/Dirección de Catastro Pcial. Hoja 5566-18-1": 7,
+      "IGN 5437 1971": 6,
+      "IGN04/IGN 4566-11 1943": 5,
+      "IGN04/IGN 4766-34 1944": 4,
+      "IGN 5437": 3,
+      "IGN 5927_Compilacion1971_sector SUR_IGN": 3,
+      "IGN hoja-6156_IGN": 3,
+      "IGN/Dirección de Catastro Pcial. Hoja 5566-13-2": 3,
+      "IGN 5727_EdAbril1972_IGN": 2,
+      "IGN 6145_Compilacion1971_Dest_N_Orcadas_IGN": 2,
+      "IGN/Dirección de Catastro Pcial. Hoja 5566-17-1": 2,
+      "IGN 6565_EdDiciembre1970_IGN": 1,
+      "IGN hoja-6356_IGN": 1,
+      "IGN 6156_Compilacion1970": 1,
+      "IGN 4766-34 1944": 1,
+      "IGN04/IGN 4566-21 1943": 1,
+      "IGN 5566 1985": 1,
+      "IGN/Dirección de Catastro Pcial..Hoja 5566-18-1": 1,
+      "iGN 5437 1971": 1,
+      "IGN 5727 1972": 1,
+      "IGN 6361 1970": 1,
+      "Fuente externa": 1,
+      "SHN H-203 Ed. 1997": 1
+    },
+    "sag": {
+      "IGN": 179
+    }
+  }
+}

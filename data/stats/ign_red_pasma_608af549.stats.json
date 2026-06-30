@@ -1,0 +1,66 @@
+{
+  "featureCount": 1676,
+  "bbox": [
+    -72.89189144,
+    -54.87044602,
+    -53.8579427,
+    -21.87775024
+  ],
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "altura_elip",
+    "estado",
+    "ultima_visita"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "nomenclatura": "string",
+    "red": "string",
+    "latitud": "string",
+    "longitud": "string",
+    "altura_elip": "number",
+    "estado": "string",
+    "ultima_visita": "string"
+  },
+  "categoricalCounts": {
+    "red": {
+      "Red PASMA": 1676
+    },
+    "estado": {
+      "Sin Novedad": 1656,
+      "Destruido": 7,
+      "Debajo de medano. Se ve el corral.": 1,
+      "Destruído": 1,
+      "Bajo agua": 1
+    },
+    "ultima_visita": {
+      "01/06/2016": 12,
+      "01/06/2015": 9,
+      "01/02/2014": 7,
+      "01/09/2011": 6,
+      "01/04/2012": 4,
+      "01/12/2013": 3,
+      "01/09/2015": 3,
+      "01/04/2014": 3,
+      "01/08/2013": 3,
+      "01/05/2015": 2,
+      "01/03/2015": 2,
+      "01/03/2013": 1,
+      "01/08/2016": 1,
+      "01/08/2015": 1,
+      "01/03/2016": 1,
+      "01/04/2016": 1,
+      "01/12/2016": 1,
+      "01/09/2014": 1,
+      "01/11/2013": 1,
+      "22/11/2014": 1,
+      "01/09/2012": 1,
+      "01/03/2019": 1,
+      "09/05/2014": 1
+    }
+  }
+}

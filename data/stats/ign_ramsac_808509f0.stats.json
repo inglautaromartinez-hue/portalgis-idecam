@@ -1,0 +1,41 @@
+{
+  "featureCount": 153,
+  "bbox": [
+    -72.88556285,
+    -64.2403916,
+    -44.74061546,
+    -22.01710345
+  ],
+  "fields": [
+    "gid",
+    "codigo_estacion",
+    "tipo_estacion",
+    "estado",
+    "link"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "codigo_estacion": "string",
+    "tipo_estacion": "number",
+    "estado": "string",
+    "link": "string"
+  },
+  "categoricalCounts": {
+    "tipo_estacion": {
+      "1": 11,
+      "3": 3,
+      "5": 4,
+      "6": 21,
+      "10": 76,
+      "11": 8,
+      "15": 27,
+      "18": 3
+    },
+    "estado": {
+      "ONLINE": 112,
+      "OFFLINE": 20,
+      "SIN NOVEDAD": 18,
+      "FUERA DE FUNCIONAMIENTO": 3
+    }
+  }
+}

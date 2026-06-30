@@ -1,0 +1,35 @@
+{
+  "id": "geonode_distritos_mendoza_epsg4326_a476bb3e_b06b_4ee3_a05b_5cd9d23d160a",
+  "title": "Distritos de Mendoza",
+  "typeName": "geonode:distritos_mendoza_epsg4326",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "CODIGO_DEP",
+    "DEPARTAMEN",
+    "DISTRITO"
+  ],
+  "group": "IDECAM – WFS (Demo)",
+  "wmsAvailable": true,
+  "featureCount": 200,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.58368569,
+    -37.57198764,
+    -66.47898097,
+    -31.98807902
+  ],
+  "syncedAt": "2026-06-29T21:44:26.911Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_distritos_mendoza_epsg4326_a43e8901.geojson"
+  ],
+  "indexFile": "indexes/geonode_distritos_mendoza_epsg4326_a43e8901.index.json",
+  "statsFile": "stats/geonode_distritos_mendoza_epsg4326_a43e8901.stats.json",
+  "wfsAvailable": true
+}

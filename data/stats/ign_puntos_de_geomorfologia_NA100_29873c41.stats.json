@@ -1,0 +1,91 @@
+{
+  "featureCount": 6118,
+  "bbox": [
+    -74.46083456,
+    -83.76147133,
+    -26.38766768,
+    -21.79596389
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "alt": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 6118
+    },
+    "gna": {
+      "Cerro": 4976,
+      "Monte": 330,
+      "Loma": 212,
+      "Morro": 139,
+      "Cerrito": 68,
+      "Mogote": 58,
+      "Pico": 57,
+      "Colina": 53,
+      "Alto": 50,
+      "Volcán": 26,
+      "Nevado": 11,
+      "Cerros": 10,
+      "Picos": 8,
+      "Lomas": 7,
+      "Piedra": 7,
+      "Meseta": 6,
+      "Cumbre": 6,
+      "Montes": 5,
+      "Peñas": 5,
+      "Punta": 5,
+      "Bordo": 5,
+      "Promontorio": 5,
+      "Cerritos": 4,
+      "Peñón": 4,
+      "Cerrillos": 3,
+      "Lomita": 3,
+      "Rocas": 3,
+      "Lomada": 3,
+      "Montaña": 2,
+      "Peña": 2,
+      "Picacho": 2,
+      "Complejo Volcánico": 2,
+      "Médano": 2,
+      "Roca": 2,
+      "Puntilla": 2,
+      "Cerrillo": 2,
+      "Sierra": 1,
+      "Cumbre o Mogote": 1,
+      "Faldeo": 1,
+      "Contrafuerte": 1,
+      "Morros": 1,
+      "Cordón": 1,
+      "Mojón": 1,
+      "Falda": 1,
+      "Morrito": 1,
+      "Altos": 1,
+      "Abra": 1,
+      "Macizo": 1,
+      "Barda": 1,
+      "Volcanes": 1,
+      "Mogte": 1,
+      "Lomitas": 1
+    },
+    "sag": {
+      "IGN": 6117
+    }
+  }
+}

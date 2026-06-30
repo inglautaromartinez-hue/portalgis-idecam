@@ -1,0 +1,93 @@
+{
+  "featureCount": 161,
+  "bbox": [
+    -70.06732505,
+    -38.54510679,
+    -54.61756613,
+    -24.77752245
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "feo",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "feo": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 161
+    },
+    "objeto": {
+      "Estación de peaje": 161
+    },
+    "gna": {
+      "Estación de Peaje": 152,
+      "Estación de peaje": 2,
+      "Peaje": 1
+    },
+    "feo": {
+      "-1": 160
+    },
+    "fdc": {
+      "IGN/Vialidad Nacional": 52,
+      "IGN/AUBASA": 11,
+      "IGN/Ente de Control de Rutas de San Luís": 10,
+      "IDE Transporte/AUSUR": 7,
+      "IDE Transporte/Caminos del Paraná": 5,
+      "IDE Transporte/Caminos del Río Uruguay": 5,
+      "IGN/AUSA": 5,
+      "IDE Transporte/Vial Andes 7": 4,
+      "IDE Transporte/Ente de Control de Rutas Pcial.": 4,
+      "IDE Transporte/Corredor Central": 4,
+      "IGN/Vialidad Pcial.": 4,
+      "IDE Transporte/Camino de las Sierras S.A.": 3,
+      "IDE Transporte/AUBASA": 3,
+      "IDE Transporte/Autovia Bs. As. Los Andes": 3,
+      "IDE Transporte/Carreteras Centrales Argentinas S.A": 3,
+      "IDE Transporte/Cruz del Sur": 3,
+      "IGN/Camino de las Sierras S.A.": 3,
+      "IDE Transporte/H5 S.A.": 2,
+      "IDE Transporte/Corredos Panamericano I": 2,
+      "IDE Transporte/IGN": 2,
+      "IDE Transporte": 2,
+      "IDE Transporte/Corredos Panamericano II": 2,
+      "Vuialidad Nacional/AUSUR": 2,
+      "IGN/Vial Santa Fe": 2,
+      "Vialidad Nacional/OSM": 2,
+      "IDE Transporte/CCA Green B S.A": 1,
+      "IDE Transporte/Caminos de las Sierras S.A.": 1,
+      "IDE Transporte/ Camino de las Sierras S.A.": 1,
+      "IDE Transporte/Ente de Control de Rutas San Luís": 1,
+      "Esri- Word_Imagery 2010": 1,
+      "IDETransporte/Caminos del Paraná": 1,
+      "IDE Transporte/Street View": 1,
+      "IDE Transporte/Corredor de Integración Pampeana": 1,
+      "IDE Trasnporte/Cruz del Sur": 1,
+      "IGN/Caminos de las Sierras S.A.": 1,
+      "IGN/Cruz del Sur": 1,
+      "Vialidad Nacional/Autovia Bs. As. Los Andes": 1,
+      "IGN/AUSUR": 1,
+      "IGN/Vialidad Pcial": 1,
+      "IGN": 1,
+      "Street View/Sitio web de la concesionaria": 1
+    },
+    "sag": {
+      "IGN": 161
+    }
+  }
+}

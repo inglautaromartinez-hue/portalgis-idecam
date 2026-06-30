@@ -1,0 +1,71 @@
+{
+  "featureCount": 2114,
+  "bbox": [
+    -72.90065323,
+    -54.85838475,
+    -53.63736944,
+    -21.78085676
+  ],
+  "fields": [
+    "gid",
+    "fna",
+    "gna",
+    "nam",
+    "in1",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "in1": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gna": {
+      "Municipio": 1193,
+      "Comuna": 605,
+      "Junta": 182,
+      "Comisión": 128,
+      "Junta de Gobierno": 3,
+      "Comision": 1,
+      " ": 1,
+      "Junta de gobierno": 1
+    },
+    "fdc": {
+      "Direc. Grl. de Catastro": 571,
+      "Servicio de Catastro e Información Territorial": 364,
+      "Provincia de Entre Ríos": 264,
+      " ": 189,
+      "ARBA - Gerencia de Servicios Catastrales": 135,
+      "Dirección de Estadística de la Prov. Tucumán": 112,
+      "Dirección de Catastro de Misiones": 78,
+      "Dirección de Estadística y Censos": 77,
+      "Dirección de Geodesia y Catastro": 66,
+      "IDE Salta": 60,
+      "Direc. Pcial. de Catastro e Inf. Territorial": 57,
+      "A.R.T - Gerencia de Catastro": 39,
+      "Adm. Grl. de Catastro": 36,
+      "Ley Nº 55": 20,
+      "Informacion antecedente IGN": 19,
+      "Direc. de Catastro": 15,
+      "AREF": 3,
+      "IDE Chaco": 1,
+      "Ley del año 1882": 1,
+      "Ley N° 1906 - a cat. de Villa- y 1908": 1,
+      "Año 1872, 01/01/1873": 1,
+      "Dec. N° 2187/1999 y Ley N° 9248/2000": 1,
+      "Ley del 28/05/1872": 1,
+      "Ley del 28/05/1872, G yT 17/1": 1,
+      "IDESF": 1,
+      "IGN": 1
+    },
+    "sag": {
+      "IGN": 2112,
+      " ": 2
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "featureCount": 1840,
+  "bbox": [
+    -71.58208466,
+    -54.87135122,
+    -54.59613037,
+    -21.94985998
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "fun",
+    "ppo",
+    "sag",
+    "fdc",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "fun": "number",
+    "ppo": "number",
+    "sag": "string",
+    "fdc": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 1840
+    },
+    "gna": {
+      "Cantera": 350,
+      "Mina": 325,
+      "Ripiera": 42,
+      "Calera": 11,
+      "Minera": 5,
+      "Yacimiento": 4,
+      "Compañía Minera": 3,
+      "Campamento": 3,
+      "Canteras": 3,
+      "Salar": 2,
+      "Boratera": 2,
+      "Cementera": 2,
+      "Azufrera": 1,
+      "Salinera": 1,
+      "Complejo Minero": 1,
+      "Salinas": 1,
+      "Ex Mina": 1,
+      "Minas": 1,
+      "Ripera": 1,
+      "<Nulo>": 1
+    },
+    "fun": {
+      "2": 23,
+      "6": 641,
+      "-1": 1176
+    },
+    "ppo": {
+      "14": 54,
+      "17": 59,
+      "18": 7,
+      "19": 76,
+      "26": 90,
+      "50": 3,
+      "58": 13,
+      "59": 67,
+      "66": 10,
+      "83": 2,
+      "93": 48,
+      "95": 18,
+      "105": 19,
+      "126": 1,
+      "185": 6,
+      "284": 86,
+      "-1": 1273,
+      "-2": 8
+    },
+    "sag": {
+      "IGN": 1839
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Parques_Industriales_637c67cf",
+  "title": "Parques_Industriales",
+  "typeName": "geonode:Parques_Industriales",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "ID",
+    "NOMBRE",
+    "ADMINISTRA",
+    "ZONA",
+    "DPTO",
+    "DESIGNACIO",
+    "CANT_EMP",
+    "OPERADOR",
+    "TELEFONOS",
+    "SERVICIOS",
+    "SUP_HA"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 49,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.59377883,
+    -35.51601944,
+    -67.54687626,
+    -32.7107288
+  ],
+  "syncedAt": "2026-06-29T21:44:18.711Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Parques_Industriales_6c894f09.geojson"
+  ],
+  "indexFile": "indexes/geonode_Parques_Industriales_6c894f09.index.json",
+  "statsFile": "stats/geonode_Parques_Industriales_6c894f09.stats.json",
+  "wfsAvailable": true
+}

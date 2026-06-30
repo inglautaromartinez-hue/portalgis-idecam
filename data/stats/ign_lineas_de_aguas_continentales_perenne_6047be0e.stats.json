@@ -1,0 +1,52 @@
+{
+  "featureCount": 52611,
+  "bbox": [
+    -73.30082703,
+    -55.05172729,
+    -53.64107895,
+    -21.6721864
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 52611
+    },
+    "objeto": {
+      "Corriente de agua": 52611
+    },
+    "gna": {
+      "Río": 25525,
+      "Arroyo": 14199,
+      "Estero": 755,
+      "Quebrada": 528,
+      "Riacho": 236,
+      "Cañada": 210,
+      "Estuario": 16,
+      "Brazo": 10,
+      "Puntas": 8,
+      "Rìo": 3,
+      "Chorrillo": 2,
+      "Cañadón": 1
+    },
+    "sag": {
+      "IGN": 50262
+    }
+  }
+}

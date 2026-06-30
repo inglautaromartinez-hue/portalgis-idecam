@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_extraccion_AA052_52f28153",
+  "title": "Yacimiento de hidrocarburo",
+  "typeName": "ign:areas_de_extraccion_AA052",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "ppo",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 872,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.23917121,
+    -53.99883237,
+    -62.00419426,
+    -22.00039377
+  ],
+  "syncedAt": "2026-06-29T21:20:32.159Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_extraccion_AA052_82c7f41c.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_extraccion_AA052_82c7f41c.index.json",
+  "statsFile": "stats/ign_areas_de_extraccion_AA052_82c7f41c.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

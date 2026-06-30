@@ -1,0 +1,78 @@
+{
+  "featureCount": 20965,
+  "bbox": [
+    -73.11321258,
+    -50.694664,
+    -56.9418602,
+    -22.10405372
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "caa",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "caa": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 20965
+    },
+    "objeto": {
+      "Senda Rural": 20216,
+      "Senda rural": 749
+    },
+    "caa": {
+      "0": 1,
+      "17": 3110,
+      "-1": 528,
+      "-2": 39
+    },
+    "fdc": {
+      "OSM": 10902,
+      "ESRI World Imagery": 5963,
+      "IGN": 2094,
+      "Campo 2010": 631,
+      "IGN01": 440,
+      "Interpretación y Nomenclatura": 379,
+      "IGN01/ESRI World Imagery": 257,
+      "IGN01/OSM": 109,
+      "ESRI World Imagery/IGN01": 41,
+      "Esri-World_Imagery": 36,
+      "Esri World Imagery 2010/IGN01": 23,
+      "Esri World Imagery": 17,
+      "ESRI-World_Imagery 2010": 9,
+      "Esri-World Imagery 2010/IGN01": 8,
+      "IGN01/IGN04": 6,
+      "Esri-World  Imagery 2010/IGN01": 5,
+      "Plancheta Año 1993": 5,
+      "Esri-Word_Imagery": 5,
+      "Esri-World_Imagery 2010/IGN01": 4,
+      "Campaña Año 2010": 4,
+      "Esri World Imagery/IGN01": 3,
+      "Esri-Word_Imagery_2010/IGN01": 3,
+      "IGN02": 3,
+      "Esri-World_Imagery 2010": 2,
+      "Esri WorldImagery2010": 2,
+      "UNIDE/IGN01": 2,
+      "Esri_World_Imagery": 2,
+      "IGN04": 2,
+      "Esri-Word_Imagery_2010": 2,
+      "Esri-Word_Imagery 2010/IGN01": 1,
+      "Esri World_Imagery 2010/IGN01": 1,
+      "World Imagery_2010": 1,
+      "Esri-Word_Imagery/IGN01": 1
+    },
+    "sag": {
+      "IGN": 20965
+    }
+  }
+}

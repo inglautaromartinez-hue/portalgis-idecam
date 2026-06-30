@@ -1,0 +1,36 @@
+{
+  "featureCount": 130,
+  "bbox": [
+    -72.88556285,
+    -54.83952496,
+    -53.46632949,
+    -22.72203541
+  ],
+  "fields": [
+    "fid",
+    "gid",
+    "fun",
+    "cer",
+    "ai1",
+    "sag"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "gid": "number",
+    "fun": "number",
+    "cer": "string",
+    "ai1": "number",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "fun": {
+      "6": 130
+    },
+    "ai1": {
+      "-1": 130
+    },
+    "sag": {
+      "IGN": 130
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_transporte_ferroviario_AN010_b4c1d0d0",
+  "title": "Ferrocarril",
+  "typeName": "ign:lineas_de_transporte_ferroviario_AN010",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "rgc",
+    "ltn",
+    "loc",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1092,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.3043002,
+    -54.83605798,
+    -54.44447066,
+    -22.0479858
+  ],
+  "syncedAt": "2026-06-29T21:10:43.387Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_transporte_ferroviario_AN010_f195750b.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_transporte_ferroviario_AN010_f195750b.index.json",
+  "statsFile": "stats/ign_lineas_de_transporte_ferroviario_AN010_f195750b.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

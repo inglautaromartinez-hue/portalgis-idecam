@@ -1,0 +1,41 @@
+{
+  "featureCount": 3073,
+  "bbox": [
+    -72.89420953,
+    -54.83116998,
+    -53.64957757,
+    -22.0646262
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 3073
+    },
+    "objeto": {
+      "Instalación deportiva y de esparcimiento": 3035,
+      "Instalación Deportiva y de Esparcimiento": 38
+    },
+    "sag": {
+      "IGN": 3072
+    }
+  }
+}

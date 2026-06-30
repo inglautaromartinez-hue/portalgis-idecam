@@ -1,0 +1,18 @@
+{
+  "featureCount": 143,
+  "bbox": [
+    -68.254256,
+    -37.57079622,
+    -60.93766667,
+    -25.65558333
+  ],
+  "fields": [
+    "gid",
+    "nombre"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "nombre": "string"
+  },
+  "categoricalCounts": {}
+}

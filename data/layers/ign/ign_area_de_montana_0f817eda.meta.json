@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_area_de_montana_12d0d85a",
+  "title": "Área de montaña",
+  "typeName": "ign:area_de_montana",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "cam",
+    "provincia"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 72,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.56630282,
+    -55.04143456,
+    -53.63802106,
+    -21.78085676
+  ],
+  "syncedAt": "2026-06-29T21:40:39.240Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 90.7 MB."
+  ],
+  "files": [
+    "layers/ign/ign_area_de_montana_0f817eda.part-0001.geojson.gz",
+    "layers/ign/ign_area_de_montana_0f817eda.part-0002.geojson.gz",
+    "layers/ign/ign_area_de_montana_0f817eda.part-0003.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_area_de_montana_0f817eda.index.json",
+  "statsFile": "stats/ign_area_de_montana_0f817eda.stats.json",
+  "wfsAvailable": true
+}

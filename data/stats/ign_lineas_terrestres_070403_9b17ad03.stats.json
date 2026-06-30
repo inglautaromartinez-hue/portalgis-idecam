@@ -1,0 +1,35 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -179.99997283,
+    0.00000659,
+    179.99967355,
+    0.00000912
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "7": 1
+    },
+    "entidad": {
+      "2": 1
+    },
+    "objeto": {
+      "Ecuador": 1
+    },
+    "sag": {
+      "IGN": 1
+    }
+  }
+}

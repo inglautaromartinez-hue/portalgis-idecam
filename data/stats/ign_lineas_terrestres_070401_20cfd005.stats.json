@@ -1,0 +1,42 @@
+{
+  "featureCount": 2,
+  "bbox": [
+    -179.99998932,
+    -66.54992609,
+    179.9999962,
+    66.54998524
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "tcp",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "tcp": "number",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "6": 1,
+      "8": 1
+    },
+    "entidad": {
+      "0": 2
+    },
+    "objeto": {
+      "Círculo polar": 2
+    },
+    "tcp": {
+      "1": 1,
+      "2": 1
+    },
+    "sag": {
+      "IGN": 2
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_asentamientos_y_edificios_ruina_d92e5e59",
+  "title": "Ruinas",
+  "typeName": "ign:puntos_de_asentamientos_y_edificios_ruina",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 62,
+  "geometryType": "Point",
+  "bbox": [
+    -70.05891328,
+    -51.562736,
+    -55.34450452,
+    -22.20830775
+  ],
+  "syncedAt": "2026-06-29T21:19:50.466Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_asentamientos_y_edificios_ruina_09b0511e.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_asentamientos_y_edificios_ruina_09b0511e.index.json",
+  "statsFile": "stats/ign_puntos_de_asentamientos_y_edificios_ruina_09b0511e.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

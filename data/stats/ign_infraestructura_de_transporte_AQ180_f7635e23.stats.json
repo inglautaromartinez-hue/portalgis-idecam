@@ -1,0 +1,148 @@
+{
+  "featureCount": 44,
+  "bbox": [
+    -69.76218577,
+    -39.03702726,
+    -55.3398819,
+    -24.32856883
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "feo",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "feo": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "12012": 1,
+      "12013": 1,
+      "12014": 1,
+      "12015": 1,
+      "12016": 1,
+      "12017": 1,
+      "12018": 1,
+      "12019": 1,
+      "12020": 1,
+      "12021": 1,
+      "12022": 1,
+      "12023": 1,
+      "12024": 1,
+      "12025": 1,
+      "12026": 1,
+      "12027": 1,
+      "12028": 1,
+      "12029": 1,
+      "12030": 1,
+      "12031": 1,
+      "12032": 1,
+      "12033": 1,
+      "12034": 1,
+      "12844": 1,
+      "12845": 1,
+      "12846": 1,
+      "12847": 1,
+      "13446": 1,
+      "13449": 1,
+      "13452": 1,
+      "13456": 1,
+      "13461": 1,
+      "13854": 1,
+      "13856": 1,
+      "13883": 1,
+      "13884": 1,
+      "13886": 1,
+      "13887": 1,
+      "17200": 1,
+      "17967": 1,
+      "17968": 1,
+      "17969": 1,
+      "18047": 1,
+      "18050": 1
+    },
+    "entidad": {
+      "2": 44
+    },
+    "objeto": {
+      "Estación de pesaje": 44
+    },
+    "feo": {
+      "-1": 44
+    },
+    "fdc": {
+      "Interpretación y Nomenclatura": 19,
+      "IGN/Open Street Map": 5,
+      "Street View": 5,
+      "Campo 2010": 2,
+      "IGN/Vialandes7": 2,
+      "Campaña Año 2010": 1,
+      "IGN01 / IGN04": 1,
+      "IGN/Vialnades7": 1,
+      "IGN/Corredor de Integración Pampeana": 1,
+      "IGN/Resolución Pcial. 312/2019": 1,
+      "IDE Catamarca": 1,
+      "Street VIew": 1,
+      "OSM/Street View": 1,
+      "IGN01": 1,
+      "Vialidad Nacional/Street View": 1,
+      "IGN01/Street View": 1
+    },
+    "sag": {
+      "IGN": 44
+    },
+    "fna": {
+      "Privada": 9,
+      "Balanza Junín": 1,
+      "Balanza Vicuña Makenna": 1,
+      "Balanza La Paz": 1,
+      "Balanza Peaje Junín": 1,
+      "Balanza La Justa": 1,
+      "Balanza Pública": 1,
+      "Balanza Pública Sol de Mayo": 1,
+      "Báscula Pública": 1,
+      "Balanza La Gringa": 1,
+      "Estación de Peaje Túnel de Cacheuta": 1,
+      "Balanza Fija Vialidad Nacional": 1,
+      "Control de Peso y Dimensiones Los Araditos": 1,
+      "Puesto Colastiné": 1
+    },
+    "gna": {
+      "Privada": 9,
+      "Balanza": 6,
+      "Balanza Pública": 2,
+      "Báscula Pública": 1,
+      "Estación de Peaje": 1,
+      "Balanza Fija": 1,
+      "Control de Peso y Dimensiones": 1,
+      "Puesto": 1
+    },
+    "nam": {
+      "Junín": 1,
+      "Vicuña Makenna": 1,
+      "La Paz": 1,
+      "Peaje Junín": 1,
+      "La Justa": 1,
+      "Sol de Mayo": 1,
+      "La Gringa": 1,
+      "Túnel de Cacheuta": 1,
+      "Vialidad Nacional": 1,
+      "Los Araditos": 1,
+      "Colastiné": 1
+    }
+  }
+}

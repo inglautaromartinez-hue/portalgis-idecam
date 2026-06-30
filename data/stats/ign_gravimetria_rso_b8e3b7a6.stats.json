@@ -1,0 +1,36 @@
+{
+  "featureCount": 14896,
+  "bbox": [
+    -72.957298,
+    -54.80761875,
+    -53.65483333,
+    -22.09662765
+  ],
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota",
+    "tipo_gravedad_oficial"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "nomenclatura": "string",
+    "red": "string",
+    "latitud": "string",
+    "longitud": "string",
+    "cota": "number",
+    "tipo_gravedad_oficial": "string"
+  },
+  "categoricalCounts": {
+    "red": {
+      "RSO": 14896
+    },
+    "tipo_gravedad_oficial": {
+      "Convertido": 10981,
+      "Medido": 1628
+    }
+  }
+}

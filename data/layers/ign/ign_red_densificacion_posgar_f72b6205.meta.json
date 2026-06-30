@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_red_densificacion_posgar_a1cf0b4c",
+  "title": "Red geodésica Densificación POSGAR07",
+  "typeName": "ign:red_densificacion_posgar",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "altura_elip",
+    "estado",
+    "ultima_visita"
+  ],
+  "group": "ign",
+  "featureCount": 2637,
+  "geometryType": "Point",
+  "bbox": [
+    -73.13237832,
+    -53.9940659,
+    -54.21671445,
+    -22.09662765
+  ],
+  "syncedAt": "2026-06-29T21:17:44.465Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_red_densificacion_posgar_f72b6205.geojson"
+  ],
+  "indexFile": "indexes/ign_red_densificacion_posgar_f72b6205.index.json",
+  "statsFile": "stats/ign_red_densificacion_posgar_f72b6205.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_equipamiento_AH030_266a65bf",
+  "title": "Refugio",
+  "typeName": "ign:puntos_de_equipamiento_AH030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 136,
+  "geometryType": "Point",
+  "bbox": [
+    -73.30233765,
+    -54.79912676,
+    -64.78919724,
+    -21.90689829
+  ],
+  "syncedAt": "2026-06-29T21:19:50.021Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_equipamiento_AH030_212d8df6.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_equipamiento_AH030_212d8df6.index.json",
+  "statsFile": "stats/ign_puntos_de_equipamiento_AH030_212d8df6.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

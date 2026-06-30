@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_asentamientos_y_edificios_020102_282b9616",
+  "title": "Edificio de comunicaciones",
+  "typeName": "ign:puntos_de_asentamientos_y_edificios_020102",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tc1",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1395,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88538643,
+    -54.80568208,
+    -53.64783676,
+    -22.0518954
+  ],
+  "syncedAt": "2026-06-29T21:10:03.385Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_asentamientos_y_edificios_020102_567e5392.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_asentamientos_y_edificios_020102_567e5392.index.json",
+  "statsFile": "stats/ign_puntos_de_asentamientos_y_edificios_020102_567e5392.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

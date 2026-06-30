@@ -1,0 +1,41 @@
+{
+  "featureCount": 2385,
+  "bbox": [
+    -70.36398089,
+    -37.38235819,
+    -66.50041932,
+    -32.09573477
+  ],
+  "fields": [
+    "fid_1",
+    "id",
+    "fid",
+    "nom_puesto",
+    "dpto"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "id": "number",
+    "fid": "number",
+    "nom_puesto": "string",
+    "dpto": "string"
+  },
+  "categoricalCounts": {
+    "dpto": {
+      "MALARGUE": 652,
+      "SAN RAFAEL": 454,
+      "LAVALLE": 411,
+      "GRAL. ALVEAR": 194,
+      "LA PAZ": 164,
+      "SANTA ROSA": 156,
+      "SAN CARLOS": 121,
+      "LUJAN": 53,
+      "LAS HERAS": 45,
+      "TUPUNGATO": 42,
+      "TUNUYAN": 39,
+      "CAPITAL": 21,
+      "RIVADAVIA": 20,
+      "GODOY CRUZ": 13
+    }
+  }
+}

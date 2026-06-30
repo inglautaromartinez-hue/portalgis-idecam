@@ -1,0 +1,63 @@
+{
+  "featureCount": 974,
+  "bbox": [
+    -67.95416667,
+    -39.11273369,
+    -57.75,
+    -23.50269717
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 974
+    },
+    "objeto": {
+      "Monte": 974
+    },
+    "fdc": {
+      "Proyectos Especiales": 574,
+      "Esri World Imagery 2010": 126,
+      "Gabinete": 81,
+      "Gabinete Tig Sig": 51,
+      "Esri-World_Imagery 2010": 36,
+      "Tig Sig Gabinete": 20,
+      "-": 17,
+      "Esri-World_Imagery": 9,
+      "Esri-World_Imagery 2010-2002-2001": 8,
+      "IGN03": 4,
+      "IGN": 4,
+      "Esri-World_Imagery 2001-2002-2006-2010": 2
+    },
+    "sag": {
+      "IGN": 972
+    },
+    "fna": {
+      "-2": 9
+    },
+    "gna": {
+      "-2": 9
+    },
+    "nam": {
+      "-2": 9
+    }
+  }
+}

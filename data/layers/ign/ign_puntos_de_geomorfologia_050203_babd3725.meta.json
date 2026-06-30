@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_geomorfologia_050203_e8eaa90e",
+  "title": "Mogote",
+  "typeName": "ign:puntos_de_geomorfologia_050203",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 66,
+  "geometryType": "Point",
+  "bbox": [
+    -71.28900413,
+    -54.27533906,
+    -56.1257782,
+    -22.95555089
+  ],
+  "syncedAt": "2026-06-29T21:15:52.919Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_geomorfologia_050203_babd3725.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_geomorfologia_050203_babd3725.index.json",
+  "statsFile": "stats/ign_puntos_de_geomorfologia_050203_babd3725.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

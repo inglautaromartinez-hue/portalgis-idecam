@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_hitos_internacionales_4a9f450c",
+  "title": "Hitos internacionales",
+  "typeName": "ign:hitos_internacionales",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "pais",
+    "nombre",
+    "seccion",
+    "codigo"
+  ],
+  "group": "ign",
+  "featureCount": 1678,
+  "geometryType": "Point",
+  "bbox": [
+    -73.13237833,
+    -54.89279167,
+    -53.63736944,
+    -21.78402778
+  ],
+  "syncedAt": "2026-06-29T21:11:01.768Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_hitos_internacionales_350e1f56.geojson"
+  ],
+  "indexFile": "indexes/ign_hitos_internacionales_350e1f56.index.json",
+  "statsFile": "stats/ign_hitos_internacionales_350e1f56.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

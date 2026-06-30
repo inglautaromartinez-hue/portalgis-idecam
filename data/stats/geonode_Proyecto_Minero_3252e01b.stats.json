@@ -1,0 +1,70 @@
+{
+  "featureCount": 4,
+  "bbox": [
+    -69.4848,
+    -36.985,
+    -68.37,
+    -32.24
+  ],
+  "fields": [
+    "fid",
+    "NOMBRE",
+    "EMPRESA",
+    "ESTADO",
+    "MINERAL_PR",
+    "LATITUD",
+    "LONGITUD"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "NOMBRE": "string",
+    "EMPRESA": "string",
+    "ESTADO": "string",
+    "MINERAL_PR": "string",
+    "LATITUD": "number",
+    "LONGITUD": "number"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "NOMBRE": {
+      "POTASIO RIO COLORADO": 1,
+      "SAN JORGE": 1,
+      "DON SIXTO": 1,
+      "SIERRA PINTADA": 1
+    },
+    "EMPRESA": {
+      "POTASIO RIO COLORADO SA": 1,
+      "MINERA SAN JORGE SA": 1,
+      "COGNITO LIMITED  SUCURSAL ARGENTINA": 1,
+      "CNEA": 1
+    },
+    "ESTADO": {
+      "EXPLORACION AVANZADA": 2,
+      "FACTIBILIDAD": 1,
+      "PREFACTIBILIDAD": 1
+    },
+    "MINERAL_PR": {
+      "POTASIO": 1,
+      "COBRE": 1,
+      "ORO": 1,
+      "URANIO": 1
+    },
+    "LATITUD": {
+      "-36.985": 1,
+      "-32.24": 1,
+      "-36.26": 1,
+      "-34.66": 1
+    },
+    "LONGITUD": {
+      "-69.4848": 1,
+      "-69.44": 1,
+      "-68.37": 1,
+      "-68.6": 1
+    }
+  }
+}

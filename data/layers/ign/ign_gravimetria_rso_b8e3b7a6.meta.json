@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_gravimetria_rso_d8421edf",
+  "title": "Red gravimétrica de Segundo Orden",
+  "typeName": "ign:gravimetria_rso",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota",
+    "tipo_gravedad_oficial"
+  ],
+  "group": "ign",
+  "featureCount": 14896,
+  "geometryType": "Point",
+  "bbox": [
+    -72.957298,
+    -54.80761875,
+    -53.65483333,
+    -22.09662765
+  ],
+  "syncedAt": "2026-06-29T21:17:48.465Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_gravimetria_rso_b8e3b7a6.geojson"
+  ],
+  "indexFile": "indexes/ign_gravimetria_rso_b8e3b7a6.index.json",
+  "statsFile": "stats/ign_gravimetria_rso_b8e3b7a6.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

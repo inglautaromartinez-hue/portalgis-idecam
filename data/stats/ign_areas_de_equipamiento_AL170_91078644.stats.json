@@ -1,0 +1,94 @@
+{
+  "featureCount": 13101,
+  "bbox": [
+    -72.8865174,
+    -54.82684816,
+    -53.6463243,
+    -22.0510302
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 13101
+    },
+    "objeto": {
+      "Espacio Verde": 13101
+    },
+    "gna": {
+      "Plaza": 3378,
+      "Plazoleta": 1121,
+      "Parque": 402,
+      "Paseo": 102,
+      "Plaza Principal": 87,
+      "Parque Municipal": 21,
+      "Jardín": 10,
+      "<Nulo>": 10,
+      "Parque Urbano": 10,
+      "Reserva Natural Urbana": 9,
+      "Parque Recreativo": 8,
+      "Parque Infantil": 7,
+      "Espacio Verde": 4,
+      "Parque Nacional": 3,
+      "Bosque": 3,
+      "Parque Público": 3,
+      "Plazoletas": 3,
+      "Parque Provincial": 2,
+      "Cuesta": 2,
+      "Paseo Recreativo": 2,
+      "Parquecito": 2,
+      "Parque Regional": 2,
+      "Parque Natural": 2,
+      "Solar": 2,
+      "Parque de la Ciudad": 2,
+      "Parque Lacunario": 2,
+      "Jardines": 2,
+      "Paso": 1,
+      "Zoológico": 1,
+      "Pulmón Ecológico": 1,
+      "Paseo Municipal": 1,
+      "Playón Deportivo": 1,
+      "Parque Regional Municipal": 1,
+      "Paque": 1,
+      "Quinta": 1,
+      "Parque Paleontológico": 1,
+      "Espacio Recreativo": 1,
+      "Patio": 1,
+      "Parque Temático, Cultural y Religioso": 1,
+      "Parque Recreativo y Municipal": 1,
+      "Parque Natural Municipal": 1,
+      "Parque Histórico Natural": 1,
+      "Pista": 1,
+      "Parque Temático Eólico": 1,
+      "Parque Temático Religioso": 1,
+      "Parque de Flora Nativa": 1,
+      "Parques": 1,
+      "Plaza Central": 1,
+      "Plaza Estación": 1,
+      "Vivero Municipal": 1,
+      "Parque Deportivo": 1,
+      "Jardín Botánico": 1
+    },
+    "sag": {
+      "IGN": 13100
+    }
+  }
+}

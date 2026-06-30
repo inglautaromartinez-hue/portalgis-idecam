@@ -1,0 +1,43 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_departamento_69f9a057",
+  "title": "Departamento",
+  "typeName": "ign:departamento",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "in1",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 529,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -74,
+    -90.00000001,
+    -25,
+    -21.78085676
+  ],
+  "syncedAt": "2026-06-29T21:24:55.598Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 133.4 MB."
+  ],
+  "files": [
+    "layers/ign/ign_departamento_8e0bffac.part-0001.geojson.gz",
+    "layers/ign/ign_departamento_8e0bffac.part-0002.geojson.gz",
+    "layers/ign/ign_departamento_8e0bffac.part-0003.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_departamento_8e0bffac.index.json",
+  "statsFile": "stats/ign_departamento_8e0bffac.stats.json",
+  "wfsAvailable": true
+}

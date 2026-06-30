@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_linea_de_limite_070114_1ce36e51",
+  "title": "Límite de área protegida",
+  "typeName": "ign:linea_de_limite_070114",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 3751,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.29837851,
+    -58.3880758,
+    -53.72456759,
+    -21.81487826
+  ],
+  "syncedAt": "2026-06-29T21:12:17.823Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_linea_de_limite_070114_c915319e.geojson"
+  ],
+  "indexFile": "indexes/ign_linea_de_limite_070114_c915319e.index.json",
+  "statsFile": "stats/ign_linea_de_limite_070114_c915319e.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

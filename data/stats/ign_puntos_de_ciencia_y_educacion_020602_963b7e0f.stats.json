@@ -1,0 +1,87 @@
+{
+  "featureCount": 1132,
+  "bbox": [
+    -72.341797,
+    -54.832135,
+    -53.736202,
+    -22.104758
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 1132
+    },
+    "gna": {
+      "Universidad": 566,
+      "Universidad Nacional": 326,
+      "Universidad Católica": 115,
+      "Universidad Tecnológica Nacional": 29,
+      "Universidad Autónoma": 23,
+      "Universidad Provincial": 17,
+      "Instituto Universitario": 16,
+      "Instituto de Formación Docente": 7,
+      "Instituto Tecnológico": 3,
+      "Instituto": 3,
+      "Centro de Educación Física": 3,
+      "Instituto Superior": 2,
+      "Escuela Superior": 2,
+      "Universidad Popular": 1,
+      "Jardín de Infantes": 1,
+      "Estación Experimental Agropecuaria": 1,
+      "Centro de Estudios Terciarios": 1,
+      "Centro de Estudios": 1,
+      "Escuela Superior de Bellas Artes": 1,
+      "Escuela Superior de Policía": 1,
+      "Instituto Provincial de Educación Terciaria": 1,
+      "Instituto de Formación Docente Continua": 1,
+      "Instituto Superior de Formación Docente": 1,
+      "Centro de Estudios Superiores": 1
+    },
+    "fdc": {
+      "Ministerio del Interior": 947,
+      "IDE Buenos Aires": 103,
+      "Esri-world_imagery-2010/IGN04/Ministerio de Educación Pcial.": 22,
+      "IGN04/Mapa Educativo": 9,
+      "IGN04/UNCo": 8,
+      "IGN01": 7,
+      "Interpretación y Nomenclatura": 6,
+      "IGN04/Ministerio de Educación de la Nación": 4,
+      "IGN04/Sitio Web de la Institución": 4,
+      "IDE Buenos Aires/Ministerio del Interior": 3,
+      "Mapa Educativo Nacional": 3,
+      "IGN04/UM": 2,
+      "IGN04/Universidad Siglo 21": 2,
+      "IGN04/IGN Dirección de Geografía": 2,
+      "INTA": 1,
+      "IGN01/IGN04/Sitio Web de la Institución": 1,
+      "ESRI-World_Imagery 2010/Ministerio del Interior": 1,
+      "ESRI-World_Imagery 2010/Sitio web de la institución": 1,
+      "IGN04/UCASAL": 1,
+      "IGN04/UFLO": 1,
+      "Ministerio del Interior/Open Street View": 1,
+      "IGN04/Open Street View": 1,
+      "IGN04/Policía Pcial.": 1,
+      "IGN01/Ministerio de Educación": 1
+    },
+    "sag": {
+      "IGN": 1132
+    }
+  }
+}

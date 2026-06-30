@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_estructura_asociada_AJ080_5854fe1b",
+  "title": "Galpón, tinglado",
+  "typeName": "ign:puntos_de_estructura_asociada_AJ080",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 7908,
+  "geometryType": "Point",
+  "bbox": [
+    -71.5650783,
+    -54.82857921,
+    -57.13957408,
+    -21.85575063
+  ],
+  "syncedAt": "2026-06-29T21:10:44.644Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_estructura_asociada_AJ080_b1d4414f.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_estructura_asociada_AJ080_b1d4414f.index.json",
+  "statsFile": "stats/ign_puntos_de_estructura_asociada_AJ080_b1d4414f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

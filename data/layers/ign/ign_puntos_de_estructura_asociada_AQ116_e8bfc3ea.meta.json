@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_estructura_asociada_AQ116_974277ad",
+  "title": "Planta de bombeo de agua",
+  "typeName": "ign:puntos_de_estructura_asociada_AQ116",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 39,
+  "geometryType": "Point",
+  "bbox": [
+    -70.08256719,
+    -38.92137941,
+    -57.84672435,
+    -23.5391807
+  ],
+  "syncedAt": "2026-06-29T21:16:48.012Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_estructura_asociada_AQ116_e8bfc3ea.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_estructura_asociada_AQ116_e8bfc3ea.index.json",
+  "statsFile": "stats/ign_puntos_de_estructura_asociada_AQ116_e8bfc3ea.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

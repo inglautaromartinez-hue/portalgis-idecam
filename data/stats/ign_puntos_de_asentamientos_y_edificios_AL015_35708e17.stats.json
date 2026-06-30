@@ -1,0 +1,40 @@
+{
+  "featureCount": 183509,
+  "bbox": [
+    -73.31760406,
+    -55.04592908,
+    -53.7528305,
+    -21.82803685
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "7": 183509
+    },
+    "objeto": {
+      "Edificación": 183509
+    },
+    "sag": {
+      "IGN": 183499
+    }
+  }
+}

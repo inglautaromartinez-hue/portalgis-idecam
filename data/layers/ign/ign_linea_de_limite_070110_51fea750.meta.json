@@ -1,0 +1,41 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_linea_de_limite_070110_39c97faa",
+  "title": "Límite interdepartamental o de partido",
+  "typeName": "ign:linea_de_limite_070110",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "vlp",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 2582,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -74.00008996,
+    -83.467653,
+    -25,
+    -21.99933346
+  ],
+  "syncedAt": "2026-06-29T21:26:23.764Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 96.0 MB."
+  ],
+  "files": [
+    "layers/ign/ign_linea_de_limite_070110_51fea750.part-0001.geojson.gz",
+    "layers/ign/ign_linea_de_limite_070110_51fea750.part-0002.geojson.gz",
+    "layers/ign/ign_linea_de_limite_070110_51fea750.part-0003.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_linea_de_limite_070110_51fea750.index.json",
+  "statsFile": "stats/ign_linea_de_limite_070110_51fea750.stats.json",
+  "wfsAvailable": true
+}

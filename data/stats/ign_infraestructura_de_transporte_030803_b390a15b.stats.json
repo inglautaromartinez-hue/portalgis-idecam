@@ -1,0 +1,64 @@
+{
+  "featureCount": 2202,
+  "bbox": [
+    -71.91899187,
+    -41.03964865,
+    -58.00571459,
+    -22.08986945
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "feo",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "feo": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "5": 2202
+    },
+    "objeto": {
+      "Indicador de kilómetros": 2202
+    },
+    "gna": {
+      "Km": 2172,
+      "KM": 1
+    },
+    "feo": {
+      "-1": 2202
+    },
+    "fdc": {
+      "Vialidad Nacional": 1096,
+      "IGN01": 584,
+      "Interpretación y Nomenclatura": 115,
+      "IGN01/IGN04": 114,
+      "Gabinete TIG SIG": 60,
+      "Provincia de Tucumán": 54,
+      "Esri- Word_Imagery 2010": 52,
+      "IGN03": 42,
+      "Gabinete TIG-SIG": 25,
+      "Gabinete Tig Sig": 21,
+      "DRH": 18,
+      "IGN01 / IGN04": 13,
+      "TIG SIG Gabinete": 8
+    },
+    "sag": {
+      "IGN": 2202
+    }
+  }
+}

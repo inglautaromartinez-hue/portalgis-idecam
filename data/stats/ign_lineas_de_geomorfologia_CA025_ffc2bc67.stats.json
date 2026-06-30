@@ -1,0 +1,73 @@
+{
+  "featureCount": 167,
+  "bbox": [
+    -71.84431991,
+    -54.71438692,
+    -57.87741283,
+    -24.76063919
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "8": 167
+    },
+    "objeto": {
+      "Valle": 167
+    },
+    "gna": {
+      "Valle": 156,
+      "Valles": 5,
+      "Alto Valle": 3,
+      "Bolsón": 2,
+      "Río": 1
+    },
+    "fdc": {
+      "Fuente externa": 84,
+      "Actualización 2016 Atlas 500K": 28,
+      "World Imagery/IGN Mapa provincial de San Juan": 9,
+      "ctualización 2016 Atlas 500K": 3,
+      "Esri-Word_Imagery_2010/IGN04/CONALI": 2,
+      "IGN04/IGN 3772-35 2001": 2,
+      "World Imagery/IGN 3169-13 1984": 1,
+      "IGN04/IGN 3169-21 1983": 1,
+      "IGN04/IGN 3169-22 1985": 1,
+      "IGN04/IGN 3169-24 1989": 1,
+      "IGN04/IGN 3169-18 1989": 1,
+      "IGN04/IGN 3169-09 1984": 1,
+      "IGN04/IGN 3369-03-3 1949": 1,
+      "World Imagery/IGN 3169-5 1985": 1,
+      "World Imagery/IGN 3169-06 1990": 1,
+      "World Imagery/IGN 2969-35 1982": 1,
+      "IGN04/IGN Mapa Pcial.": 1,
+      "IGN04/IGN 3772-30 2001": 1,
+      "Esri-World_Imagery_2010/IGN 4172-10-4": 1,
+      "Esri-Word_Imagery_2010/IGN04/IGN 3972-35 1947": 1,
+      "Esri-Word_Imagery_2010/IGN04/IGN 3972-29-3/3972-29-4": 1,
+      "Esri-World Imagery/IGN04/IGN Mapa Pcial.": 1,
+      "Esri-Word_Imagery/IGN Mapa provincial de Río Negro": 1,
+      "Carta IGN 250.000": 1
+    },
+    "sag": {
+      "IGN": 167
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "featureCount": 3323,
+  "bbox": [
+    -73.56658935,
+    -69.06587244,
+    -26.21516716,
+    -21.79494613
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 3323
+    },
+    "objeto": {
+      "Arenal": 3323
+    },
+    "sag": {
+      "IGN": 3323
+    }
+  }
+}

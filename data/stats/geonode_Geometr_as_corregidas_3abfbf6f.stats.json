@@ -1,0 +1,37 @@
+{
+  "featureCount": 82765,
+  "bbox": [
+    -70.1513877,
+    -36.81405146,
+    -67.64878532,
+    -32.12122557
+  ],
+  "fields": [
+    "fid",
+    "LAYER",
+    "MAP_NAME",
+    "TENSION"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "LAYER": "string",
+    "MAP_NAME": "string",
+    "TENSION": "string"
+  },
+  "categoricalCounts": {
+    "LAYER": {
+      "Unknown Line Type": 82765
+    },
+    "MAP_NAME": {
+      "-mendoza-media-tensin-lneas-shp.shp": 82765
+    },
+    "TENSION": {
+      "33": 1978,
+      "66": 2928,
+      "132": 1509,
+      "13.2": 76255,
+      "7.2": 94,
+      "6.6": 1
+    }
+  }
+}

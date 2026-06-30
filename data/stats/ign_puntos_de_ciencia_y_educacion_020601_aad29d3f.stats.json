@@ -1,0 +1,35 @@
+{
+  "featureCount": 51141,
+  "bbox": [
+    -72.8872265,
+    -63.39772427,
+    -53.6384,
+    -21.87641106
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 51141
+    },
+    "sag": {
+      "IGN": 51141
+    }
+  }
+}

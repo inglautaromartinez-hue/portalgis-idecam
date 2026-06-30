@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_mareas_y_corrientes_BG020_e4cfa56b",
+  "title": "Mareógrafo",
+  "typeName": "ign:mareas_y_corrientes_BG020",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 21,
+  "geometryType": "Point",
+  "bbox": [
+    -68.28915286,
+    -54.80496427,
+    -56.68601561,
+    -31.71936317
+  ],
+  "syncedAt": "2026-06-29T21:15:33.887Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_mareas_y_corrientes_BG020_8e482957.geojson"
+  ],
+  "indexFile": "indexes/ign_mareas_y_corrientes_BG020_8e482957.index.json",
+  "statsFile": "stats/ign_mareas_y_corrientes_BG020_8e482957.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

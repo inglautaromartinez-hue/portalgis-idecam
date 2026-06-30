@@ -1,0 +1,52 @@
+{
+  "featureCount": 21524,
+  "bbox": [
+    -73.45678711,
+    -64.04753688,
+    -55.58519745,
+    -21.99701381
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 21524
+    },
+    "objeto": {
+      "Espejo de agua perenne": 21524
+    },
+    "sag": {
+      "IGN": 21510
+    },
+    "gna": {
+      "Laguna": 2720,
+      "Lago": 280,
+      "Lagunas": 126,
+      "LAGUNA": 10,
+      "Lagos": 4,
+      "Cañada": 4,
+      "Embalse": 3,
+      "EMBALSE": 1,
+      "Angostura": 1,
+      "Brazo": 1,
+      "Contra Embalse": 1,
+      "Guadal": 1
+    }
+  }
+}

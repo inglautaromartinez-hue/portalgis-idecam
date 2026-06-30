@@ -1,0 +1,74 @@
+{
+  "featureCount": 77287,
+  "bbox": [
+    -73.45863342,
+    -52.4336608,
+    -53.65565872,
+    -21.7827161
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "alt",
+    "pdt",
+    "mo1",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "alt": "number",
+    "pdt": "number",
+    "mo1": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "5": 77287
+    },
+    "objeto": {
+      "Punto acotado": 72503,
+      "Punto Acotado": 4784
+    },
+    "pdt": {
+      "0": 15,
+      "1": 25507,
+      "2": 462,
+      "3": 39,
+      "-1": 51254,
+      "-2": 10
+    },
+    "mo1": {
+      "0": 16,
+      "1": 8,
+      "2": 3,
+      "3": 26217,
+      "-1": 51041,
+      "-2": 2
+    },
+    "fdc": {
+      "coordenada restitucion / altura MDE-Ar v2.0": 17645,
+      "Apoyo Topográfico": 14982,
+      "coordenada restitucion / altura restitucion": 14347,
+      "coordenadas SIG 250 / altura MDE-Ar v2.0": 13644,
+      "Apoyo topográfico": 6528,
+      "coordenadas captura 2D / altura MDE-Ar v2.0": 4648,
+      "GEODESIA": 117,
+      "CONTROL": 9,
+      "MDE-Ar": 8,
+      "coordenadas captura 2D / altura MDE-Ar v1.0": 7,
+      "Bicontinental versión 2024": 4,
+      "Esri-Word_Imagery": 2,
+      "IGN04/CONTROL": 2,
+      "GEODESOA": 1,
+      "Mdar": 1
+    },
+    "sag": {
+      "IGN": 77271
+    }
+  }
+}

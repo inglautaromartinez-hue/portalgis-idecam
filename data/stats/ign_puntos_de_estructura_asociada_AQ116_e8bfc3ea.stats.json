@@ -1,0 +1,117 @@
+{
+  "featureCount": 39,
+  "bbox": [
+    -70.08256719,
+    -38.92137941,
+    -57.84672435,
+    -23.5391807
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fdc": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "11589": 1,
+      "11590": 1,
+      "11591": 1,
+      "15033": 1,
+      "15034": 1,
+      "15035": 1,
+      "15036": 1,
+      "15041": 1,
+      "15042": 1,
+      "15043": 1,
+      "15044": 1,
+      "15045": 1,
+      "15046": 1,
+      "15047": 1,
+      "15048": 1,
+      "15136": 1,
+      "15137": 1,
+      "15138": 1,
+      "15139": 1,
+      "15159": 1,
+      "16325": 1,
+      "16326": 1,
+      "16840": 1,
+      "16843": 1,
+      "16849": 1,
+      "16850": 1,
+      "16851": 1,
+      "16852": 1,
+      "16921": 1,
+      "16922": 1,
+      "16939": 1,
+      "16957": 1,
+      "16958": 1,
+      "16976": 1,
+      "16978": 1,
+      "16989": 1,
+      "16993": 1,
+      "16998": 1,
+      "17058": 1
+    },
+    "entidad": {
+      "2": 39
+    },
+    "objeto": {
+      "Planta de Bombeo de Agua": 39
+    },
+    "sag": {
+      "IGN": 39
+    },
+    "fdc": {
+      "IGN01": 11,
+      "Interpretación y Nomenclatura": 7,
+      "Subsecretaría de Energía, Minería e Hidrocarburos Pcial./IGN04": 4,
+      "IGN01/IGN04": 3,
+      "Esri World Imagery": 2,
+      "IGN Dirección de Geografía/IGN04": 1,
+      "IGN/ Sitio web Energía": 1,
+      "ESRI-World_Imagery 2013/ Sitio web Energía.": 1,
+      "Esri-World_imagery": 1,
+      "IGN01 Otras Edificaciones": 1,
+      "IGN04/Subsecretaría de Energía, Minería e Hidrocarburos Pcial": 1,
+      "IGN04/Secretaría de Energía de la Nación": 1,
+      "Esri-World_Imagery": 1
+    },
+    "fna": {
+      "Planta de Bombeo Puesto Hernández": 1,
+      "Planta de Bombeo Chihuido - Sierra Negra": 1,
+      "Cabecera de Bombeo Puesto Hernández": 1,
+      "Estación de Bombeo Pampa de Tril": 1,
+      "Estación de Bombeo Centenario": 1,
+      "Estación de Bombeo Agua del Carrizo": 1,
+      "<Nulo>": 1
+    },
+    "gna": {
+      "Estación de Bombeo": 3,
+      "Planta de Bombeo": 2,
+      "Cabecera de Bombeo": 1
+    },
+    "nam": {
+      "Puesto Hernández": 2,
+      "Chihuido - Sierra Negra": 1,
+      "Planta de Tril": 1,
+      "Centenario": 1,
+      "Agua del Carrizo": 1
+    }
+  }
+}

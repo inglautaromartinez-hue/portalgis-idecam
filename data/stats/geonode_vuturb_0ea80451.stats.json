@@ -1,0 +1,22 @@
+{
+  "featureCount": 43688,
+  "bbox": [
+    -69.31320651,
+    -33.34164379,
+    -68.73028303,
+    -32.95078559
+  ],
+  "fields": [
+    "fid_1",
+    "fid",
+    "nomenc",
+    "vuth"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "fid": "number",
+    "nomenc": "string",
+    "vuth": "number"
+  },
+  "categoricalCounts": {}
+}

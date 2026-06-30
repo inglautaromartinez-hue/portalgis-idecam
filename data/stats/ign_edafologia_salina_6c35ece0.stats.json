@@ -1,0 +1,46 @@
+{
+  "featureCount": 429,
+  "bbox": [
+    -70.6158205,
+    -49.41676288,
+    -59.49348068,
+    -22.15051101
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "10": 429
+    },
+    "objeto": {
+      "Salina, salar, salitral, boratera": 429
+    },
+    "sag": {
+      "IGN": 429
+    },
+    "gna": {
+      "Salitral": 51,
+      "Salina": 33,
+      "Salar": 32,
+      "Salinas": 21,
+      "Pampa": 1,
+      "Bajo": 1
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "featureCount": 477,
+  "bbox": [
+    -72.08312697,
+    -71.35916333,
+    -37.17772025,
+    -22.10368476
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "alt": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 477
+    },
+    "objeto": {
+      "Meseta": 477
+    },
+    "gna": {
+      "Pampa": 161,
+      "Loma": 59,
+      "Potrero": 45,
+      "Bajo": 31,
+      "Meseta": 27,
+      "Campo": 25,
+      "Lomas": 24,
+      "Alto": 22,
+      "Mesada": 19,
+      "Llanos": 18,
+      "Planicie": 10,
+      "Altos": 7,
+      "Llano": 5,
+      "Mesadas": 2,
+      "Pamapa": 2,
+      "Mesón": 1,
+      "Prado": 1,
+      "Altura": 1,
+      "Riscos": 1,
+      "Mesillas": 1,
+      "Pampita": 1,
+      "La Mesilla": 1,
+      "LLano": 1,
+      "Altiplanicie": 1,
+      "Macizo": 1,
+      "Mogotes": 1,
+      "Lomitas": 1,
+      "Placeta": 1,
+      "Cerro": 1,
+      "Mogote": 1
+    },
+    "alt": {
+      "0": 351,
+      "-2": 126
+    },
+    "sag": {
+      "IGN": 477
+    }
+  }
+}

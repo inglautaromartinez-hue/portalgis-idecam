@@ -1,0 +1,61 @@
+{
+  "featureCount": 178,
+  "bbox": [
+    -72.85882244,
+    -54.94220856,
+    -53.64477592,
+    -22.15375341
+  ],
+  "fields": [
+    "fid",
+    "gid",
+    "nomenclatu",
+    "red",
+    "latitud",
+    "longitud",
+    "altura_eli",
+    "estado",
+    "ultima_vis"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "gid": "number",
+    "nomenclatu": "string",
+    "red": "string",
+    "latitud": "string",
+    "longitud": "string",
+    "altura_eli": "number",
+    "estado": "string",
+    "ultima_vis": "string"
+  },
+  "categoricalCounts": {
+    "red": {
+      "Red POSGAR": 178
+    },
+    "estado": {
+      "Sin Novedad": 173,
+      "Destruido": 2,
+      "Destru�do": 2
+    },
+    "ultima_vis": {
+      "01/12/2013": 2,
+      "01/06/2015": 2,
+      "09/05/2014": 2,
+      "01/08/2012": 2,
+      "01/08/2013": 1,
+      "01/07/2013": 1,
+      "01/07/2016": 1,
+      "01/05/2016": 1,
+      "01/12/2018": 1,
+      "01/04/2014": 1,
+      "01/09/2015": 1,
+      "01/07/2015": 1,
+      "01/03/2019": 1,
+      "10/04/2014": 1,
+      "01/09/2011": 1,
+      "01/05/2015": 1,
+      "25/11/2016": 1,
+      "26/09/2013": 1
+    }
+  }
+}

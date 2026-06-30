@@ -1,0 +1,105 @@
+{
+  "featureCount": 493,
+  "bbox": [
+    -72.23200828,
+    -51.65572323,
+    -54.57793045,
+    -22.09230703
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "sag",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fun": "number",
+    "sag": "string",
+    "fdc": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 493
+    },
+    "objeto": {
+      "Planta Transformadora": 493
+    },
+    "fun": {
+      "6": 466,
+      "-1": 27
+    },
+    "sag": {
+      "IGN": 493
+    },
+    "fdc": {
+      "IGN/Secretaría de Gobierno de Energía": 314,
+      "IGN/Secretaría de Gobierno de Energía/EDENOR": 49,
+      "Secretaría de Energía de la Nación": 34,
+      "IGN/Esri World Imagery": 19,
+      "IGN01/Secretaría de Energía": 8,
+      "IGN/EPEN": 6,
+      "Street View": 4,
+      "IGN01": 4,
+      "IGN/APE": 3,
+      "Ente Provincial Regulador de la Electricidad San Juan": 3,
+      "IGN04/Secretaría de Energía de la Nación/IGN Dirección de Geografía": 3,
+      "IGN04/Secretaría de Gobierno de Energía": 3,
+      "Esri-World Imagery": 3,
+      "IGN/Secretraía de Gobierno de Energía": 2,
+      "IGN/Secretaría de Gobuerno de Energía/EDENOR": 2,
+      "IGN01/Street View": 2,
+      "Street View/IGN01": 2,
+      "IGN04/IGN Direccion de Geografía": 2,
+      "IGN01/IGN04/IGN Dirección de Geografía": 2,
+      "Esri World Imagery/IGN01/IGN04/Secretaría de Gobierno de Energía/IGN Dirección de Geografía": 2,
+      "IGN//Portal del Gobierno de Salta": 1,
+      "IGN/CFEE": 1,
+      "IGN/Secrertaría de Gobierno de Ebergía/EDENOR": 1,
+      "IGN/Secretaría de Gobierno de Energía/EDESA": 1,
+      "Secretaría de Energía": 1,
+      "IGN01/Ente Provincial Regulador de la Electricidad San Juan-EPRE": 1,
+      "Energia Provincial Sociedad del Estado - EPSE": 1,
+      "IGN04/IGN Dirección de Geografía": 1,
+      "IGN01/IGN04/Secretaría de Energía/IGN Dirección de Geografía": 1,
+      "IGN/Esri World Imagery/IGN01/Dir. Geografía IGN": 1,
+      "IGN04/Secretaría de Energía de la Nación": 1,
+      "IGN/Sitio wev del EPEN": 1,
+      "Secretaría de Gobierno de Energía": 1,
+      "Esri World Imagery/IGN01/IGN04/Secretaría de Energía de la Nación": 1,
+      "Esri World Imagery/IGN04/Secretaría de Energía de la Nación/IGN Dirección de Geografía": 1,
+      "Esri World Imagery/IGN04/IGN Dirección de Geografía": 1,
+      "Esri World Imagery/ IGN04/dir.Geografía": 1,
+      "IGN04/EPEN": 1,
+      "Esri World Imagery/Open Street View": 1,
+      "Esri World Imagery/IGN01/IGN Dirección de Geografía": 1,
+      "IGN/Secretaría de Energía de la Nación/IGN Dirección de Geografía": 1,
+      "IGN/Secretaría de Gobierno de Energía/Street View": 1,
+      "Esri-Word imagery/IGN01": 1,
+      "IGN Dirección de Geografía/IGN04/Secretaría de Energía": 1,
+      "Secretaría de Energía de la Nación/IGN04/IGN Dirección de Geografía": 1,
+      "Esri-World_Imagery": 1
+    },
+    "gna": {
+      "Estación Transformadora": 334,
+      "Subestación Transformadora": 85,
+      "Estación transformadora": 9,
+      "Planta Transformadora": 7,
+      "Estación Trasnformadora": 3,
+      "Estación de Rebaje": 2,
+      "Planta Experimental de Hidrógeno": 1,
+      "EstaciónTransformadora": 1,
+      "Estación Transformadora Provincial": 1
+    }
+  }
+}

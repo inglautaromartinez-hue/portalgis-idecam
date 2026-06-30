@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_distritos_mendoza_d333611c",
+  "title": "distritos_mendoza",
+  "typeName": "geonode:distritos_mendoza",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "DEPARTAMEN",
+    "CODIGO_DEP",
+    "DISTRITO",
+    "CODIGO_DIS"
+  ],
+  "group": "geonode",
+  "featureCount": 9,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.017224,
+    -32.96051303,
+    -68.80406766,
+    -32.89922549
+  ],
+  "syncedAt": "2026-06-29T21:02:03.809Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/geonode/geonode_distritos_mendoza_77587db9.geojson"
+  ],
+  "indexFile": "indexes/geonode_distritos_mendoza_77587db9.index.json",
+  "statsFile": "stats/geonode_distritos_mendoza_77587db9.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

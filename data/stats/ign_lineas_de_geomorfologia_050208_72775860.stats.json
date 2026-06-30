@@ -1,0 +1,145 @@
+{
+  "featureCount": 27,
+  "bbox": [
+    -71.1512595,
+    -40.6230933,
+    -65.00397665,
+    -22.08677787
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "alt": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "4284": 1,
+      "4285": 1,
+      "4286": 1,
+      "4287": 1,
+      "4406": 1,
+      "4711": 1,
+      "4767": 1,
+      "4794": 1,
+      "5154": 1,
+      "5155": 1,
+      "6032": 1,
+      "6281": 1,
+      "6282": 1,
+      "6296": 1,
+      "6360": 1,
+      "6364": 1,
+      "6385": 1,
+      "6400": 1,
+      "7135": 1,
+      "7136": 1,
+      "7137": 1,
+      "7138": 1,
+      "7139": 1,
+      "7140": 1,
+      "7141": 1,
+      "7142": 1,
+      "7143": 1
+    },
+    "entidad": {
+      "6": 27
+    },
+    "objeto": {
+      "Cuesta": 27
+    },
+    "fna": {
+      "Cuesta de Lipán": 5,
+      "Cuesta del Diablo": 1,
+      "Cuesta de los Chiflones": 1,
+      "Cuesta de Panacán": 1,
+      "Cuesta del Chifute": 1,
+      "Subida del Córdoba": 1,
+      "Subida del Manzano": 1,
+      "Subida de Belén": 1,
+      "Subida del Trocomán": 1,
+      "Cuesta de la Hoyada": 1,
+      "Cuesta del Infernillo": 1,
+      "Cuesta del Clavillo": 1,
+      "Cuesta La Agüita": 1,
+      "Cuesta Loro Huasi": 1,
+      "Cuesta de San Fernando": 1,
+      "Cuesta de Capillitas": 1,
+      "Cuesta de la Chilca": 1,
+      "Cuesta de Guanchín": 1,
+      "Cuesta de Huaco": 1,
+      "Cuesta del Hurón": 1,
+      "Cuesta de las Lajitas": 1,
+      "Cuesta del Barro Blanco": 1,
+      "Cuesta de Toquero": 1
+    },
+    "gna": {
+      "Cuesta": 23,
+      "Subida": 4
+    },
+    "nam": {
+      "de Lipán": 5,
+      "del Diablo": 1,
+      "de los Chiflones": 1,
+      "de Panacán": 1,
+      "del Chifute": 1,
+      "del Córdoba": 1,
+      "del Manzano": 1,
+      "de Belén": 1,
+      "del Trocomán": 1,
+      "de la Hoyada": 1,
+      "del Infernillo": 1,
+      "del Clavillo": 1,
+      "La Agüita": 1,
+      "Loro Huasi": 1,
+      "de San Fernando": 1,
+      "de Capillitas": 1,
+      "de la Chilca": 1,
+      "de Guanchín": 1,
+      "de Huaco": 1,
+      "del Hurón": 1,
+      "de las Lajitas": 1,
+      "del Barro Blanco": 1,
+      "de Toquero": 1
+    },
+    "alt": {
+      "0": 8,
+      "-1": 19
+    },
+    "fdc": {
+      "Actualización 2016 Atlas 500K": 7,
+      "IGN04": 5,
+      "IGN04/IGN 3169-8 1985": 2,
+      "IGN": 2,
+      "IGN04/SEGEMAR": 2,
+      "IGN04/IGN 3169-25 1985": 1,
+      "IGN04/IGN 2969-34 1985": 1,
+      "IGN04/IGN 4172-11 1944": 1,
+      "Esri World Imagery/IGN04/IGN 3972-36 1947": 1,
+      "IGN04/IGN 3972-36 1947": 1,
+      "Esri-World_Imagery/IGN04/IGN 3772-30 2001": 1,
+      "IGN04/IGN 2566-5-1 1943/SEGEMAR": 1,
+      "IGN04/IGN01/Cartel": 1
+    },
+    "sag": {
+      "IGN": 20,
+      "IGN02": 7
+    }
+  }
+}

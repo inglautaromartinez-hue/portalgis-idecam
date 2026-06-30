@@ -1,0 +1,22 @@
+{
+  "featureCount": 18246,
+  "bbox": [
+    -69.61244139,
+    -35.54191014,
+    -67.15076886,
+    -32.46786292
+  ],
+  "fields": [
+    "fid",
+    "OBJECTID",
+    "NOMBRE",
+    "SHAPE_LEN"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "OBJECTID": "number",
+    "NOMBRE": "string",
+    "SHAPE_LEN": "number"
+  },
+  "categoricalCounts": {}
+}

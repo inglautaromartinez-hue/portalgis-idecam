@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_ayuda_a_la_navegacion_BC050_8145133b",
+  "title": "Faro",
+  "typeName": "ign:ayuda_a_la_navegacion_BC050",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 72,
+  "geometryType": "Point",
+  "bbox": [
+    -69.13275408,
+    -64.30028134,
+    -56.67495714,
+    -32.47353273
+  ],
+  "syncedAt": "2026-06-29T21:10:42.780Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_ayuda_a_la_navegacion_BC050_2b48bfdc.geojson"
+  ],
+  "indexFile": "indexes/ign_ayuda_a_la_navegacion_BC050_2b48bfdc.index.json",
+  "statsFile": "stats/ign_ayuda_a_la_navegacion_BC050_2b48bfdc.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

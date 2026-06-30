@@ -1,0 +1,110 @@
+{
+  "featureCount": 194,
+  "bbox": [
+    -69.14183987,
+    -34.62184445,
+    -68.33867309,
+    -32.80191975
+  ],
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "fid": "number",
+    "Nomenclatu": "string",
+    "Padron_ren": "string",
+    "Zona": "string",
+    "Uso_inmueb": "string",
+    "SUPERFICIE": "number",
+    "SUPERFIC_1": "number",
+    "Departamen": "string",
+    "Tipo_der_r": "string",
+    "CC_PP_rieg": "string",
+    "Uso_riego": "string",
+    "delegacion": "string",
+    "objeto": "string",
+    "anio": "string",
+    "Lat": "number",
+    "Long": "number",
+    "Sup_empad_": "number"
+  },
+  "categoricalCounts": {
+    "Zona": {
+      "ZONA URBANA": 180,
+      "ZONA INTERFAZ": 13,
+      "ZONA RURAL": 1
+    },
+    "Uso_inmueb": {
+      "VIV.FAMILIAR": 175,
+      "PROP.COM-BALDIO": 7,
+      "PROP.CULTIVADA": 6,
+      "PROP.RUR.INCULT": 5,
+      "MATRIZ P.H.": 1
+    },
+    "Departamen": {
+      "SAN MARTIN": 70,
+      "LAS HERAS": 68,
+      "GODOY CRUZ": 19,
+      "TUPUNGATO": 11,
+      "LUJAN": 10,
+      "TUNUYAN": 9,
+      "GUAYMALLEN": 6,
+      "SAN RAFAEL": 1
+    },
+    "Tipo_der_r": {
+      "": 188,
+      "DEFINITIVO": 6
+    },
+    "CC_PP_rieg": {
+      "": 188,
+      "2227 28": 2,
+      "2284 87": 1,
+      "2197 22": 1,
+      "2169 171": 1,
+      "2169 18": 1
+    },
+    "Uso_riego": {
+      "": 188,
+      "Agricola": 6
+    },
+    "delegacion": {
+      "Centro": 176,
+      "Este": 17,
+      "Sur": 1
+    },
+    "objeto": {
+      "MENSURA LEY NAC. 24374/94": 194
+    },
+    "anio": {
+      "2023": 57,
+      "2024": 67,
+      "2025": 62,
+      "2026": 8
+    },
+    "Sup_empad_": {
+      "7.0432": 2,
+      "0.3885": 1,
+      "2.9459": 1,
+      "2.4504": 1,
+      "0.1419": 1
+    }
+  }
+}

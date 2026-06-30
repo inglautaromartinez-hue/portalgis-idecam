@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_zona_costera_playa_restinga_58416aa0",
+  "title": "Playa de restinga",
+  "typeName": "ign:areas_de_zona_costera_playa_restinga",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "smc",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 153,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -72.09777069,
+    -53.33096695,
+    -58.1329192,
+    -34.98385795
+  ],
+  "syncedAt": "2026-06-29T21:16:55.023Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_zona_costera_playa_restinga_0e3cffd0.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_zona_costera_playa_restinga_0e3cffd0.index.json",
+  "statsFile": "stats/ign_areas_de_zona_costera_playa_restinga_0e3cffd0.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

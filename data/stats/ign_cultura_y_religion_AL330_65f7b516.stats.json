@@ -1,0 +1,50 @@
+{
+  "featureCount": 9804,
+  "bbox": [
+    -72.33889965,
+    -54.82759769,
+    -53.65053184,
+    -21.8776371
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "rfa",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "rfa": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 9804
+    },
+    "objeto": {
+      "Edificio Religioso": 9804
+    },
+    "rfa": {
+      "2": 2096,
+      "15": 584,
+      "19": 1,
+      "21": 297,
+      "-1": 6826
+    },
+    "sag": {
+      "IGN": 9803,
+      "Street View": 1
+    }
+  }
+}

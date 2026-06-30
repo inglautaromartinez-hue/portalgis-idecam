@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_red_vial_provincia_52fa752b",
+  "title": "red_vial_provincia",
+  "typeName": "geonode:red_vial_provincia",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "OBJECTID",
+    "NOMBRE",
+    "SHAPE_LEN"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 18246,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -69.61244139,
+    -35.54191014,
+    -67.15076886,
+    -32.46786292
+  ],
+  "syncedAt": "2026-06-29T21:45:13.058Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_red_vial_provincia_61bfba85.geojson"
+  ],
+  "indexFile": "indexes/geonode_red_vial_provincia_61bfba85.index.json",
+  "statsFile": "stats/geonode_red_vial_provincia_61bfba85.stats.json",
+  "wfsAvailable": true
+}

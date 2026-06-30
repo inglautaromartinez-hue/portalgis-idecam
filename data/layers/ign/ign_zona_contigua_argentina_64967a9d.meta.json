@@ -1,0 +1,33 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_zona_contigua_argentina_fbe90f69",
+  "title": "Zona Contigua argentina",
+  "typeName": "ign:zona_contigua_argentina",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -68.80286593,
+    -59.8612896,
+    -25.5262261,
+    -35.78213397
+  ],
+  "syncedAt": "2026-06-29T21:20:32.282Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_zona_contigua_argentina_64967a9d.geojson"
+  ],
+  "indexFile": "indexes/ign_zona_contigua_argentina_64967a9d.index.json",
+  "statsFile": "stats/ign_zona_contigua_argentina_64967a9d.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

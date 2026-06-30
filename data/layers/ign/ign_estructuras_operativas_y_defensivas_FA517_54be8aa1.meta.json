@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_estructuras_operativas_y_defensivas_FA517_6c87b635",
+  "title": "Edificio de seguridad",
+  "typeName": "ign:estructuras_operativas_y_defensivas_FA517",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tes",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 4117,
+  "geometryType": "Point",
+  "bbox": [
+    -73.14563982,
+    -54.8443521,
+    -53.6457167,
+    -21.87729764
+  ],
+  "syncedAt": "2026-06-29T21:10:05.729Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_estructuras_operativas_y_defensivas_FA517_54be8aa1.geojson"
+  ],
+  "indexFile": "indexes/ign_estructuras_operativas_y_defensivas_FA517_54be8aa1.index.json",
+  "statsFile": "stats/ign_estructuras_operativas_y_defensivas_FA517_54be8aa1.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

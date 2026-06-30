@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_aguas_continentales_BH020_d83d7adb",
+  "title": "Canal",
+  "typeName": "ign:areas_de_aguas_continentales_BH020",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 77,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -74.0169651,
+    -73.72871802,
+    -57.70732688,
+    -25.9765007
+  ],
+  "syncedAt": "2026-06-29T21:07:06.576Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_aguas_continentales_BH020_1147a07d.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_aguas_continentales_BH020_1147a07d.index.json",
+  "statsFile": "stats/ign_areas_de_aguas_continentales_BH020_1147a07d.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

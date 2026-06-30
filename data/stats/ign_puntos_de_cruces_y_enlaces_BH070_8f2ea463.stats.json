@@ -1,0 +1,41 @@
+{
+  "featureCount": 35290,
+  "bbox": [
+    -72.85089111,
+    -51.96237183,
+    -55.55597687,
+    -21.8068228
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "feo",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "feo": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 35290
+    },
+    "objeto": {
+      "Vado": 35279,
+      "Alcantarilla": 9,
+      "Badén": 2
+    },
+    "feo": {
+      "-1": 29487
+    },
+    "sag": {
+      "IGN": 35284
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_ramsac_ntrip_8af29583",
+  "title": "Red RAMSAC-NTRIP",
+  "typeName": "ign:ramsac_ntrip",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "fun",
+    "cer",
+    "ai1",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 135,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88556285,
+    -54.83952496,
+    -53.46632949,
+    -22.72203541
+  ],
+  "syncedAt": "2026-06-29T21:17:39.052Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_ramsac_ntrip_65f4ba69.geojson"
+  ],
+  "indexFile": "indexes/ign_ramsac_ntrip_65f4ba69.index.json",
+  "statsFile": "stats/ign_ramsac_ntrip_65f4ba69.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,62 @@
+{
+  "featureCount": 7556,
+  "bbox": [
+    -76.54188915,
+    -80.9604383,
+    -26.25206971,
+    -22.14708405
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "tis",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "tis": "number",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 7556
+    },
+    "objeto": {
+      "Isla": 7556
+    },
+    "tis": {
+      "1": 211,
+      "2": 189,
+      "3": 6588,
+      "-1": 568
+    },
+    "sag": {
+      "IGN": 7553
+    },
+    "gna": {
+      "Isla": 4489,
+      "Islas": 198,
+      "Islotes": 123,
+      "Islote": 106,
+      "Rocas": 15,
+      "Roca": 12,
+      "Arrecife": 5,
+      "isla": 2,
+      "Península": 2,
+      "Arrecifes": 2,
+      "Isla Grande": 1,
+      "Mogote": 1
+    }
+  }
+}

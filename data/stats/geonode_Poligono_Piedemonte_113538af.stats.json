@@ -1,0 +1,30 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -69.09614277,
+    -33.05249172,
+    -68.72350328,
+    -32.33841696
+  ],
+  "fields": [
+    "fid_1",
+    "FID",
+    "SUPERFICIE"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "FID": "number",
+    "SUPERFICIE": "number"
+  },
+  "categoricalCounts": {
+    "fid_1": {
+      "1": 1
+    },
+    "FID": {
+      "0": 1
+    },
+    "SUPERFICIE": {
+      "1014.3": 1
+    }
+  }
+}

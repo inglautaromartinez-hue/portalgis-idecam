@@ -1,0 +1,142 @@
+{
+  "featureCount": 2313,
+  "bbox": [
+    -72.88591142,
+    -54.80740398,
+    -53.64673457,
+    -21.94710868
+  ],
+  "fields": [
+    "gid",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "in1",
+    "tgl",
+    "cod_tgl",
+    "nam_prov",
+    "cod_prov",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "in1": "string",
+    "tgl": "string",
+    "cod_tgl": "string",
+    "nam_prov": "string",
+    "cod_prov": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "objeto": {
+      "Gobierno local": 2311,
+      "Gobierno Local": 2
+    },
+    "gna": {
+      "Municipio": 1213,
+      "Comuna": 590,
+      "Comisión": 308,
+      "Junta": 198,
+      "Junta de Gobierno": 3,
+      "Junta de gobierno": 1
+    },
+    "tgl": {
+      "Municipio": 1212,
+      "Comuna": 529,
+      "Comisión Municipal": 214,
+      "Junta de Gobierno": 132,
+      "Comuna Rural": 113,
+      "Comisión de Fomento": 94,
+      "Junta Vecinal": 18,
+      "Municipio de segunda": 1
+    },
+    "cod_tgl": {
+      "MU": 760,
+      "CO": 474,
+      "M2": 217,
+      "M3": 137,
+      "M1": 99,
+      "CF": 94,
+      "CMA": 88,
+      "CM": 77,
+      "JG4": 65,
+      "CMB": 49,
+      "JG3": 48,
+      "CR3": 47,
+      "CO1": 34,
+      "CR1": 30,
+      "CO2": 21,
+      "CR": 20,
+      "JG2": 19,
+      "JV": 18,
+      "CR2": 16
+    },
+    "nam_prov": {
+      "Córdoba": 427,
+      "Santa Fe": 365,
+      "Entre Ríos": 270,
+      "Santiago del Estero": 165,
+      "Buenos Aires": 135,
+      "Tucumán": 112,
+      "La Pampa": 80,
+      "Misiones": 77,
+      "Río Negro": 76,
+      "Corrientes": 74,
+      "Chaco": 69,
+      "San Luis": 67,
+      "Jujuy": 63,
+      "Salta": 60,
+      "Neuquén": 57,
+      "Formosa": 55,
+      "Chubut": 47,
+      "Catamarca": 36,
+      "Santa Cruz": 20,
+      "San Juan": 19,
+      "Mendoza": 18,
+      "La Rioja": 18,
+      "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 3
+    },
+    "cod_prov": {
+      "10": 36,
+      "14": 427,
+      "18": 74,
+      "22": 69,
+      "26": 47,
+      "30": 270,
+      "34": 55,
+      "38": 63,
+      "42": 80,
+      "46": 18,
+      "50": 18,
+      "54": 77,
+      "58": 57,
+      "62": 76,
+      "66": 60,
+      "70": 19,
+      "74": 67,
+      "78": 20,
+      "82": 365,
+      "86": 165,
+      "90": 112,
+      "94": 3,
+      "06": 135
+    },
+    "fdc": {
+      "BAHRA": 2303,
+      "REFEGLO": 5,
+      "IDE": 3,
+      "INDEC": 2
+    },
+    "sag": {
+      "IGN": 2312,
+      "REFEGLO": 1
+    }
+  }
+}

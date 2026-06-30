@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_terrestres_070401_e5bf06a0",
+  "title": "Círculo polar",
+  "typeName": "ign:lineas_terrestres_070401",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "tcp",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 2,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -179.99998932,
+    -66.54992609,
+    179.9999962,
+    66.54998524
+  ],
+  "syncedAt": "2026-06-29T21:08:21.160Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_terrestres_070401_20cfd005.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_terrestres_070401_20cfd005.index.json",
+  "statsFile": "stats/ign_lineas_terrestres_070401_20cfd005.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

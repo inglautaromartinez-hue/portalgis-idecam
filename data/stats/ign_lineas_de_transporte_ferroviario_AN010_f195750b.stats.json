@@ -1,0 +1,108 @@
+{
+  "featureCount": 1092,
+  "bbox": [
+    -72.3043002,
+    -54.83605798,
+    -54.44447066,
+    -22.0479858
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "rgc",
+    "ltn",
+    "loc",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fun": "number",
+    "rgc": "number",
+    "ltn": "number",
+    "loc": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 1092
+    },
+    "objeto": {
+      "Ferrocarril": 1092
+    },
+    "gna": {
+      "Ferrocarril Nacional": 1087,
+      "Tren": 4,
+      "Ferrocarril": 1
+    },
+    "fun": {
+      "2": 256,
+      "4": 142,
+      "6": 694
+    },
+    "rgc": {
+      "1": 659,
+      "2": 333,
+      "3": 83,
+      "4": 17
+    },
+    "ltn": {
+      "1": 1092
+    },
+    "loc": {
+      "44": 1091,
+      "45": 1
+    },
+    "fdc": {
+      "IGN/Trenes Argentinos Cargas": 368,
+      "IGN/Ministerio de Transporte de la Nación": 322,
+      "IGN/Ministerio de Transporte de la Nación/NCA": 117,
+      "IGN/Ministerio de Transporte de la Nación/Ferrosur": 67,
+      "IGN/Ministerio de Transporte de la Nación/Ferroexpreso Pampeano": 55,
+      "IGN": 48,
+      "IGN/Tren Roca": 25,
+      "IGN/Tren Mitre": 13,
+      "IGN/Ministerio de Transporte de la Nación/Trenes Argentinos Cargas": 8,
+      "IGN/Tren Belgrano Sur": 7,
+      "IGN/Tren San Martín": 6,
+      "IGN01/Ministerio de Transporte de la Nación": 6,
+      "IGN/Tren Belgrano Norte": 5,
+      "IGN/Ministerio de Transporte de la Naciónl/Decreto 153/2003": 4,
+      "IGN/Ministerio de Transporte de la Nación/Pagina Web empresa": 4,
+      "IGN/Tren General Belgrano Sur": 3,
+      "IGN/Tren Sarmiento": 3,
+      "IGN04/Ministerio de Transporte de la Nación/Ferrosur": 3,
+      "Ministerio de Transporte de la Nación": 3,
+      "IGN/Tren Roca/Ferrosur": 2,
+      "IGN/Tren Urquiza": 2,
+      "IGN/Tren de la Costa": 2,
+      "IGN/Parque Nacional Iguazú": 2,
+      "IGN01/Trenes Argentinos Cargas": 2,
+      "Esri-World_imageryIGN01/Ministerio de Transporte de la Nación/IGN Dirección de Geografía": 2,
+      "Esri-World_Imagery/IGN04/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 2,
+      "Esri-world_imagery-2010/IGN01/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 2,
+      "Esri-world_imagery-2010/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 2,
+      "IGN/Pagina web institucional": 1,
+      "IDEIGN02/Trenes Argentinos Cargas": 1,
+      "Imagery/IGN01/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 1,
+      "Esri-World_Imagery/IGN04/IGN Dirección de Geografía/Ferrosur": 1,
+      "IGN/Ministerio de la Nación/Dir. Geografía IGN/Sitio web del concesionario": 1,
+      "Esri-World_Imagery/IG0N04/Ministerio de Transporte de la Nación/Ferrosur": 1,
+      "Esri-World_Imagery/IGN04/Ministerio de Transporte de la Nación/Ferrosur": 1
+    },
+    "sag": {
+      "IGN": 1092
+    }
+  }
+}

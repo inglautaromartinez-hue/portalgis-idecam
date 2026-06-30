@@ -1,0 +1,43 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_vm_red_de_riego_e41d57fc",
+  "title": "vm_red_de_riego",
+  "typeName": "geonode:vm_red_de_riego",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "codcau",
+    "categoria",
+    "material",
+    "estado",
+    "long_m",
+    "cauce",
+    "jerarquia",
+    "inspeccion",
+    "cod_distri"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 104592,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -69.76484318,
+    -35.56529401,
+    -67.39470459,
+    -32.46791708
+  ],
+  "syncedAt": "2026-06-29T21:45:32.082Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 44.1 MB."
+  ],
+  "files": [
+    "layers/geonode/geonode_vm_red_de_riego_eca99500.geojson"
+  ],
+  "indexFile": "indexes/geonode_vm_red_de_riego_eca99500.index.json",
+  "statsFile": "stats/geonode_vm_red_de_riego_eca99500.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,42 @@
+{
+  "featureCount": 2031,
+  "bbox": [
+    -71.62467194,
+    -54.31655502,
+    -53.85551071,
+    -22.09091377
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 2031
+    },
+    "objeto": {
+      "Plantación permanente": 2030,
+      "Plantación Permanente": 1
+    },
+    "fdc": {
+      "IGN": 1917,
+      "ESRI-World_Imagery 2010": 99,
+      "ESRI-World_Imagery-2010": 1,
+      "Esri-World_Imagery": 1,
+      "Imagery Esri 1991-2001-2002-200": 1
+    },
+    "sag": {
+      "IGN": 2031
+    }
+  }
+}

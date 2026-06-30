@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_infraestructura_de_transporte_AQ180_5f9482a3",
+  "title": "Estación de pesaje",
+  "typeName": "ign:infraestructura_de_transporte_AQ180",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "feo",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 44,
+  "geometryType": "Point",
+  "bbox": [
+    -69.76218577,
+    -39.03702726,
+    -55.3398819,
+    -24.32856883
+  ],
+  "syncedAt": "2026-06-29T21:10:36.482Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_infraestructura_de_transporte_AQ180_f7635e23.geojson"
+  ],
+  "indexFile": "indexes/ign_infraestructura_de_transporte_AQ180_f7635e23.index.json",
+  "statsFile": "stats/ign_infraestructura_de_transporte_AQ180_f7635e23.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

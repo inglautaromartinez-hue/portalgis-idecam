@@ -1,0 +1,33 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_glaciologia_050705_e67a9edf",
+  "title": "Barrera de hielo",
+  "typeName": "ign:areas_de_glaciologia_050705",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto"
+  ],
+  "group": "ign",
+  "featureCount": 390,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -180,
+    -85.41203151,
+    180,
+    -46.08288507
+  ],
+  "syncedAt": "2026-06-29T21:06:53.704Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_glaciologia_050705_de4f0b5a.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_glaciologia_050705_de4f0b5a.index.json",
+  "statsFile": "stats/ign_areas_de_glaciologia_050705_de4f0b5a.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

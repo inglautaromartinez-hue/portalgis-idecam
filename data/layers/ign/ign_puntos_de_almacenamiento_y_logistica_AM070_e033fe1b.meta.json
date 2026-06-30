@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_almacenamiento_y_logistica_AM070_c36ac355",
+  "title": "Tanque de combustible",
+  "typeName": "ign:puntos_de_almacenamiento_y_logistica_AM070",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1242,
+  "geometryType": "Point",
+  "bbox": [
+    -72.29654694,
+    -54.74180646,
+    -57.81887863,
+    -22.20238686
+  ],
+  "syncedAt": "2026-06-29T21:20:12.489Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_almacenamiento_y_logistica_AM070_e033fe1b.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_almacenamiento_y_logistica_AM070_e033fe1b.index.json",
+  "statsFile": "stats/ign_puntos_de_almacenamiento_y_logistica_AM070_e033fe1b.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

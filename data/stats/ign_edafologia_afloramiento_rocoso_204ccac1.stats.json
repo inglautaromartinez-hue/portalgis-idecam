@@ -1,0 +1,32 @@
+{
+  "featureCount": 2450,
+  "bbox": [
+    -73.47212982,
+    -55.03527451,
+    -57.33187103,
+    -21.78188376
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 2450
+    },
+    "objeto": {
+      "Afloramiento rocoso": 2450
+    },
+    "sag": {
+      "IGN": 2450
+    }
+  }
+}

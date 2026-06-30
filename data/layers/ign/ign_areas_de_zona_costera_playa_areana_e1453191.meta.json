@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_zona_costera_playa_areana_627378bb",
+  "title": "Playa de arena",
+  "typeName": "ign:areas_de_zona_costera_playa_areana",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "smc",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 408,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.46840668,
+    -52.155052,
+    -56.78728104,
+    -24.43552017
+  ],
+  "syncedAt": "2026-06-29T21:16:54.745Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_zona_costera_playa_areana_e1453191.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_zona_costera_playa_areana_e1453191.index.json",
+  "statsFile": "stats/ign_areas_de_zona_costera_playa_areana_e1453191.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

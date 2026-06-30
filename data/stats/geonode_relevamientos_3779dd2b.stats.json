@@ -1,0 +1,35 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -68.85055887,
+    -33.01836913,
+    -68.83264796,
+    -33.00523794
+  ],
+  "fields": [
+    "fid",
+    "Tipo",
+    "Prof",
+    "contacto"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "Tipo": "string",
+    "Prof": "string",
+    "contacto": "string"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1
+    },
+    "Tipo": {
+      "vuelo": 1
+    },
+    "Prof": {
+      "Alberdi": 1
+    },
+    "contacto": {
+      "3424683416": 1
+    }
+  }
+}

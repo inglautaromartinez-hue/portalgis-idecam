@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_cruces_y_enlaces_BH070_a8341b82",
+  "title": "Vado",
+  "typeName": "ign:puntos_de_cruces_y_enlaces_BH070",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "feo",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 35290,
+  "geometryType": "Point",
+  "bbox": [
+    -72.85089111,
+    -51.96237183,
+    -55.55597687,
+    -21.8068228
+  ],
+  "syncedAt": "2026-06-29T21:20:30.193Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_cruces_y_enlaces_BH070_8f2ea463.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_cruces_y_enlaces_BH070_8f2ea463.index.json",
+  "statsFile": "stats/ign_puntos_de_cruces_y_enlaces_BH070_8f2ea463.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,53 @@
+{
+  "featureCount": 854,
+  "bbox": [
+    -72.2077006,
+    -50.27703094,
+    -53.77538661,
+    -21.9999829
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "hyp",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "hyp": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 854
+    },
+    "objeto": {
+      "Corriente de agua": 854
+    },
+    "gna": {
+      "Río": 575,
+      "Arroyo": 73,
+      "Riacho": 10,
+      "Cañada": 3,
+      "Boca": 2
+    },
+    "hyp": {
+      "1": 849,
+      "2": 5
+    },
+    "sag": {
+      "IGN": 854
+    }
+  }
+}

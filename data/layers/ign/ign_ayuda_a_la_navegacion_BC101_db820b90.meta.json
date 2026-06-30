@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_ayuda_a_la_navegacion_BC101_d7b07aec",
+  "title": "Baliza",
+  "typeName": "ign:ayuda_a_la_navegacion_BC101",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 157,
+  "geometryType": "Point",
+  "bbox": [
+    -69.19366099,
+    -68.1375541,
+    -56.21019902,
+    -33.80429368
+  ],
+  "syncedAt": "2026-06-29T21:06:52.120Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_ayuda_a_la_navegacion_BC101_db820b90.geojson"
+  ],
+  "indexFile": "indexes/ign_ayuda_a_la_navegacion_BC101_db820b90.index.json",
+  "statsFile": "stats/ign_ayuda_a_la_navegacion_BC101_db820b90.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

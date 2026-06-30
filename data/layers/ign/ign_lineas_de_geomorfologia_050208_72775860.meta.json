@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_050208_eabbf917",
+  "title": "Cuesta",
+  "typeName": "ign:lineas_de_geomorfologia_050208",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 27,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.1512595,
+    -40.6230933,
+    -65.00397665,
+    -22.08677787
+  ],
+  "syncedAt": "2026-06-29T21:08:19.612Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_050208_72775860.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_050208_72775860.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_050208_72775860.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,57 @@
+{
+  "featureCount": 5263,
+  "bbox": [
+    -72.88529321,
+    -54.82622327,
+    -53.64537424,
+    -21.87756185
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "gfc",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "gfc": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 5263
+    },
+    "objeto": {
+      "Edificio Gubernamental": 5260,
+      "no": 3
+    },
+    "gfc": {
+      "1": 25,
+      "2": 168,
+      "3": 1387,
+      "4": 421,
+      "5": 168,
+      "6": 397,
+      "7": 1382,
+      "8": 19,
+      "9": 556,
+      "10": 588,
+      "11": 141,
+      "-1": 8
+    },
+    "sag": {
+      "IGN": 5254
+    }
+  }
+}

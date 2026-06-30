@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_aguas_continentales_perenne_dee7b08a",
+  "title": "Espejo de agua perenne",
+  "typeName": "ign:areas_de_aguas_continentales_perenne",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 21524,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.45678711,
+    -64.04753688,
+    -55.58519745,
+    -21.99701381
+  ],
+  "syncedAt": "2026-06-29T21:10:27.126Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_aguas_continentales_perenne_c484c5a4.part-0001.geojson.gz",
+    "layers/ign/ign_areas_de_aguas_continentales_perenne_c484c5a4.part-0002.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_areas_de_aguas_continentales_perenne_c484c5a4.index.json",
+  "statsFile": "stats/ign_areas_de_aguas_continentales_perenne_c484c5a4.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

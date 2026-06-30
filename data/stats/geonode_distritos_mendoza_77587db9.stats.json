@@ -1,0 +1,60 @@
+{
+  "featureCount": 9,
+  "bbox": [
+    -69.017224,
+    -32.96051303,
+    -68.80406766,
+    -32.89922549
+  ],
+  "fields": [
+    "fid",
+    "DEPARTAMEN",
+    "CODIGO_DEP",
+    "DISTRITO",
+    "CODIGO_DIS"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "DEPARTAMEN": "string",
+    "CODIGO_DEP": "string",
+    "DISTRITO": "string",
+    "CODIGO_DIS": "string"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "DEPARTAMEN": {
+      "GODOY CRUZ": 9
+    },
+    "CODIGO_DEP": {
+      "05": 9
+    },
+    "DISTRITO": {
+      "TRAPICHE": 1,
+      "SAN FRANCISCO DEL MONTE": 1,
+      "LAS TORTUGAS ORDENANZA": 1,
+      "VILLA DEL PARQUE ORDENANZA": 1,
+      "GOBERNADOR BENEGAS ORDENANZA": 1,
+      "CENTRO": 1,
+      "VILLA MARINI": 1,
+      "VILLA HIPÓDROMO": 1,
+      "SAN VICENTE": 1
+    },
+    "CODIGO_DIS": {
+      "01": 4,
+      "04": 2,
+      "02": 1,
+      "03": 1,
+      "05": 1
+    }
+  }
+}

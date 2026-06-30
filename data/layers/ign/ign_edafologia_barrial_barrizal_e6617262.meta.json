@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_edafologia_barrial_barrizal_2e25232b",
+  "title": "Barrial, Barrizal",
+  "typeName": "ign:edafologia_barrial_barrizal",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 2959,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.02555847,
+    -52.23945236,
+    -59.22916031,
+    -22.23600201
+  ],
+  "syncedAt": "2026-06-29T21:06:55.063Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_edafologia_barrial_barrizal_e6617262.geojson"
+  ],
+  "indexFile": "indexes/ign_edafologia_barrial_barrizal_e6617262.index.json",
+  "statsFile": "stats/ign_edafologia_barrial_barrizal_e6617262.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

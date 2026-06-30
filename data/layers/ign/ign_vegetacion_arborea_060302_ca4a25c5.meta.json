@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vegetacion_arborea_060302_559b74c6",
+  "title": "Monte",
+  "typeName": "ign:vegetacion_arborea_060302",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 974,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -67.95416667,
+    -39.11273369,
+    -57.75,
+    -23.50269717
+  ],
+  "syncedAt": "2026-06-29T21:15:54.173Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_vegetacion_arborea_060302_ca4a25c5.geojson"
+  ],
+  "indexFile": "indexes/ign_vegetacion_arborea_060302_ca4a25c5.index.json",
+  "statsFile": "stats/ign_vegetacion_arborea_060302_ca4a25c5.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

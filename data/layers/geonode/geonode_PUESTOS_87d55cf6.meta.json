@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_PUESTOS_ca47ecbd",
+  "title": "PUESTOS",
+  "typeName": "geonode:PUESTOS",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "id",
+    "fid",
+    "nom_puesto",
+    "dpto"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 2385,
+  "geometryType": "Point",
+  "bbox": [
+    -70.36398089,
+    -37.38235819,
+    -66.50041932,
+    -32.09573477
+  ],
+  "syncedAt": "2026-06-29T21:41:18.756Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_PUESTOS_87d55cf6.geojson"
+  ],
+  "indexFile": "indexes/geonode_PUESTOS_87d55cf6.index.json",
+  "statsFile": "stats/geonode_PUESTOS_87d55cf6.stats.json",
+  "wfsAvailable": true
+}

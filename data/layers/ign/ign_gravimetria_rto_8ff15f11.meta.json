@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_gravimetria_rto_886f8b7f",
+  "title": "Red gravimétrica de Tercer Orden",
+  "typeName": "ign:gravimetria_rto",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota"
+  ],
+  "group": "ign",
+  "featureCount": 1246,
+  "geometryType": "Point",
+  "bbox": [
+    -71.7189781,
+    -47.62261124,
+    -57.52372905,
+    -25.19357431
+  ],
+  "syncedAt": "2026-06-29T21:17:48.718Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_gravimetria_rto_8ff15f11.geojson"
+  ],
+  "indexFile": "indexes/ign_gravimetria_rto_8ff15f11.index.json",
+  "statsFile": "stats/ign_gravimetria_rto_8ff15f11.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

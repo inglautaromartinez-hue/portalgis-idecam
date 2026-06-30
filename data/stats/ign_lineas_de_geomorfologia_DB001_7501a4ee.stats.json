@@ -1,0 +1,107 @@
+{
+  "featureCount": 217,
+  "bbox": [
+    -72.03940909,
+    -71.1229642,
+    -60.964233,
+    -25.87553215
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tlg",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "tlg": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "9": 217
+    },
+    "objeto": {
+      "Lugar geomorfológico": 217
+    },
+    "gna": {
+      "Bajo": 81,
+      "Pampa": 66,
+      "Alto": 13,
+      "Bajada": 10,
+      "Planicie": 8,
+      "Bajos": 5,
+      "Guadal": 5,
+      "Altos": 4,
+      "Altiplanicie": 4,
+      "Meseta": 4,
+      "Gran Bajo": 3,
+      "Campo": 3,
+      "Campos": 2,
+      "Llanos": 2,
+      "Puntilla": 1,
+      "Gran": 1,
+      "Punta": 1,
+      "Gran Altiplanicie": 1,
+      "Río": 1,
+      "Complejo": 1
+    },
+    "tlg": {
+      "1": 14,
+      "2": 94,
+      "3": 2,
+      "5": 70,
+      "6": 11,
+      "7": 2,
+      "-1": 15,
+      "-2": 9
+    },
+    "fdc": {
+      "Actualización 2016 Atlas 500K": 72,
+      "Bicontinental versión 2024": 5,
+      "IGN04/Segemar": 3,
+      "IGN04/IGN 3366-02 1995": 2,
+      "IGN04/IGN 3969-15 2001": 2,
+      "IGN04/IGN 3769-2 1949": 2,
+      "IGN04/IGN 3969-15 1984": 1,
+      "IGN04/IGN 2969-15 1983": 1,
+      "IGN04/IGN 3169-36 1990": 1,
+      "IGN04/IGN 3169-23 1985": 1,
+      "World Imagery/IGN 2969-36 1987": 1,
+      "IGN04/IGN 3166-25 1990": 1,
+      "IGN04/IGN 3166-07 1988": 1,
+      "IGN04/IGN 3972-06 1955/Geografía": 1,
+      "IGN/Hoja 3772-17": 1,
+      "IGN 3969-IV 1997": 1,
+      "IGN04/IGN 3972-06 1955": 1,
+      "IGN04/IGN 3969-10 1945": 1,
+      "IGN04/IGN 3972-24-3": 1,
+      "IGN/Hoja 3972-06/IGN04": 1,
+      "IGN04/IGN 3969-16 1945": 1,
+      "IGN04/IGN 3969-32 1936": 1,
+      "IGN04/IGN 3769-I 1990": 1,
+      "IGN04/IGN 3969-13 1954": 1,
+      "IGN04/IGN 3969-20 1936": 1,
+      "IGN04/IGN 3772-IV 1990": 1,
+      "IGN04/IGN 3969-24 1991": 1,
+      "IGN04/SEGEMAR": 1,
+      "IGN 4696-14": 1,
+      "IGN 3769-I 1990": 1,
+      "Carta IGN 250.000": 1
+    },
+    "sag": {
+      "IGN": 217
+    }
+  }
+}

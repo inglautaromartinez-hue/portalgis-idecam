@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_aguas_continentales_perenne_c94322c4",
+  "title": "Corriente de agua perenne",
+  "typeName": "ign:lineas_de_aguas_continentales_perenne",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 52611,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -73.30082703,
+    -55.05172729,
+    -53.64107895,
+    -21.6721864
+  ],
+  "syncedAt": "2026-06-29T21:08:19.091Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_aguas_continentales_perenne_6047be0e.part-0001.geojson.gz",
+    "layers/ign/ign_lineas_de_aguas_continentales_perenne_6047be0e.part-0002.geojson.gz",
+    "layers/ign/ign_lineas_de_aguas_continentales_perenne_6047be0e.part-0003.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_lineas_de_aguas_continentales_perenne_6047be0e.index.json",
+  "statsFile": "stats/ign_lineas_de_aguas_continentales_perenne_6047be0e.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

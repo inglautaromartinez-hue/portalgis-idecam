@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_relevamiento_pun_2c1b5a44",
+  "title": "relevamiento_pun",
+  "typeName": "geonode:relevamiento_pun",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "tipo",
+    "prof",
+    "contac"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 3,
+  "geometryType": "Point",
+  "bbox": [
+    -68.88669895,
+    -32.99425437,
+    -68.88158448,
+    -32.99149787
+  ],
+  "syncedAt": "2026-06-29T21:45:13.571Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_relevamiento_pun_474cfa32.geojson"
+  ],
+  "indexFile": "indexes/geonode_relevamiento_pun_474cfa32.index.json",
+  "statsFile": "stats/geonode_relevamiento_pun_474cfa32.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,91 @@
+{
+  "featureCount": 2672,
+  "bbox": [
+    -72.31004392,
+    -54.83319943,
+    -54.44514395,
+    -22.05530535
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fun",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fun": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 2672
+    },
+    "gna": {
+      "Estación": 2500,
+      "Apeadero": 75,
+      "Desvío": 39,
+      "Parador": 21,
+      "Embarcadero": 18,
+      "Parada": 13,
+      "Empalme": 5,
+      "Divisadero": 1
+    },
+    "fun": {
+      "2": 1926,
+      "4": 106,
+      "6": 640
+    },
+    "fdc": {
+      "IGN/Ministerio de Transporte de la Nación": 2148,
+      "IGN/Trenes Argentinos": 325,
+      "IGN/USIG": 42,
+      "IGN/Sociedad de Transporte de Mendoza": 21,
+      "IGN/Ferrovías": 18,
+      "IGN/Metrovías": 17,
+      "Ministerio de Transporte de la Nación": 17,
+      "IIGN/Trenes Argentinos": 13,
+      "IGN/Tren Patagónico": 11,
+      "IGN01/Ministerio de Transporte de la Nación": 5,
+      "Esri-World Imagery 2010/IGN04/IGN Dirección de Geografía/Ministerio de Transporte de la Nación": 5,
+      "IGN/Sitio Web La Trochita": 4,
+      "IGN/Parque Nacional Iguazú": 4,
+      "IDEIGN02/Ministerio de Transporte de la Nación": 4,
+      "IGN/Trenes Argentinos Cargas/Ministerio de Transp*": 3,
+      "OSM/Ministerio de Transporte de la Nación": 3,
+      "IGN01/IDEIGN02/Ministerio de Transporte de la Nación": 3,
+      "IGN04/Ministerio de Transporte de la Nación": 3,
+      "Imagery/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 3,
+      "IGN/Ferrosur": 2,
+      "IGN/Secretaría de Turismo Villa Elisa/Ministerio": 2,
+      "IGN/Open Street View": 2,
+      "IGN04/Ferrosur": 2,
+      "Esri-world_imagery-2010/IGN01": 2,
+      "IGN/Trenes Argentinos Carga/Ministerio de Transpo*": 1,
+      "IGN/Open Street Vieww": 1,
+      "IGN": 1,
+      "OSM/Open Street View": 1,
+      "OSM/Sitio web del tren de las nubes": 1,
+      "IGN01/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 1,
+      "Esri-world_imagery-2010/IGN01/Ministerio de Transporte": 1,
+      "IGN04/Tren Patagónico": 1,
+      "IGN04/Trenes Argentinos": 1,
+      "IGN04/Ministerio de Transporte de la Nación/Open Street View": 1,
+      "Esri-World_imagery/IGN01//Ministerio de Transporte de la Nación/IGN Dirección de Geografía": 1,
+      "Esri-World_imagery/IGN01/Ministerio de Transporte de la Nación/Dir. Geografía IGN": 1,
+      "IGN01": 1
+    },
+    "sag": {
+      "IGN": 2672
+    }
+  }
+}

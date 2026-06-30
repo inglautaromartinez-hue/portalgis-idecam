@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_geomorfologia_DB120_addebef4",
+  "title": "Abra, paso, portillo, portezuelo",
+  "typeName": "ign:puntos_de_geomorfologia_DB120",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 839,
+  "geometryType": "Point",
+  "bbox": [
+    -73.1290741,
+    -54.97873899,
+    -60.28712608,
+    -21.8029283
+  ],
+  "syncedAt": "2026-06-29T21:06:28.956Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_geomorfologia_DB120_1b7e5ca1.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_geomorfologia_DB120_1b7e5ca1.index.json",
+  "statsFile": "stats/ign_puntos_de_geomorfologia_DB120_1b7e5ca1.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

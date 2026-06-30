@@ -1,0 +1,34 @@
+{
+  "id": "geonode_FRONTERAS_dc5ba94c_dd7e_4f56_b761_506eeb47cffc",
+  "title": "Zona de seguridad y fronteras",
+  "typeName": "geonode:FRONTERAS",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "LEY_NACION",
+    "LEY_PROV"
+  ],
+  "group": "IDECAM – WFS (Demo)",
+  "wmsAvailable": true,
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.58368569,
+    -36.81296353,
+    -69.05861614,
+    -32.06581626
+  ],
+  "syncedAt": "2026-06-29T21:40:46.707Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_FRONTERAS_149116cb.geojson"
+  ],
+  "indexFile": "indexes/geonode_FRONTERAS_149116cb.index.json",
+  "statsFile": "stats/geonode_FRONTERAS_149116cb.stats.json",
+  "wfsAvailable": true
+}

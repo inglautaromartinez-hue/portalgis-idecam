@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_equipamiento_AL030_2cfc1db3",
+  "title": "Cementerio",
+  "typeName": "ign:puntos_de_equipamiento_AL030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 1894,
+  "geometryType": "Point",
+  "bbox": [
+    -72.34617631,
+    -54.8332897,
+    -53.64938494,
+    -21.87261378
+  ],
+  "syncedAt": "2026-06-29T21:07:19.478Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_equipamiento_AL030_9fe4d5e4.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_equipamiento_AL030_9fe4d5e4.index.json",
+  "statsFile": "stats/ign_puntos_de_equipamiento_AL030_9fe4d5e4.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

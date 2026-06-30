@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_edafologia_pedregal_05505c32",
+  "title": "Pedregal",
+  "typeName": "ign:edafologia_pedregal",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 1906,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.40029144,
+    -53.06141663,
+    -63.60953903,
+    -21.91957565
+  ],
+  "syncedAt": "2026-06-29T21:16:47.589Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_edafologia_pedregal_99f7857d.part-0001.geojson.gz",
+    "layers/ign/ign_edafologia_pedregal_99f7857d.part-0002.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_edafologia_pedregal_99f7857d.index.json",
+  "statsFile": "stats/ign_edafologia_pedregal_99f7857d.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

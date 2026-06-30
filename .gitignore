@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+.npm/
+
+# Build outputs
+dist/
+build/
+out/
+.vite/
+.turbo/
+.next/
+coverage/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+!.env.example
+!.env.demo.example
+!.env.production.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Docker / database local artifacts
+postgres_data/
+pgdata/
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.bak
+
+# Local generated GIS data / snapshots
+data/cache/
+data/tmp/
+data/temp/
+data/layers/**/*.geojson
+data/layers/**/*.geojson.gz
+data/layers/**/*.ndjson
+data/layers/**/*.jsonl
+data/layers/**/*.gpkg
+data/layers/**/*.zip
+data/indexes/
+
+# Keep lightweight manifests and statistics
+!data/
+!data/README.md
+!data/catalog/
+!data/catalog/*.json
+!data/stats/
+!data/stats/*.json
+
+# Heavy generated exports
+exports/
+reports/
+screenshots/
+*.pdf
+*.zip
+*.7z
+*.rar
+
+# Local backups
+*-backup-*/
+*_backup*/
+portalgis-idecam-part1-backup-*/
+BACKUP*/

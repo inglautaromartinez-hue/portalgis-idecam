@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_asentamientos_y_edificios_AL201_ad73835b",
+  "title": "Sitio de interés",
+  "typeName": "ign:puntos_de_asentamientos_y_edificios_AL201",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1076,
+  "geometryType": "Point",
+  "bbox": [
+    -71.66087249,
+    -64.36998964,
+    -44.73779203,
+    -22.13016023
+  ],
+  "syncedAt": "2026-06-29T21:20:12.084Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_asentamientos_y_edificios_AL201_865d9a22.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_asentamientos_y_edificios_AL201_865d9a22.index.json",
+  "statsFile": "stats/ign_puntos_de_asentamientos_y_edificios_AL201_865d9a22.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

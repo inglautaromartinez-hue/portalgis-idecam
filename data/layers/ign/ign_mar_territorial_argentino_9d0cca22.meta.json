@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_mar_territorial_argentino_e7a23ac7",
+  "title": "Mar Territorial argentino",
+  "typeName": "ign:mar_territorial_argentino",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.1480992,
+    -59.6550801,
+    -25.9043038,
+    -35.63306234
+  ],
+  "syncedAt": "2026-06-29T21:29:14.777Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/ign/ign_mar_territorial_argentino_9d0cca22.geojson"
+  ],
+  "indexFile": "indexes/ign_mar_territorial_argentino_9d0cca22.index.json",
+  "statsFile": "stats/ign_mar_territorial_argentino_9d0cca22.stats.json",
+  "wfsAvailable": true
+}

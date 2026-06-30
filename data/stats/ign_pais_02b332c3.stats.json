@@ -1,0 +1,55 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -74,
+    -90.00000001,
+    -25,
+    -21.78085699
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "885": 1
+    },
+    "entidad": {
+      "0": 1
+    },
+    "objeto": {
+      "País": 1
+    },
+    "fna": {
+      "República Argentina": 1
+    },
+    "gna": {
+      "República": 1
+    },
+    "nam": {
+      "Argentina": 1
+    },
+    "fdc": {
+      "-2": 1
+    },
+    "sag": {
+      "IGN": 1
+    }
+  }
+}

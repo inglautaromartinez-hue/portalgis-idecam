@@ -1,0 +1,112 @@
+{
+  "featureCount": 5614,
+  "bbox": [
+    -71.46763611,
+    -45.74123383,
+    -56.95145416,
+    -22.10347284
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 5614
+    },
+    "objeto": {
+      "Canal": 5614
+    },
+    "gna": {
+      "Canal": 1619,
+      "Arroyo": 12,
+      "Río": 7
+    },
+    "fdc": {
+      "IGN": 2098,
+      "Esri-World_Imagery 2010": 951,
+      "World Imagery/ Carta 100K": 631,
+      "Esri-World_Imagery 2010-2002-2001": 153,
+      "Imagery Esri 2002-2003": 153,
+      "Esri-world_imagery-2010": 149,
+      "Esri-World_Imagery": 125,
+      "Esri-World_Imagery  2010": 98,
+      "Departamento de Fotogrametría": 68,
+      "Esri-world_imagery": 67,
+      "D.R.H.": 65,
+      "IGN02/IGN04": 51,
+      "Esri_word Imagery 2010": 45,
+      "Departamento Fotogrametría": 44,
+      "Imagery Esri 1991-2001-2002-2006": 44,
+      "Esri-world_imagery-2010/IGN04/IGN 3969-17 1944": 41,
+      "Imagery Esri 2001-2002-2003-2010": 39,
+      "Imagery Esri 2010": 35,
+      "IGN02": 33,
+      "Esri-World Imagery": 31,
+      "Departamento de Fotogrametria": 30,
+      "Proyectos Especiales": 27,
+      "Ing. Tonini_Santa Fe": 21,
+      "Esri-word_Imagery_2010": 19,
+      "Esri World Imagery": 16,
+      "Esri World Imagery 2010": 13,
+      "SCIT Santa Fe": 12,
+      "Proyecto de Actualización BDGIIGN 2013": 12,
+      "Esri-World_Imagery_2010": 12,
+      "Interpretación y Nomenclatura": 10,
+      "ESRI-World_Imagery": 9,
+      "IGN02 / IGN04 / Subsecretaría de Recursos Hídricos": 8,
+      "IGN01": 8,
+      "Esri-world_imagery-2010/IGN04/IGN 3969-17 1944/Segemar": 8,
+      "Gabinete Tig Sig": 7,
+      "Esri-Word_Imagery_2010": 7,
+      "ESRI-World_Imagery-2010": 7,
+      "World_Imagery": 6,
+      "Esri-World_Imagery/IGN04/IGN 3969-17 1944": 6,
+      "Interpretación y Nomeclaturas": 5,
+      "Esri-Word_Imagery": 5,
+      "Campo 2010": 4,
+      "IGN02/IGN04/DGC.SDE": 4,
+      "IGN02/IGN04/SSRH": 4,
+      "Imagery Esri 2000-2001-2006-2008": 4,
+      "Esri-word_imagery_2010": 3,
+      "Provincia de Tucumán": 2,
+      "IGN01/IGN04": 2,
+      "Esri-word _imagery_2010": 2,
+      "Imagery Esri 2001-2002-2006-2010": 2,
+      "Esri-World_imagery": 2,
+      "IGN04": 2,
+      "Esri-world_imagery-2010/IGN 3969-17 1944": 2,
+      "Plancheta Año 1993": 1,
+      "IDEF Santa Fe": 1,
+      "Departamento Geocartografía": 1,
+      "IGN03": 1,
+      "Word_Imagery_2010": 1,
+      "Esri-Word_imagery_2010": 1,
+      "Esri-World Imagery 2010": 1,
+      "Esri-World Imagery 2010/IGN04/Inmuebles": 1,
+      "IGN02/IGN04/MIP": 1,
+      "Esri-world_imagery-2010/": 1,
+      "Esri-world_imagery-2010/IGN04/IGN Mapa Provincial": 1,
+      "Imagen Sentinel - 2/ Carta 100K": 1
+    },
+    "sag": {
+      "IGN": 5614
+    }
+  }
+}

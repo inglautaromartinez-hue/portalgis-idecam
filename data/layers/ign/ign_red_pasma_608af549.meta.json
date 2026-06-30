@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_red_pasma_bb969910",
+  "title": "Red geodésica PASMA",
+  "typeName": "ign:red_pasma",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "altura_elip",
+    "estado",
+    "ultima_visita"
+  ],
+  "group": "ign",
+  "featureCount": 1676,
+  "geometryType": "Point",
+  "bbox": [
+    -72.89189144,
+    -54.87044602,
+    -53.8579427,
+    -21.87775024
+  ],
+  "syncedAt": "2026-06-29T21:17:44.676Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_red_pasma_608af549.geojson"
+  ],
+  "indexFile": "indexes/ign_red_pasma_608af549.index.json",
+  "statsFile": "stats/ign_red_pasma_608af549.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

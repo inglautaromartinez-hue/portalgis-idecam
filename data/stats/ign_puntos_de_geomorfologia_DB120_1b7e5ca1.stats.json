@@ -1,0 +1,43 @@
+{
+  "featureCount": 839,
+  "bbox": [
+    -73.1290741,
+    -54.97873899,
+    -60.28712608,
+    -21.8029283
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 839
+    },
+    "gna": {
+      "Abra": 307,
+      "Paso": 280,
+      "Portezuelo": 228,
+      "Portillo": 10,
+      "Puente": 1,
+      "Aba": 1
+    },
+    "sag": {
+      "IGN": 839
+    }
+  }
+}

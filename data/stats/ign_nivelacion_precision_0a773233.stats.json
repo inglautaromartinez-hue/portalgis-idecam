@@ -1,0 +1,57 @@
+{
+  "featureCount": 8669,
+  "bbox": [
+    -71.09679723,
+    -48.6602495,
+    -54.11902823,
+    -24.34115872
+  ],
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota",
+    "marca",
+    "estado",
+    "ultima_visita"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "nomenclatura": "string",
+    "red": "string",
+    "latitud": "string",
+    "longitud": "string",
+    "cota": "number",
+    "marca": "string",
+    "estado": "string",
+    "ultima_visita": "string"
+  },
+  "categoricalCounts": {
+    "red": {
+      "Precisión": 8669
+    },
+    "marca": {
+      "Chapa pilar": 8306,
+      "Bulón bajo": 145,
+      "Ménsula": 10,
+      "Mojón subterraneo": 2
+    },
+    "estado": {
+      "Sin Novedad": 5200,
+      "Destruido": 2
+    },
+    "ultima_visita": {
+      "01/10/2011": 14,
+      "01/10/2015": 4,
+      "01/08/2013": 3,
+      "01/09/2012": 3,
+      "01/09/2001": 3,
+      "01/12/2014": 1,
+      "20/03/2017": 1,
+      "16/12/2014": 1,
+      "21/03/2017": 1
+    }
+  }
+}

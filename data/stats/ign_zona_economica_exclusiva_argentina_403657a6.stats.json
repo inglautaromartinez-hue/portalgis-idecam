@@ -1,0 +1,30 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -68.80286593,
+    -62.77903056,
+    -19.90706944,
+    -35.78213397
+  ],
+  "fields": [
+    "gid",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "3": 1
+    },
+    "sag": {
+      "Servicio de Hidrografía Naval": 1
+    },
+    "fdc": {
+      "Servicio de Hidrografía Naval": 1
+    }
+  }
+}

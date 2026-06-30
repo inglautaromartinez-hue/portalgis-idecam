@@ -1,0 +1,108 @@
+{
+  "featureCount": 639,
+  "bbox": [
+    -72.26502059,
+    -53.78425941,
+    -53.64841197,
+    -22.05066487
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 639
+    },
+    "objeto": {
+      "Estación de ómnibus": 639
+    },
+    "gna": {
+      "Terminal de Ómnibus": 555,
+      "Estación Terminal de Ómnibus": 23,
+      "Estación de Ómnibus": 15,
+      "Terminal": 13,
+      "Parador de Ómnibus": 12,
+      "Estación Terminal": 5,
+      "Nueva Terminal de Ómnibus": 1,
+      "Estación Ferroautomotora": 1,
+      "Estación Municipal de Ómnibus": 1,
+      "Estación Central": 1,
+      "Nueva Estación Terminal de Ómnibus": 1,
+      "Terminal de Transferencia": 1,
+      "Parador Municipal de Ómnibus": 1,
+      "Estación": 1,
+      "Estación de Colectivos": 1,
+      "Terminal Ferroautomotora": 1,
+      "Terminal de Colectivos": 1,
+      "Estación Terminal de Micro Ómnibus": 1,
+      "Parador": 1,
+      "Termina de Ómnibus": 1,
+      "Estación Central de Ómnibus": 1,
+      "Estación Central de Transbordo": 1
+    },
+    "fdc": {
+      "IGN/Open Street View": 261,
+      "IGN/Street View": 178,
+      "IGN/Open Street Map": 74,
+      "IGN": 42,
+      "OSM/Open Street View": 11,
+      "IGN01/IGN04": 8,
+      "IGN01": 8,
+      "IGN/Sitio web de la municipalidad": 8,
+      "IGN/OSM": 6,
+      "IGN04/Street View": 4,
+      "IGN04/Subsecretaría de Turismo Pcial.": 4,
+      "IGN01/IGN04/Subsecretaría de Turismo Pcial.": 3,
+      "IGN/Google Street View": 3,
+      "IGN01/Open Street View": 1,
+      "Esri-World_Imagery 2010/IGN01": 1,
+      "IGN01/IGN04/Secretaría de Turismo de Jujuy": 1,
+      "IGN01/IGN04/Gobierno de la Provincia de Jujuy": 1,
+      "IGN/Street View/Ordenanza Nº 2690": 1,
+      "IGN/Decreto Pcial 1490/2011": 1,
+      "IGN/pagian web de la municipaldiad": 1,
+      "IGN/pagina web de la municipalidad": 1,
+      "IGN/Open Steet Map": 1,
+      "IGN/Open Street map": 1,
+      "IGN/Sitio web de la gobernación": 1,
+      "IGN/Open Street Map/Concejo Deliberante de Bandera": 1,
+      "IGN/Sitio Oficial de la Municipalidad": 1,
+      "IGN/sitio web de la gobernación": 1,
+      "IGN/Open Street View/Sitio web de la institución": 1,
+      "IGN/Opn Street View": 1,
+      "IGN/Sitio web de la comuna": 1,
+      "IDE CABA/Street View": 1,
+      "OSM/Street View": 1,
+      "OSM/Sitio web del ministerio de Transporte de San Luis": 1,
+      "OSM/Ordenanza Nº 4369": 1,
+      "Street View": 1,
+      "Subsecretaría de Turismo Pcial./IGN04": 1,
+      "IGN04/Subsecretaría de Turismo de Neuquén": 1,
+      "ESRI-World_Imagery 2010/Open Street View": 1,
+      "IGN01/Turismo Neuquén": 1,
+      "IGN04/Sitio Web Municipal": 1,
+      "ESRI-World_Imagery": 1,
+      "Street View/Ley Pcial. 8393/2013": 1
+    },
+    "sag": {
+      "IGN": 639
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "featureCount": 104,
+  "bbox": [
+    -74,
+    -90.00000001,
+    -25,
+    -21.78085676
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "nam",
+    "gna",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "nam": "string",
+    "gna": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 1,
+      "2": 1,
+      "11": 100,
+      "15": 2
+    },
+    "objeto": {
+      "Límite internacional": 100,
+      "Límite exterior del Río de la Plata": 2,
+      "Límite del lecho y subsuelo del Río de la Plata": 1,
+      "Límite lateral marítimo argentino-uruguayo": 1
+    },
+    "fna": {
+      "Argentina - Paraguay Tramo 04": 67,
+      "Argentina - Uruguay Tramo 05": 2,
+      " ": 2,
+      "Argentina - Uruguay Tramo 06": 1,
+      "Argentina - Chile Tramo 11": 1,
+      "Argentina - Brasil Tramo 03": 1,
+      "Argentina - Chile Tramo 09": 1,
+      "Argentina - Chile Tramo 04": 1,
+      "Argentina - Brasil Tramo 01": 1,
+      "Argentina - Chile Tramo 15": 1,
+      "Argentina - Uruguay Tramo 03": 1,
+      "Argentina - Chile Tramo 17": 1,
+      "Argentina - Chile Tramo 07": 1,
+      "Argentina - Bolivia  Tramo 02": 1,
+      "Argentina - Chile Tramo 13": 1,
+      "Argentina - Brasil Tramo 02": 1,
+      "Argentina - Paraguay Tramo 01": 1,
+      "Argentina - Uruguay Tramo 01": 1,
+      "Argentina - Uruguay Tramo 04": 1,
+      "Argentina - Chile Tramo 03": 1,
+      "Argentina - Chile Tramo 16": 1,
+      "Argentina - Bolivia  Tramo 01": 1,
+      "Argentina - Chile Tramo 08": 1,
+      "Argentina - Chile Tramo 05": 1,
+      "Argentina - Paraguay Tramo 03": 1,
+      "Argentina - Chile Tramo 10": 1,
+      "Argentina - Paraguay Tramo 02": 1,
+      "Argentina - Uruguay Tramo 02": 1,
+      "Argentina - Chile Tramo 06": 1,
+      "Argentina - Bolivia  Tramo 03": 1,
+      "Argentina - Chile Tramo 12": 1,
+      "Argentina - Brasil Tramo 04": 1,
+      "-2": 1,
+      "Argentina - Chile Tramo 01": 1,
+      "Argentina - Chile Tramo 02": 1,
+      "Argentina - Chile Tramo 14": 1
+    },
+    "nam": {
+      "Tramo 04": 70,
+      "Tramo 03": 5,
+      "Tramo 01": 5,
+      "Tramo 02": 5,
+      "Tramo 05": 3,
+      "Tramo 06": 2,
+      "Tramo 14": 2,
+      " ": 2,
+      "Tramo 11": 1,
+      "Tramo 09": 1,
+      "Tramo 17": 1,
+      "Tramo 07": 1,
+      "Tramo 13": 1,
+      "Tramo 16": 1,
+      "Tramo 08": 1,
+      "Tramo 10": 1,
+      "Tramo 12": 1,
+      "Sector Antártico Argentino": 1
+    },
+    "gna": {
+      "Argentina - Paraguay": 70,
+      "Argentina - Chile": 17,
+      "Argentina - Uruguay": 7,
+      "Argentina - Brasil": 4,
+      "Argentina - Bolivia": 3,
+      " ": 2,
+      "-2": 1
+    },
+    "fdc": {
+      "Hojas CONALI": 96,
+      "Servicio de Hidrografía Naval": 5,
+      "Tratado del Río de la Plata": 1,
+      "World_Imagery": 1,
+      "IGN": 1
+    },
+    "sag": {
+      "IGN": 104
+    }
+  }
+}

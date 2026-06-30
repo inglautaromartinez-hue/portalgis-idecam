@@ -1,0 +1,50 @@
+{
+  "featureCount": 1678,
+  "bbox": [
+    -73.13237833,
+    -54.89279167,
+    -53.63736944,
+    -21.78402778
+  ],
+  "fields": [
+    "gid",
+    "pais",
+    "nombre",
+    "seccion",
+    "codigo"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "pais": "string",
+    "nombre": "string",
+    "seccion": "string",
+    "codigo": "string"
+  },
+  "categoricalCounts": {
+    "pais": {
+      "Chile": 708,
+      "Bolivia": 406,
+      "Paraguay": 279,
+      "Brasil": 276,
+      "Uruguay": 7
+    },
+    "seccion": {
+      "VI": 238,
+      "III": 202,
+      "II": 158,
+      "I": 148,
+      "VII": 124,
+      "V": 105,
+      "XIII": 79,
+      "X": 54,
+      "XVI": 50,
+      "IX": 46,
+      "XI": 43,
+      "VIII": 33,
+      "XIV": 32,
+      "XII": 31,
+      "XV": 27,
+      "IV": 24
+    }
+  }
+}

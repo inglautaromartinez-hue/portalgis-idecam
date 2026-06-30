@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_vegetacion_arborea_EC015_181f656e",
+  "title": "Bosque, selva",
+  "typeName": "ign:vegetacion_arborea_EC015",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 6419,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.47685242,
+    -55.05605316,
+    -53.63670749,
+    -21.99999809
+  ],
+  "syncedAt": "2026-06-29T21:07:05.483Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_vegetacion_arborea_EC015_805af201.geojson"
+  ],
+  "indexFile": "indexes/ign_vegetacion_arborea_EC015_805af201.index.json",
+  "statsFile": "stats/ign_vegetacion_arborea_EC015_805af201.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

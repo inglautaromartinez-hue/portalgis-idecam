@@ -1,0 +1,30 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -70.58368569,
+    -36.81296353,
+    -69.05861614,
+    -32.06581626
+  ],
+  "fields": [
+    "fid",
+    "LEY_NACION",
+    "LEY_PROV"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "LEY_NACION": "string",
+    "LEY_PROV": "string"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1
+    },
+    "LEY_NACION": {
+      "Zona Seguridad Fronteras  Decreto 253/2018": 1
+    },
+    "LEY_PROV": {
+      "Zona Seguridad Ley Provincial Nº 2374": 1
+    }
+  }
+}

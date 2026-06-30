@@ -1,0 +1,42 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_area_protegida_80b0f6f6",
+  "title": "Área protegida",
+  "typeName": "ign:area_protegida",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tap",
+    "jap",
+    "caa",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 506,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -73.56658935,
+    -82.55634,
+    -44.958213,
+    -21.81487826
+  ],
+  "syncedAt": "2026-06-29T21:40:42.695Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/ign/ign_area_protegida_4d2b8ec3.geojson"
+  ],
+  "indexFile": "indexes/ign_area_protegida_4d2b8ec3.index.json",
+  "statsFile": "stats/ign_area_protegida_4d2b8ec3.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,42 @@
+{
+  "id": "geonode_linea_alta_tension_c75a2845_f042_47b7_babd_5bae6fc56865",
+  "title": "Lineas de Alta tension EDEMSA",
+  "typeName": "geonode:linea_alta_tension",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "NOMBRE",
+    "ID",
+    "TENSION",
+    "FASES",
+    "SECCION",
+    "MATERIAL",
+    "FECHA_PUES",
+    "PROPIEDAD",
+    "CONCESION",
+    "depto"
+  ],
+  "group": "INFRAESTRUCTURA ENERGIA",
+  "wmsAvailable": true,
+  "featureCount": 238,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -69.65849977,
+    -37.53299964,
+    -67.17271625,
+    -32.26890482
+  ],
+  "syncedAt": "2026-06-29T21:44:27.071Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_linea_alta_tension_6614f666.geojson"
+  ],
+  "indexFile": "indexes/geonode_linea_alta_tension_6614f666.index.json",
+  "statsFile": "stats/geonode_linea_alta_tension_6614f666.stats.json",
+  "wfsAvailable": true
+}

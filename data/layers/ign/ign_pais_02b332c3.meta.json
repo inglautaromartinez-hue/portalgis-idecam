@@ -1,0 +1,41 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_pais_7b7cafbd",
+  "title": "País",
+  "typeName": "ign:pais",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -74,
+    -90.00000001,
+    -25,
+    -21.78085699
+  ],
+  "syncedAt": "2026-06-29T21:30:00.393Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [
+    "GeoJSON sin comprimir: 107.9 MB."
+  ],
+  "files": [
+    "layers/ign/ign_pais_02b332c3.part-0001.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_pais_02b332c3.index.json",
+  "statsFile": "stats/ign_pais_02b332c3.stats.json",
+  "wfsAvailable": true
+}

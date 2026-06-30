@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_SERVIDUMBRE_DUCTO_aa941665_410d_4029_a9d6_528aab86b69a",
+  "title": "CONST. SERVIDUMBRE",
+  "typeName": "geonode:MENSURA_SERVIDUMBRE_DUCTO",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "Sup_empad_",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 100,
+  "geometryType": "Point",
+  "bbox": [
+    -69.33227847,
+    -34.9738228,
+    -67.65944541,
+    -32.83239566
+  ],
+  "syncedAt": "2026-06-29T21:41:16.750Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_SERVIDUMBRE_DUCTO_41b8dfd5.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_SERVIDUMBRE_DUCTO_41b8dfd5.index.json",
+  "statsFile": "stats/geonode_MENSURA_SERVIDUMBRE_DUCTO_41b8dfd5.stats.json",
+  "wfsAvailable": true
+}

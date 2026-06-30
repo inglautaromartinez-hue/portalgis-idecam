@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_actividad_agropecuaria_AJ050_c3887429",
+  "title": "Molino viento",
+  "typeName": "ign:puntos_de_actividad_agropecuaria_AJ050",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 4050,
+  "geometryType": "Point",
+  "bbox": [
+    -70.87299133,
+    -40.35632665,
+    -57.65482591,
+    -22.07821626
+  ],
+  "syncedAt": "2026-06-29T21:15:53.423Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_actividad_agropecuaria_AJ050_7a4bb1e7.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_actividad_agropecuaria_AJ050_7a4bb1e7.index.json",
+  "statsFile": "stats/ign_puntos_de_actividad_agropecuaria_AJ050_7a4bb1e7.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

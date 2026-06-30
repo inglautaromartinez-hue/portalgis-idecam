@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_aguas_continentales_BI020_e22e3947",
+  "title": "Muro de embalse",
+  "typeName": "ign:lineas_de_aguas_continentales_BI020",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 126,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.65402575,
+    -43.70093128,
+    -54.55582836,
+    -24.15805168
+  ],
+  "syncedAt": "2026-06-29T21:15:54.968Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_aguas_continentales_BI020_863c76dc.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_aguas_continentales_BI020_863c76dc.index.json",
+  "statsFile": "stats/ign_lineas_de_aguas_continentales_BI020_863c76dc.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

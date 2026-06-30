@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_aguas_continentales_041101_3c8375c5",
+  "title": "Embalse rural",
+  "typeName": "ign:puntos_de_aguas_continentales_041101",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 1155,
+  "geometryType": "Point",
+  "bbox": [
+    -70.85209392,
+    -40.17594376,
+    -57.82748352,
+    -21.93319959
+  ],
+  "syncedAt": "2026-06-29T21:10:08.229Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_aguas_continentales_041101_fc5e4a37.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_aguas_continentales_041101_fc5e4a37.index.json",
+  "statsFile": "stats/ign_puntos_de_aguas_continentales_041101_fc5e4a37.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

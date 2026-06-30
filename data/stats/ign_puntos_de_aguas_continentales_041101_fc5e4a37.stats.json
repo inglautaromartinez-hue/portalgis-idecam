@@ -1,0 +1,120 @@
+{
+  "featureCount": 1155,
+  "bbox": [
+    -70.85209392,
+    -40.17594376,
+    -57.82748352,
+    -21.93319959
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "4": 1155
+    },
+    "objeto": {
+      "Embalse rural": 1155
+    },
+    "fdc": {
+      "Esri-World_Imagery 2010": 399,
+      "IGN01": 158,
+      "IGN02": 126,
+      "Esri-World Imagery 2010": 110,
+      "Esri World Imagery 2010": 56,
+      "Esri_word Imagery 2010": 54,
+      "Esri WorldImagery2010": 47,
+      "Esri-World_Imagery": 38,
+      "Departamento de Fotogrametría": 26,
+      "Esri-Word_Imagery": 24,
+      "ESRI-World_Imagery-2010": 24,
+      "Actualización 2016 Atlas 500K": 17,
+      "IGN04": 15,
+      "Interpretación y nomenclatura": 11,
+      "ESRI-World_Imagery_2010": 10,
+      "ESRI-World_Imagery 2010": 8,
+      "IGN01/IGN04": 7,
+      "Esri World Imagery": 6,
+      "IGN03": 4,
+      "Esri-Word imagery": 2,
+      "Esri-Word_Imagery_2010": 1,
+      "IGN/Esri World Imagery": 1,
+      "IGN": 1,
+      "IGN/ Esri World Imagery": 1,
+      "Departamento de Fotogrametria": 1,
+      "Esri-world_imagery": 1,
+      "Esri world imagery": 1,
+      "Esri-World_imagery": 1,
+      "ESRI-World_Imagery": 1
+    },
+    "sag": {
+      "IGN": 1155
+    },
+    "fna": {
+      "Embalse  Rural": 5,
+      "Agua de la Isla": 1,
+      "Agua de los Noques": 1,
+      "Agua del Potrero": 1,
+      "Agua del Puntano": 1,
+      "Aguada Curau": 1,
+      "Aguada de Benhul": 1,
+      "Aguada de la Pichana": 1,
+      "Aguada del Desierto": 1,
+      "Aguada del León": 1,
+      "Aguada El Barro Negro": 1,
+      "Aguada Las Horquetas": 1,
+      "Aguada Loan Co": 1,
+      "Aguada Manantial": 1,
+      "Aguada Ojo de Antofalla": 1,
+      "Aguada Ojo de Caipe": 1,
+      "Aguada Podrida": 1,
+      "Embalse Los Caracoles": 1,
+      "Embalse Punta Negra": 1,
+      "Embalse de Ullum": 1
+    },
+    "gna": {
+      "Aguada": 12,
+      "Embalse": 8,
+      "Agua": 4
+    },
+    "nam": {
+      "Rural": 5,
+      "de la Isla": 1,
+      "de los Noques": 1,
+      "del Potrero": 1,
+      "del Puntano": 1,
+      "Curau": 1,
+      "de Benhul": 1,
+      "de la Pichana": 1,
+      "del Desierto": 1,
+      "del León": 1,
+      "El Barro Negro": 1,
+      "Las Horquetas": 1,
+      "Loan Co": 1,
+      "Manantial": 1,
+      "Ojo de Antofalla": 1,
+      "Ojo de Caipe": 1,
+      "Podrida": 1,
+      "Los Caracoles": 1,
+      "Punta Negra": 1,
+      "de Ullum": 1
+    }
+  }
+}

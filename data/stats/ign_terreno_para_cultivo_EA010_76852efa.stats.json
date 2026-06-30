@@ -1,0 +1,58 @@
+{
+  "featureCount": 5045,
+  "bbox": [
+    -70.73154884,
+    -42.94317627,
+    -53.63556671,
+    -21.93062574
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 5045
+    },
+    "objeto": {
+      "Terreno para cultivo": 5045
+    },
+    "fdc": {
+      "IGN": 2237,
+      "ESRI-World_Imagery 2010": 1048,
+      "Esri-World_Imagery 2010": 297,
+      "Departamento de Fotogrametría": 269,
+      "Proyectos Especiales": 235,
+      "Departamento Fotogrametría": 215,
+      "IGN03": 156,
+      "Imagery Esri 2001-2002-2003-2010": 69,
+      "Gabinete": 49,
+      "Imagery Esri 2002-2003": 26,
+      "Tig Sig Gabinete": 26,
+      "Imagery Esri 1991-2001-2002-200": 18,
+      "Gabinete Tig Sig": 14,
+      "Esri-World_Imagery 2006": 13,
+      "World_Imagery,2006": 13,
+      "Esri-World_Imagery 2010-2002-2001": 10,
+      "Esri-word_Imagery_2010": 9,
+      "IGN02": 6,
+      "Interpretación y Nomenclatura": 5,
+      "Departamento Tig Sig": 4,
+      "Esri-World_Imagery  2001-2002-2006-2010": 2,
+      "Gabinete TIC SIG": 2
+    },
+    "sag": {
+      "IGN": 4555
+    }
+  }
+}

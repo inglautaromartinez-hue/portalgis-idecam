@@ -1,0 +1,34 @@
+{
+  "id": "Parcelas_con_derecho_de_riego_8bbed6c9_9962_4da9_8805_54b41d8c705a",
+  "title": "Parcelas con derecho de riego",
+  "typeName": "geonode:parcelario_irrigado_epsg4326",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "nomenclatu",
+    "ZONA"
+  ],
+  "group": "IRRIGACION",
+  "featureCount": 60025,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.83655072,
+    -35.9992341,
+    -67.18531582,
+    -32.31791841
+  ],
+  "syncedAt": "2026-06-29T20:49:35.330Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/geonode/geonode_parcelario_irrigado_epsg4326_5433a353.geojson"
+  ],
+  "indexFile": "indexes/geonode_parcelario_irrigado_epsg4326_5433a353.index.json",
+  "statsFile": "stats/geonode_parcelario_irrigado_epsg4326_5433a353.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

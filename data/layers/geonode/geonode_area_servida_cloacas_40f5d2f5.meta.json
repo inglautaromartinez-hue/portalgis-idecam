@@ -1,0 +1,34 @@
+{
+  "id": "geonode_area_servida_cloacas_c11a682a_9125_4d66_8916_7e4a73bd5742",
+  "title": "Areas con servicio CLOACAS",
+  "typeName": "geonode:area_servida_cloacas",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "id",
+    "fid"
+  ],
+  "group": "IDECAM – WFS (Demo) / AREAS CON SERVICIOS",
+  "wmsAvailable": true,
+  "featureCount": 16,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -69.36455488,
+    -34.99356618,
+    -67.51511461,
+    -32.57242164
+  ],
+  "syncedAt": "2026-06-29T21:44:25.263Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_area_servida_cloacas_40f5d2f5.geojson"
+  ],
+  "indexFile": "indexes/geonode_area_servida_cloacas_40f5d2f5.index.json",
+  "statsFile": "stats/geonode_area_servida_cloacas_40f5d2f5.stats.json",
+  "wfsAvailable": true
+}

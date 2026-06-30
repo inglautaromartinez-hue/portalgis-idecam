@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_gravimetria_raga_a8d624c6",
+  "title": "Red gravimétrica RAGA",
+  "typeName": "ign:gravimetria_raga",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota"
+  ],
+  "group": "ign",
+  "featureCount": 45,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88461111,
+    -54.82188889,
+    -54.53897222,
+    -24.28080556
+  ],
+  "syncedAt": "2026-06-29T21:17:45.606Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_gravimetria_raga_c45e7f0a.geojson"
+  ],
+  "indexFile": "indexes/ign_gravimetria_raga_c45e7f0a.index.json",
+  "statsFile": "stats/ign_gravimetria_raga_c45e7f0a.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

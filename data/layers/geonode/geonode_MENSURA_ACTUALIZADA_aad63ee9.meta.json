@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_ACTUALIZADA_2aedbf39_a7d8_4bf5_b3d1_03a3b74fef21",
+  "title": "ACTUALIZACIÓN",
+  "typeName": "geonode:MENSURA_ACTUALIZADA",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 25348,
+  "geometryType": "Point",
+  "bbox": [
+    -69.95751197,
+    -36.4885958,
+    -66.75152011,
+    -32.47200468
+  ],
+  "syncedAt": "2026-06-29T21:41:15.728Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_ACTUALIZADA_aad63ee9.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_ACTUALIZADA_aad63ee9.index.json",
+  "statsFile": "stats/geonode_MENSURA_ACTUALIZADA_aad63ee9.stats.json",
+  "wfsAvailable": true
+}

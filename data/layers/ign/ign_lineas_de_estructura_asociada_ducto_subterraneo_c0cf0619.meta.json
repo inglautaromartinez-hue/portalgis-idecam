@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_estructura_asociada_ducto_subterraneo_6e99b4d7",
+  "title": "Ducto",
+  "typeName": "ign:lineas_de_estructura_asociada_ducto_subterraneo",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "tdu",
+    "fdc",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 11541,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.5956741,
+    -53.36303597,
+    -57.2851073,
+    -22.20058883
+  ],
+  "syncedAt": "2026-06-29T21:08:51.893Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_estructura_asociada_ducto_subterraneo_c0cf0619.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_estructura_asociada_ducto_subterraneo_c0cf0619.index.json",
+  "statsFile": "stats/ign_lineas_de_estructura_asociada_ducto_subterraneo_c0cf0619.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

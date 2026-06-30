@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_PARTE_MAYOR_EXTENSION_048d2b62_651c_4e05_9ea0_d2c0cee5309a",
+  "title": "PME",
+  "typeName": "geonode:MENSURA_PARTE_MAYOR_EXTENSION",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 155,
+  "geometryType": "Point",
+  "bbox": [
+    -70.11514555,
+    -37.09304327,
+    -67.68471206,
+    -32.55118221
+  ],
+  "syncedAt": "2026-06-29T21:41:16.370Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_PARTE_MAYOR_EXTENSION_cdd6dffc.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_PARTE_MAYOR_EXTENSION_cdd6dffc.index.json",
+  "statsFile": "stats/geonode_MENSURA_PARTE_MAYOR_EXTENSION_cdd6dffc.stats.json",
+  "wfsAvailable": true
+}

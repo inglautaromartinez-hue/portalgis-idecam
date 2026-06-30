@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_sin_vegetacion_061001_33422562",
+  "title": "Desmonte",
+  "typeName": "ign:sin_vegetacion_061001",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 640,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.44352227,
+    -41.18588026,
+    -58.59366957,
+    -25.99999994
+  ],
+  "syncedAt": "2026-06-29T21:08:44.855Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_sin_vegetacion_061001_59be9f05.geojson"
+  ],
+  "indexFile": "indexes/ign_sin_vegetacion_061001_59be9f05.index.json",
+  "statsFile": "stats/ign_sin_vegetacion_061001_59be9f05.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

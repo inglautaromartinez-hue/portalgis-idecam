@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_fabricacion_y_procesamiento_AC000_491992b8",
+  "title": "Fábrica",
+  "typeName": "ign:puntos_de_fabricacion_y_procesamiento_AC000",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "isic",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 2226,
+  "geometryType": "Point",
+  "bbox": [
+    -72.31118984,
+    -54.79343746,
+    -53.92123032,
+    -21.9975416
+  ],
+  "syncedAt": "2026-06-29T21:10:43.845Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_fabricacion_y_procesamiento_AC000_e01f9882.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_fabricacion_y_procesamiento_AC000_e01f9882.index.json",
+  "statsFile": "stats/ign_puntos_de_fabricacion_y_procesamiento_AC000_e01f9882.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

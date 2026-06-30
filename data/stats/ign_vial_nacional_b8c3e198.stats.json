@@ -1,0 +1,52 @@
+{
+  "featureCount": 2738,
+  "bbox": [
+    -72.29875047,
+    -54.97216443,
+    -53.64079772,
+    -22.05302651
+  ],
+  "fields": [
+    "gid",
+    "rtn",
+    "typ",
+    "rst",
+    "hct",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "rtn": "string",
+    "typ": "number",
+    "rst": "number",
+    "hct": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "typ": {
+      "40": 2320,
+      "41": 297,
+      "47": 121
+    },
+    "rst": {
+      "1": 2683,
+      "2": 49,
+      "3": 6
+    },
+    "hct": {
+      "1": 2738
+    },
+    "fdc": {
+      "Dirección Nacional de Vialidad": 2724,
+      "DVP Neuquén": 8,
+      "Esri-world_imagery-2010/IGN04/ACA/DPV/OSM": 4,
+      "ESRI World Imagery": 1,
+      "Esri-World_Imagery-2010/IGN01/IGN04/ACA/DPV/OSM": 1
+    },
+    "sag": {
+      "IGN": 2738
+    }
+  }
+}

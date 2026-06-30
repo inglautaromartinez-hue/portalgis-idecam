@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_plantacion_permanente_KB025_6dd065f2",
+  "title": "Plantación permanente",
+  "typeName": "ign:plantacion_permanente_KB025",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 2031,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.62467194,
+    -54.31655502,
+    -53.85551071,
+    -22.09091377
+  ],
+  "syncedAt": "2026-06-29T21:16:53.877Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_plantacion_permanente_KB025_b5e29e8f.geojson"
+  ],
+  "indexFile": "indexes/ign_plantacion_permanente_KB025_b5e29e8f.index.json",
+  "statsFile": "stats/ign_plantacion_permanente_KB025_b5e29e8f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

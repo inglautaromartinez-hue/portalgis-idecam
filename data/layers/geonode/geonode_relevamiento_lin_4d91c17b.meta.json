@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_relevamiento_lin_20c18bd4",
+  "title": "relevamiento_lin",
+  "typeName": "geonode:relevamiento_lin",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "id",
+    "tipo",
+    "prof",
+    "contac"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 3,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -68.88802825,
+    -33.0122034,
+    -68.87503218,
+    -32.99343226
+  ],
+  "syncedAt": "2026-06-29T21:45:13.372Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_relevamiento_lin_4d91c17b.geojson"
+  ],
+  "indexFile": "indexes/geonode_relevamiento_lin_4d91c17b.index.json",
+  "statsFile": "stats/geonode_relevamiento_lin_4d91c17b.stats.json",
+  "wfsAvailable": true
+}

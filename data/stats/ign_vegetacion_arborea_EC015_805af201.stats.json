@@ -1,0 +1,67 @@
+{
+  "featureCount": 6419,
+  "bbox": [
+    -73.47685242,
+    -55.05605316,
+    -53.63670749,
+    -21.99999809
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 6419
+    },
+    "objeto": {
+      "Bosque, selva": 6403,
+      "Suelo Franco": 16
+    },
+    "fdc": {
+      "IGN": 4866,
+      "Departamento de Fotogrametría": 413,
+      "Esri World Imagery 2010": 262,
+      "Esri-Word_Imagery": 139,
+      "Esri-Word_Imagery_2010": 103,
+      "Esri-World_Imagery 2010": 93,
+      "Departamento Fotogrametría": 89,
+      "Esri-World_Imagery": 84,
+      "Esri-World_Imagery 2001-2002-2006-2010": 41,
+      "Esri-World_Imagery_2010": 33,
+      "Departamento Tig Sig": 28,
+      "Imagery Esri 2001-2002-2003-2010": 25,
+      "Esri_Word Imagery": 21,
+      "Departamento de Fotogrametía": 20,
+      "Imagery Esri 1991-2001-2002-2006": 18,
+      "Imagery Esri 2010": 17,
+      "-": 16,
+      "Esri-World_Imagery 2010-2002-2001": 8,
+      "Departamento  Fotogrametría": 7,
+      "Esri World Imagery": 6,
+      "Esri-word_Imagery_2010": 5,
+      "Esri-Word imagery": 4,
+      "Esri-World_Imagery 2006": 3,
+      "ESRI_Wolrd-Imagery": 2,
+      "ESRI_World-Imagery": 2,
+      "World_imagery": 2,
+      "Imagery Esri 2002-2003": 1,
+      "Interpretación y Nomenclatura": 1,
+      "Esri World_Imagery_2008": 1,
+      "Esri-Word_Imagery 2010": 1
+    },
+    "sag": {
+      "IGN": 6402
+    }
+  }
+}

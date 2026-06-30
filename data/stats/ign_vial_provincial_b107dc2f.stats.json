@@ -1,0 +1,69 @@
+{
+  "featureCount": 12928,
+  "bbox": [
+    -73.0300211,
+    -54.81811052,
+    -53.6993695,
+    -21.856798
+  ],
+  "fields": [
+    "gid",
+    "rtn",
+    "typ",
+    "rst",
+    "hct",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "rtn": "string",
+    "typ": "number",
+    "rst": "number",
+    "hct": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "typ": {
+      "40": 12358,
+      "41": 404,
+      "47": 149,
+      "49": 17
+    },
+    "rst": {
+      "1": 8019,
+      "2": 2430,
+      "3": 2479
+    },
+    "hct": {
+      "2": 12928
+    },
+    "fdc": {
+      "DVP Buenos Aires": 2007,
+      "OpenStreetMap": 1809,
+      "IDECOR": 1609,
+      "UNIDE": 1342,
+      "IDESF": 1124,
+      "DPV Mendoza": 720,
+      "DPV": 565,
+      "AVP": 560,
+      "IDESA": 412,
+      "IDECORR": 327,
+      "DVP Neuquén": 325,
+      "DVP Jujuy": 314,
+      "DVP Chaco": 303,
+      "DPV Catamarca": 293,
+      "IDETucuman": 287,
+      "Dirección de Vialidad Rionegrina": 255,
+      "Infraestructura de Datos Espaciales CABA (IDECABA)": 255,
+      "AGVP Santa Cruz": 195,
+      "IDEF": 105,
+      "IDELaRioja": 87,
+      "IDE-TDF": 34
+    },
+    "sag": {
+      "IGN": 12928
+    }
+  }
+}

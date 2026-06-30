@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_extraccion_AA050_5c512b96",
+  "title": "Pozo hidrocarburos",
+  "typeName": "ign:puntos_de_extraccion_AA050",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "nam",
+    "sag",
+    "fun",
+    "ppo",
+    "fdc",
+    "gna"
+  ],
+  "group": "ign",
+  "featureCount": 70551,
+  "geometryType": "Point",
+  "bbox": [
+    -71.75009999,
+    -54.242047,
+    -61.91662903,
+    -22.00255
+  ],
+  "syncedAt": "2026-06-29T21:17:07.574Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_extraccion_AA050_321038d4.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_extraccion_AA050_321038d4.index.json",
+  "statsFile": "stats/ign_puntos_de_extraccion_AA050_321038d4.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

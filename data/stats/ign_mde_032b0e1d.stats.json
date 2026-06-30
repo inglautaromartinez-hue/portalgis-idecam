@@ -1,0 +1,33 @@
+{
+  "featureCount": 5106,
+  "bbox": [
+    -74.00000095,
+    -64.40115533,
+    -26.23335096,
+    -21.66646011
+  ],
+  "fields": [
+    "gid",
+    "nombre",
+    "proyecto",
+    "archivo",
+    "link"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "nombre": "string",
+    "proyecto": "string",
+    "archivo": "string",
+    "link": "string"
+  },
+  "categoricalCounts": {
+    "proyecto": {
+      "MDE 5m": 2728,
+      "MDE 30 m": 1910,
+      "MDE 0.5m": 190,
+      "MDT 5m": 105,
+      "MDT externos": 87,
+      "MDT 0.5m": 86
+    }
+  }
+}

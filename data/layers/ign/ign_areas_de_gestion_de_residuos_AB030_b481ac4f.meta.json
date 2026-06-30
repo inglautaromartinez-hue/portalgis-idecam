@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_gestion_de_residuos_AB030_07c23b54",
+  "title": "Planta de tratamiento de residuos",
+  "typeName": "ign:areas_de_gestion_de_residuos_AB030",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 124,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -72.89441158,
+    -54.79783783,
+    -54.57582072,
+    -24.29530441
+  ],
+  "syncedAt": "2026-06-29T21:16:48.263Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_gestion_de_residuos_AB030_b481ac4f.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_gestion_de_residuos_AB030_b481ac4f.index.json",
+  "statsFile": "stats/ign_areas_de_gestion_de_residuos_AB030_b481ac4f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

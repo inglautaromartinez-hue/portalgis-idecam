@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_actividad_agropecuaria_AL270_e2ae1a68",
+  "title": "Establecimiento agropecuario",
+  "typeName": "ign:areas_de_actividad_agropecuaria_AL270",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "fdc",
+    "fna",
+    "nam",
+    "gna"
+  ],
+  "group": "ign",
+  "featureCount": 434,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.93603662,
+    -39.22941873,
+    -57.25,
+    -26.74042843
+  ],
+  "syncedAt": "2026-06-29T21:10:27.280Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_actividad_agropecuaria_AL270_c4593d0f.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_actividad_agropecuaria_AL270_c4593d0f.index.json",
+  "statsFile": "stats/ign_areas_de_actividad_agropecuaria_AL270_c4593d0f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

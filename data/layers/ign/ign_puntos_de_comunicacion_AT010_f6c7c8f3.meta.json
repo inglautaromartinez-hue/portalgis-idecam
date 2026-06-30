@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_comunicacion_AT010_1f2d3d79",
+  "title": "Antena",
+  "typeName": "ign:puntos_de_comunicacion_AT010",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fdc",
+    "fna",
+    "nam",
+    "gna"
+  ],
+  "group": "ign",
+  "featureCount": 426,
+  "geometryType": "Point",
+  "bbox": [
+    -73.12081789,
+    -53.68245196,
+    -57.92626735,
+    -21.94740509
+  ],
+  "syncedAt": "2026-06-29T21:06:46.925Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_comunicacion_AT010_f6c7c8f3.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_comunicacion_AT010_f6c7c8f3.index.json",
+  "statsFile": "stats/ign_puntos_de_comunicacion_AT010_f6c7c8f3.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

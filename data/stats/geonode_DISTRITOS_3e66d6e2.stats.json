@@ -1,0 +1,57 @@
+{
+  "featureCount": 4,
+  "bbox": [
+    -70.58368569,
+    -37.57198768,
+    -68.24611107,
+    -34.68962962
+  ],
+  "fields": [
+    "fid",
+    "DEPARTAMEN",
+    "CODIGO_DEP",
+    "DISTRITO",
+    "CODIGO_DIS",
+    "Sup"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "DEPARTAMEN": "string",
+    "CODIGO_DEP": "string",
+    "DISTRITO": "string",
+    "CODIGO_DIS": "string",
+    "Sup": "number"
+  },
+  "categoricalCounts": {
+    "fid": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "DEPARTAMEN": {
+      "MALARGUE": 4
+    },
+    "CODIGO_DEP": {
+      "19": 4
+    },
+    "DISTRITO": {
+      "MALARGUE": 1,
+      "LA ESCONDIDA": 1,
+      "RIO GRANDE": 1,
+      "RIO BARRANCAS": 1
+    },
+    "CODIGO_DIS": {
+      "01": 1,
+      "02": 1,
+      "04": 1,
+      "03": 1
+    },
+    "Sup": {
+      "7003": 1,
+      "7593": 1,
+      "8191": 1,
+      "17734": 1
+    }
+  }
+}

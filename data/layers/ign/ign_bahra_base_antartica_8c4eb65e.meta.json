@@ -1,0 +1,45 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_bahra_base_antartica_d28b127d",
+  "title": "Base antártica",
+  "typeName": "ign:bahra_base_antartica",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "cod_pcia",
+    "nom_pcia",
+    "cod_depto",
+    "nom_depto",
+    "cod_ase",
+    "fna",
+    "tipo_asent",
+    "cod_agl",
+    "nom_agl",
+    "lat_gd",
+    "long_gd",
+    "lat_gs",
+    "long_gs",
+    "fdc"
+  ],
+  "group": "ign",
+  "featureCount": 13,
+  "geometryType": "MultiPoint",
+  "bbox": [
+    -67.1009259,
+    -77.87551393,
+    -34.67956671,
+    -60.73771747
+  ],
+  "syncedAt": "2026-06-29T21:06:55.124Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_bahra_base_antartica_8c4eb65e.geojson"
+  ],
+  "indexFile": "indexes/ign_bahra_base_antartica_8c4eb65e.index.json",
+  "statsFile": "stats/ign_bahra_base_antartica_8c4eb65e.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

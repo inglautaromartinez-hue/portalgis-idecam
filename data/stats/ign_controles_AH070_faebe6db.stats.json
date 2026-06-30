@@ -1,0 +1,121 @@
+{
+  "featureCount": 228,
+  "bbox": [
+    -72.88508937,
+    -54.86802653,
+    -53.64404686,
+    -22.05369405
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "bcp",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "bcp": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 228
+    },
+    "objeto": {
+      "Puesto de control": 228
+    },
+    "gna": {
+      "Aeropuerto Internacional": 18,
+      "Aeropuerto": 13,
+      "Puesto Limítrofe": 13,
+      "Aduana": 10,
+      "Control de Ingreso Provincial de Productos Aliment": 6,
+      "Policía Caminera": 6,
+      "Paso Internacional": 5,
+      "Complejo Fronterizo": 3,
+      "Gendarmería Nacional": 3,
+      "Puesto de Control": 3,
+      "Paso Fronterizo": 2,
+      "Puesto": 2,
+      "Control Fitosanitario": 2,
+      "Barrera Sanitaria": 2,
+      "Dirección Nacional de Migraciones": 1,
+      "Paso": 1,
+      "Paso internacional": 1,
+      "Resguardo": 1,
+      "Zona Aduanera Primaria": 1,
+      "Complejo de Cargas": 1,
+      "Aeroparque": 1,
+      "Zona Franca": 1,
+      "Control Sanitario": 1,
+      "Puesto Fitosanitario": 1,
+      "Gendarmería Nacioanl": 1,
+      "Control Fiscal": 1,
+      "Control": 1,
+      "Sección Seguridad Vial": 1
+    },
+    "bcp": {
+      "3": 59,
+      "4": 37,
+      "7": 23,
+      "8": 89,
+      "9": 18,
+      "-1": 2
+    },
+    "fdc": {
+      "IGN/Resolución 761/2013": 90,
+      "IGN/Dirección Nacional de Migraciones": 42,
+      "IGN/Policía Provincial": 13,
+      "Street View": 12,
+      "OSM/Street View": 9,
+      "IGN/Resolución 761/2013/Street View": 7,
+      "IGN": 6,
+      "IGN/Dirección Nacional de Migraciones/Resolución 761/2013": 5,
+      "IGN04/IGN Dirección de Geografía": 4,
+      "IGN01/IGN04": 4,
+      "IGN01": 3,
+      "IGN04/IGN Dirección de Gegrafía": 2,
+      "IGN/DGA/Resolución 761/2013": 2,
+      "IGN/Street View": 2,
+      "IGN01/IGN04/Street View": 2,
+      "IGN01 Edificios Públicos/IGN04/Street View": 2,
+      "IGN04/Open Street View": 2,
+      "IGN/Gobierno Pcial.": 1,
+      "IGN/Resolución 497/2009": 1,
+      "IGN/Resolución 761/2017": 1,
+      "Esri-World_Imagery 2010/IGN01/IGN04": 1,
+      "Esri-World_Imagery 2010": 1,
+      "IGN01/IGN04/Municipalidad de Palpalá": 1,
+      "IGN01/IGN04/Portal del Gobierno de Jujuy": 1,
+      "IGN01/IGN04/Portal de Prensa Gobierno de Jujuy": 1,
+      "IGN01 Edificio de Seguridad/IGN04": 1,
+      "IGN Dirección de Geografía/IGN04": 1,
+      "CIPPA/Dir. Geografía IGN": 1,
+      "IGN04/Dir. Geografía IGN": 1,
+      "IGN04/Dir. Geografía IGN/Open Street View": 1,
+      "IGN/Open Street View": 1,
+      "Esri-Word_Imagery_2010/IGN01": 1,
+      "IGN01 Edificios Públicos/IGN04": 1,
+      "IGN04/Open Street View/Sitio web de la institución": 1,
+      "IGN01/IGN04/Sitio Web de la Institución": 1,
+      "IGN04/Senasa": 1,
+      "IGN/Policia Provincial": 1,
+      "Street View/Policía Provincial": 1
+    },
+    "sag": {
+      "IGN": 227,
+      "Street View": 1
+    }
+  }
+}

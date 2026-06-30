@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_linea_limite_maritimos_166d6c03",
+  "title": "Límites de espacios marítimos",
+  "typeName": "ign:linea_limite_maritimos",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "nam",
+    "gna",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 115,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -74,
+    -74.71839905,
+    -19.90706944,
+    -35.63333333
+  ],
+  "syncedAt": "2026-06-29T21:12:39.198Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_linea_limite_maritimos_01a45bb6.geojson"
+  ],
+  "indexFile": "indexes/ign_linea_limite_maritimos_01a45bb6.index.json",
+  "statsFile": "stats/ign_linea_limite_maritimos_01a45bb6.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

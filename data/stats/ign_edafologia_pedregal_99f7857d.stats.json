@@ -1,0 +1,50 @@
+{
+  "featureCount": 1906,
+  "bbox": [
+    -73.40029144,
+    -53.06141663,
+    -63.60953903,
+    -21.91957565
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "5": 1906
+    },
+    "objeto": {
+      "Pedregal": 1906
+    },
+    "sag": {
+      "IGN": 1906
+    },
+    "fna": {
+      "-2": 1,
+      "Islote de los Conejos": 1
+    },
+    "gna": {
+      "-2": 1,
+      "Islote": 1
+    },
+    "nam": {
+      "-2": 1,
+      "de los Conejos": 1
+    }
+  }
+}

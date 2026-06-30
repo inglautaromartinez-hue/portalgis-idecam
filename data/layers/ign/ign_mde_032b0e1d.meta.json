@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_mde_db77841d",
+  "title": "Modelo Digital de Elevaciones",
+  "typeName": "ign:mde",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nombre",
+    "proyecto",
+    "archivo",
+    "link"
+  ],
+  "group": "ign",
+  "featureCount": 5106,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -74.00000095,
+    -64.40115533,
+    -26.23335096,
+    -21.66646011
+  ],
+  "syncedAt": "2026-06-29T21:15:52.692Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_mde_032b0e1d.part-0001.geojson.gz",
+    "layers/ign/ign_mde_032b0e1d.part-0002.geojson.gz",
+    "layers/ign/ign_mde_032b0e1d.part-0003.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_mde_032b0e1d.index.json",
+  "statsFile": "stats/ign_mde_032b0e1d.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

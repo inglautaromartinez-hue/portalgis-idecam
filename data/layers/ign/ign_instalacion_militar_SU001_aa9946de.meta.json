@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_instalacion_militar_SU001_52b4cdf3",
+  "title": "Instalación militar",
+  "typeName": "ign:instalacion_militar_SU001",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 152,
+  "geometryType": "Point",
+  "bbox": [
+    -72.15180003,
+    -54.80421846,
+    -53.6908013,
+    -22.51823323
+  ],
+  "syncedAt": "2026-06-29T21:11:56.353Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_instalacion_militar_SU001_aa9946de.geojson"
+  ],
+  "indexFile": "indexes/ign_instalacion_militar_SU001_aa9946de.index.json",
+  "statsFile": "stats/ign_instalacion_militar_SU001_aa9946de.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

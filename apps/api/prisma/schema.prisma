@@ -1,0 +1,142 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  role         String   @default("admin")
+  createdBy    String   @default("laugis")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  auditLogs AuditLog[]
+}
+
+model WfsConnection {
+  id        String   @id
+  name      String
+  url       String   @unique
+  version   String?
+  isActive  Boolean  @default(true)
+  createdBy String   @default("laugis")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  layers Layer[]
+}
+
+model LayerGroup {
+  id        String   @id
+  name      String
+  path      String   @unique
+  parentPath String?
+  checked   String
+  expanded  Boolean  @default(true)
+  depth     Int      @default(1)
+  treeOrder Int      @default(0)
+  createdBy String   @default("laugis")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  parentId String?
+  parent   LayerGroup?  @relation("LayerGroupHierarchy", fields: [parentId], references: [id])
+  children LayerGroup[] @relation("LayerGroupHierarchy")
+  layers   Layer[]
+}
+
+model Layer {
+  id                    String   @id
+  name                  String
+  groupPath             String
+  checked               String
+  visibleInitial        Boolean  @default(false)
+  provider              String
+  qgisType              String
+  geometry              String?
+  wkbType               String?
+  authid                String?
+  srsNameFromUri        String?
+  effectiveSrs          String?
+  typename              String?
+  endpointUrl           String?
+  version               String?
+  restrictToRequestBBOX String?
+  datasourceRaw         String?
+  fields                Json     @default("[]")
+  style                 Json?
+  labeling              Json?
+  layerOpacity          Float?
+  treeOrder             Int
+  drawOrder             Int
+  createdBy             String   @default("laugis")
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  groupId      String?
+  group        LayerGroup?    @relation(fields: [groupId], references: [id])
+  connectionId String?
+  connection   WfsConnection? @relation(fields: [connectionId], references: [id])
+  layerStyle   LayerStyle?
+  savedFilters SavedFilter[]
+
+  @@index([groupPath])
+  @@index([typename])
+  @@index([provider])
+  @@index([treeOrder])
+  @@index([drawOrder])
+}
+
+model LayerStyle {
+  id        String   @id @default(uuid())
+  layerId   String   @unique
+  style     Json?
+  labeling  Json?
+  opacity   Float?
+  createdBy String   @default("laugis")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  layer Layer @relation(fields: [layerId], references: [id], onDelete: Cascade)
+}
+
+model SavedFilter {
+  id        String   @id @default(uuid())
+  name      String
+  layerId   String
+  cql       String
+  isPublic  Boolean  @default(false)
+  createdBy String   @default("laugis")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  layer Layer @relation(fields: [layerId], references: [id], onDelete: Cascade)
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  userId    String?
+  action    String
+  entity    String?
+  entityId  String?
+  details   Json?
+  createdBy String   @default("laugis")
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+}
+
+model AppSetting {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  value     Json
+  createdBy String   @default("laugis")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

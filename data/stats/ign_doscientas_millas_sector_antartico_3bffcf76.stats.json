@@ -1,0 +1,35 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -74,
+    -83.467653,
+    -25,
+    -57.02995872
+  ],
+  "fields": [
+    "gid",
+    "objeto",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "3": 1
+    },
+    "objeto": {
+      "200 millas sector antártico": 1
+    },
+    "sag": {
+      "IGN": 1
+    },
+    "fdc": {
+      "Geografía": 1
+    }
+  }
+}

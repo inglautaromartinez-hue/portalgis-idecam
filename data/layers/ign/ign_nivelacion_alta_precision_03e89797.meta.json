@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_nivelacion_alta_precision_8a1bbe6f",
+  "title": "Red de nivelación de Alta Precisión",
+  "typeName": "ign:nivelacion_alta_precision",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota",
+    "marca",
+    "estado",
+    "ultima_visita"
+  ],
+  "group": "ign",
+  "featureCount": 18738,
+  "geometryType": "Point",
+  "bbox": [
+    -72.957298,
+    -54.80761875,
+    -53.64680556,
+    -22.09662765
+  ],
+  "syncedAt": "2026-06-29T21:17:42.973Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_nivelacion_alta_precision_03e89797.geojson"
+  ],
+  "indexFile": "indexes/ign_nivelacion_alta_precision_03e89797.index.json",
+  "statsFile": "stats/ign_nivelacion_alta_precision_03e89797.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

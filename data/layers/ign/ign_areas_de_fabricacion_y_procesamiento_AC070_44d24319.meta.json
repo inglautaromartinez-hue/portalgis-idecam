@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_fabricacion_y_procesamiento_AC070_21fa8172",
+  "title": "Área de fabricación y procesamiento",
+  "typeName": "ign:areas_de_fabricacion_y_procesamiento_AC070",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 425,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.46901983,
+    -53.80682039,
+    -54.6438626,
+    -23.2629053
+  ],
+  "syncedAt": "2026-06-29T21:40:17.093Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/ign/ign_areas_de_fabricacion_y_procesamiento_AC070_44d24319.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_fabricacion_y_procesamiento_AC070_44d24319.index.json",
+  "statsFile": "stats/ign_areas_de_fabricacion_y_procesamiento_AC070_44d24319.stats.json",
+  "wfsAvailable": true
+}

@@ -1,0 +1,86 @@
+{
+  "featureCount": 89944,
+  "bbox": [
+    -69.76484318,
+    -35.99964351,
+    -67.18513208,
+    -32.46791708
+  ],
+  "fields": [
+    "fid_1",
+    "fid",
+    "gid",
+    "codcau",
+    "categoria",
+    "material",
+    "estado",
+    "long_m",
+    "cauce",
+    "jerarquia",
+    "inspeccion",
+    "cod_distri"
+  ],
+  "fieldTypes": {
+    "fid_1": "number",
+    "fid": "number",
+    "gid": "number",
+    "codcau": "string",
+    "categoria": "string",
+    "material": "string",
+    "estado": "string",
+    "long_m": "number",
+    "cauce": "string",
+    "jerarquia": "string",
+    "inspeccion": "string",
+    "cod_distri": "number"
+  },
+  "categoricalCounts": {
+    "categoria": {
+      "HIJUELA": 53495,
+      "RAMO": 7920,
+      "LINEA AUXILIAR": 7359,
+      "SIN DATO": 7104,
+      "DESAGUE": 3473,
+      "RAMA": 3248,
+      "ALCANTARILLA": 3062,
+      "CANAL": 2687,
+      "SIFON": 672,
+      "PUENTE CANAL": 453,
+      "PROYECTADO": 197,
+      "RIO": 121,
+      "ARROYO": 81,
+      "RIOS Y ARROYOS": 38,
+      "SANGRIA": 34
+    },
+    "material": {
+      "TIERRA": 58796,
+      "SIN DATO": 20403,
+      "HORMIGON": 10074,
+      "ENTUBADO": 397,
+      "BATEADO": 220,
+      "MEMBRANA PLASTICA": 36,
+      "EMBOVEDADO": 11,
+      "SUELO CEMENTO": 7
+    },
+    "estado": {
+      "SIN DATO": 70944,
+      "BUENO": 12025,
+      "REVESTIDO": 2621,
+      "REGULAR": 2071,
+      "SIN REVESTIR": 1743,
+      "ANULADO": 319,
+      "MALO": 214,
+      "REPARACION": 7
+    },
+    "jerarquia": {
+      "SIN DATO": 54344,
+      "TERCIARIA": 26759,
+      "CUATERNARIA": 5780,
+      "SECUNDARIA": 2290,
+      "PRIMARIA": 547,
+      "DESAG�E": 138,
+      "ARROYO": 69,
+      "RIO": 17
+    }
+  }
+}

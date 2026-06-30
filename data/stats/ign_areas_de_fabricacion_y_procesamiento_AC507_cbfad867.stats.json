@@ -1,0 +1,104 @@
+{
+  "featureCount": 249,
+  "bbox": [
+    -71.37118749,
+    -49.29498361,
+    -55.96047827,
+    -22.08819661
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "sag": "string",
+    "fun": "number",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 249
+    },
+    "objeto": {
+      "Planta de tratamiento de efluentes cloacales": 249
+    },
+    "gna": {
+      "Planta Depuradora de Líquidos Cloacales": 132,
+      "Planta Depuradora": 62,
+      "Planta de Tratamiento de Líquidos Cloacales": 22,
+      "Planta de Tratamiento de Efluentes Cloacales": 6,
+      "Planta de Tratamiento Cloacal": 3,
+      "Establecimiento Depurador": 2,
+      "Planta Depuradora de Líquidos Industriales": 2,
+      "Planta Depuradora de Efluentes Cloacales": 2,
+      "Planta de Tratamientos de Líquidos Cloacales": 1,
+      "Planta de Líquidos Cloacales": 1,
+      "Planta de Tratamiento": 1
+    },
+    "sag": {
+      "IGN": 249
+    },
+    "fun": {
+      "6": 241,
+      "-1": 7,
+      "-2": 1
+    },
+    "fdc": {
+      "IGN/GEOINFRA": 145,
+      "IGN/Google Earth": 17,
+      "IGN/Agua y Saneamiento Mendoza": 12,
+      "IGN/Open Street View": 7,
+      "IGN/Aguas Rionegrinas": 6,
+      "IGN/OSSE San Juan": 5,
+      "IGN/Aguas de Corrientes S.A.": 5,
+      "IGN/Aguas Santafesinas S.A.": 4,
+      "IGN/Aguas Salteñas": 4,
+      "IGN/Aguas Bonaerenses S.A.": 3,
+      "IGN/Sitio web de la Nación": 3,
+      "IGN/AYSA": 3,
+      "IGN/Universidad Nacional de Córdoba": 3,
+      "IGN/Aguas del Norte": 2,
+      "IGN01": 2,
+      "IGN/Ministerio del Interior de la Nación": 2,
+      "Esri-World_Imagery": 1,
+      "Dirección de saneamiento de Bariloche - Cooperativa de Electricidad Bariloche Ltda./Open Steet View": 1,
+      "Esri-World Imagery 2010/IGN01/IGN04": 1,
+      "ESRI-World_Imagery-2010/IGN04/IGN Dirección de Geografía": 1,
+      "Google Earth": 1,
+      "IGN04/IGN Dirección de Geografía/EPAS/Street View": 1,
+      "Esri-Word_Imagery": 1,
+      "Esri World Imagery": 1,
+      "Esri-World_imagery": 1,
+      "Esri World Imagery-OSM.": 1,
+      "Aguas de Corrientes": 1,
+      "IGN03/IGN04/Ley Nº 5890": 1,
+      "IGN/Municipalidad de Rada Tilly": 1,
+      "IGN/Municipalidad de Resistencia": 1,
+      "IGN/Servicio de Aguas de Misiones": 1,
+      "IGN/Sitio web de la ciudad de Reconquista": 1,
+      "IGN/Sitio web de la Pcia. de Santa Fe": 1,
+      "IGN/Sitio Oficial de la Pcia. de Entre Ríos": 1,
+      "IGN/Cooperativa Integral": 1,
+      "IGN/D.I.O.S.S.E.": 1,
+      "IGN/Sitio web de ACUMAR": 1,
+      "IGN/Sitio web de la municipalidad": 1,
+      "IGN/Aguas de Corrientes S.A./Open Street View": 1,
+      "IGN/Sitio web de la Casa Rosada": 1,
+      "IGN/Sitio web de la gobernación pcial.": 1,
+      "IGN/Sitio web de la cooperativa": 1
+    }
+  }
+}

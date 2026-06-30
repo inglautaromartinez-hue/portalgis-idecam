@@ -1,0 +1,30 @@
+{
+  "featureCount": 1,
+  "bbox": [
+    -74,
+    -83.46778016,
+    -19.90706944,
+    -35.78213397
+  ],
+  "fields": [
+    "gid",
+    "sag",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "sag": "string",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "gid": {
+      "3": 1
+    },
+    "sag": {
+      "COPLA": 1
+    },
+    "fdc": {
+      "COPLA": 1
+    }
+  }
+}

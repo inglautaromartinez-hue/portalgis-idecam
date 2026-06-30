@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_edafologia_sedimento_fluvial_47f028d4",
+  "title": "Sedimento Fluvial",
+  "typeName": "ign:edafologia_sedimento_fluvial",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 2431,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.89696382,
+    -44.72569656,
+    -60.03431775,
+    -22.08270741
+  ],
+  "syncedAt": "2026-06-29T21:19:57.433Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_edafologia_sedimento_fluvial_0f4022b3.geojson"
+  ],
+  "indexFile": "indexes/ign_edafologia_sedimento_fluvial_0f4022b3.index.json",
+  "statsFile": "stats/ign_edafologia_sedimento_fluvial_0f4022b3.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

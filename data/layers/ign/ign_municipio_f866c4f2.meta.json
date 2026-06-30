@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_municipio_984ff24d",
+  "title": "Gobierno Local",
+  "typeName": "ign:municipio",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "fna",
+    "gna",
+    "nam",
+    "in1",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 2114,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -72.90065323,
+    -54.85838475,
+    -53.63736944,
+    -21.78085676
+  ],
+  "syncedAt": "2026-06-29T21:11:01.346Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_municipio_f866c4f2.part-0001.geojson.gz",
+    "layers/ign/ign_municipio_f866c4f2.part-0002.geojson.gz"
+  ],
+  "indexFile": "indexes/ign_municipio_f866c4f2.index.json",
+  "statsFile": "stats/ign_municipio_f866c4f2.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

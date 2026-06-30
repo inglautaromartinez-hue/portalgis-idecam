@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_PROPIEDAD_HORIZONTAL_7f010eb2_df98_4c4e_b348_e7734a2cef4e",
+  "title": "PH",
+  "typeName": "geonode:MENSURA_PROPIEDAD_HORIZONTAL",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 903,
+  "geometryType": "Point",
+  "bbox": [
+    -69.58592096,
+    -35.47603169,
+    -67.67395779,
+    -32.72184251
+  ],
+  "syncedAt": "2026-06-29T21:41:16.531Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_PROPIEDAD_HORIZONTAL_ed399683.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_PROPIEDAD_HORIZONTAL_ed399683.index.json",
+  "statsFile": "stats/geonode_MENSURA_PROPIEDAD_HORIZONTAL_ed399683.stats.json",
+  "wfsAvailable": true
+}

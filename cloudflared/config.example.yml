@@ -1,0 +1,8 @@
+tunnel: portalgis-idecam-demo
+credentials-file: C:\Users\USUARIO\.cloudflared\portalgis-idecam-demo.json
+
+ingress:
+  - hostname: portal-idecam.example.com
+    service: http://localhost:3000
+  - service: http_status:404
+

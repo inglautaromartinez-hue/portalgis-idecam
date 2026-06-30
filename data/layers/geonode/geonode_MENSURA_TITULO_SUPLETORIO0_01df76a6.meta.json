@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_TITULO_SUPLETORIO0_59261212_41bf_455d_9c63_b9d0018c4a69",
+  "title": "TITULO SUPLETORIO",
+  "typeName": "geonode:MENSURA_TITULO_SUPLETORIO0",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long",
+    "Sup_empad_"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 2437,
+  "geometryType": "Point",
+  "bbox": [
+    -70.06941008,
+    -36.99249081,
+    -67.16349551,
+    -32.52409109
+  ],
+  "syncedAt": "2026-06-29T21:41:17.636Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_TITULO_SUPLETORIO0_01df76a6.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_TITULO_SUPLETORIO0_01df76a6.index.json",
+  "statsFile": "stats/geonode_MENSURA_TITULO_SUPLETORIO0_01df76a6.stats.json",
+  "wfsAvailable": true
+}

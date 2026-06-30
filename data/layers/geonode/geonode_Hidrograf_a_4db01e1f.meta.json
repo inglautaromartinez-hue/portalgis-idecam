@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_Hidrograf_a_3afacfb2",
+  "title": "Hidrograf_a",
+  "typeName": "geonode:Hidrograf_a",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "TIPO",
+    "NOMBRE",
+    "REGIMEN",
+    "FUENTE"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 5564,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -70.57577513,
+    -37.57391198,
+    -66.48291778,
+    -32.00041705
+  ],
+  "syncedAt": "2026-06-29T21:41:03.719Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_Hidrograf_a_4db01e1f.geojson"
+  ],
+  "indexFile": "indexes/geonode_Hidrograf_a_4db01e1f.index.json",
+  "statsFile": "stats/geonode_Hidrograf_a_4db01e1f.stats.json",
+  "wfsAvailable": true
+}

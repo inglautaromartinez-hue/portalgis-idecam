@@ -1,0 +1,40 @@
+{
+  "featureCount": 3723,
+  "bbox": [
+    -72.8921234,
+    -64.23850107,
+    -44.73784227,
+    -21.94697144
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 3723
+    },
+    "objeto": {
+      "Edificio de Cultura": 3723
+    },
+    "sag": {
+      "IGN": 3723
+    }
+  }
+}

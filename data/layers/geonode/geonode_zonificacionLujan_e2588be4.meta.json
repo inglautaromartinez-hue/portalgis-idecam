@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_zonificacionLujan_1f111478",
+  "title": "zonificacionLujan",
+  "typeName": "geonode:zonificacionLujan",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "gid",
+    "DISTRITO_",
+    "ZONA_",
+    "CODIGO",
+    "LOTE_MIN",
+    "FOS",
+    "shapelengt",
+    "shapearea"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 145,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -70.09330314,
+    -33.3902687,
+    -68.61904884,
+    -32.6193289
+  ],
+  "syncedAt": "2026-06-29T21:45:39.464Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_zonificacionLujan_e2588be4.geojson"
+  ],
+  "indexFile": "indexes/geonode_zonificacionLujan_e2588be4.index.json",
+  "statsFile": "stats/geonode_zonificacionLujan_e2588be4.stats.json",
+  "wfsAvailable": true
+}

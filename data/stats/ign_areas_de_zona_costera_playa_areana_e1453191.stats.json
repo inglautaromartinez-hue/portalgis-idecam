@@ -1,0 +1,83 @@
+{
+  "featureCount": 408,
+  "bbox": [
+    -71.46840668,
+    -52.155052,
+    -56.78728104,
+    -24.43552017
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "smc",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "smc": "number",
+    "fdc": "string",
+    "sag": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 408
+    },
+    "objeto": {
+      "Playa": 398,
+      "Playa de Arena": 10
+    },
+    "smc": {
+      "88": 408
+    },
+    "fdc": {
+      "IGN": 395,
+      "Carta IGN 250.000": 4,
+      "Fuente externa": 3,
+      "Nomenclator Malvinas": 2,
+      "Esri-World_imagery": 1,
+      "IGN0": 1,
+      "IGN04/IGN 4163-I 1992": 1,
+      "Imagery": 1
+    },
+    "sag": {
+      "IGN": 408
+    },
+    "fna": {
+      "Playa Bonita": 1,
+      "Playa del Monte Brown": 1,
+      "Playa de Arena de la Punta Flecha": 1,
+      "Playa Esperanza": 1,
+      "Playa Elefante": 1,
+      "Playa Voluntario": 1,
+      "Playa Caleta Magallanes": 1,
+      "Playa de Bertha": 1,
+      "Playa Armantine": 1,
+      "Playa Bahía Vaca": 1
+    },
+    "gna": {
+      "Playa": 10
+    },
+    "nam": {
+      "Bonita": 1,
+      "del Monte Brown": 1,
+      "de Arena de la Punta Flecha": 1,
+      "Esperanza": 1,
+      "Elefante": 1,
+      "Voluntario": 1,
+      "Caleta Magallanes": 1,
+      "de Bertha": 1,
+      "Armantine": 1,
+      "Bahía Vaca": 1
+    }
+  }
+}

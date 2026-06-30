@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_area_vuelos_vant_sig_4cd82da7",
+  "title": "Área de vuelos VANT",
+  "typeName": "ign:area_vuelos_vant_sig",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "num_proyec",
+    "nombre_ign",
+    "fecha_vuel",
+    "pixel_cm",
+    "sag",
+    "cant_fotos",
+    "sector"
+  ],
+  "group": "ign",
+  "wmsAvailable": true,
+  "featureCount": 120,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.35185335,
+    -64.40148684,
+    -55.7648569,
+    -22.0937487
+  ],
+  "syncedAt": "2026-06-29T21:40:39.615Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/ign/ign_area_vuelos_vant_sig_22c571c8.geojson"
+  ],
+  "indexFile": "indexes/ign_area_vuelos_vant_sig_22c571c8.index.json",
+  "statsFile": "stats/ign_area_vuelos_vant_sig_22c571c8.stats.json",
+  "wfsAvailable": true
+}

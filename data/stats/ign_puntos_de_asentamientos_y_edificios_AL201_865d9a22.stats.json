@@ -1,0 +1,73 @@
+{
+  "featureCount": 1076,
+  "bbox": [
+    -71.66087249,
+    -64.36998964,
+    -44.73779203,
+    -22.13016023
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 1076
+    },
+    "objeto": {
+      "Sitio de Interés": 1076
+    },
+    "fdc": {
+      "CNMLyBH": 664,
+      "Ministerio de Cultura/IGN": 339,
+      "SInCA": 18,
+      "SInCA/IGN": 7,
+      "IGN04/Open Street View": 6,
+      "IDE Mendoza": 4,
+      "IGN04/Subsecretaría de Turismo Pcial.": 3,
+      "IGN01": 3,
+      "IGN04/Comisión Nacional de Monumentos, de Lugares y de Bienes Históricos": 3,
+      "Street View": 3,
+      "Carta IGN 250.000": 2,
+      "Imagery": 2,
+      "IGN04/Street View": 2,
+      "SInCA/Ley 25.291/2000": 2,
+      "IGN04/Cartel Secretaría de Turismo de la Pcia.": 1,
+      "IGN04/Secretaría de Turismo de la Pcia.": 1,
+      "IGN": 1,
+      "Turismo provincial/IGN": 1,
+      "BAHRA": 1,
+      "Bicontinental versión 2024": 1,
+      "Subsecretaría de Turismo Pcial./IGN04/Decreto 2085/08": 1,
+      "Subsecretaría de Turismo Pcial./IGN04/Street View": 1,
+      "IGN01/CNMLyBH": 1,
+      "IGN04/Subsecretaría de Turismo Pcial./Dir. de Areas Naturas Protegidas Pcial.": 1,
+      "IGN04/Subsecretaría de Turismo Pcial./IGN01 Localidad": 1,
+      "Street View/Ley 25.291/2000": 1,
+      "IGN01/Street View": 1,
+      "Street View/Sitio web de la municipalidad": 1,
+      "Street View/Sitio web de la provincia de Mendoza": 1,
+      "ESRI World Imagery": 1,
+      "SInCA/Ley 25291/2000": 1
+    },
+    "sag": {
+      "IGN": 1076
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_aguas_continentales_intermitente_0cda714d",
+  "title": "Espejo de agua intermitente",
+  "typeName": "ign:areas_de_aguas_continentales_intermitente",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "hyp",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 1329,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.8891249,
+    -45.67447281,
+    -58.16284561,
+    -22.7946095
+  ],
+  "syncedAt": "2026-06-29T21:10:11.473Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_aguas_continentales_intermitente_f97824e1.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_aguas_continentales_intermitente_f97824e1.index.json",
+  "statsFile": "stats/ign_areas_de_aguas_continentales_intermitente_f97824e1.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

@@ -1,0 +1,49 @@
+{
+  "id": "geonode_MENSURA_LOTEO_72c2b4e7_726c_4b99_bc58_bac561d69b24",
+  "title": "LOTEO",
+  "typeName": "geonode:MENSURA_LOTEO",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid_1",
+    "fid",
+    "Nomenclatu",
+    "Padron_ren",
+    "Zona",
+    "Uso_inmueb",
+    "SUPERFICIE",
+    "SUPERFIC_1",
+    "Departamen",
+    "Tipo_der_r",
+    "CC_PP_rieg",
+    "Uso_riego",
+    "Sup_empad_",
+    "delegacion",
+    "objeto",
+    "anio",
+    "Lat",
+    "Long"
+  ],
+  "group": "IDECAM – WFS (Demo) / INTERVENCIONES CAM - OBJETOS DE MENSURA",
+  "wmsAvailable": true,
+  "featureCount": 61,
+  "geometryType": "Point",
+  "bbox": [
+    -69.14540622,
+    -34.73080473,
+    -68.29933777,
+    -32.81386384
+  ],
+  "syncedAt": "2026-06-29T21:41:16.260Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_MENSURA_LOTEO_ae1711d8.geojson"
+  ],
+  "indexFile": "indexes/geonode_MENSURA_LOTEO_ae1711d8.index.json",
+  "statsFile": "stats/geonode_MENSURA_LOTEO_ae1711d8.stats.json",
+  "wfsAvailable": true
+}

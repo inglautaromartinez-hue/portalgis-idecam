@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_gravimetria_bacara_6200210d",
+  "title": "Red gravimétrica BACARA",
+  "typeName": "ign:gravimetria_bacara",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "nomenclatura",
+    "red",
+    "latitud",
+    "longitud",
+    "cota"
+  ],
+  "group": "ign",
+  "featureCount": 69,
+  "geometryType": "Point",
+  "bbox": [
+    -72.26666667,
+    -54.78333333,
+    -54.56666667,
+    -22.53333333
+  ],
+  "syncedAt": "2026-06-29T21:17:45.463Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_gravimetria_bacara_e70b8531.geojson"
+  ],
+  "indexFile": "indexes/ign_gravimetria_bacara_e70b8531.index.json",
+  "statsFile": "stats/ign_gravimetria_bacara_e70b8531.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

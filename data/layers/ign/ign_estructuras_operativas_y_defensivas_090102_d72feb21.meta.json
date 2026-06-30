@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_estructuras_operativas_y_defensivas_090102_02891345",
+  "title": "Cuartel de bomberos",
+  "typeName": "ign:estructuras_operativas_y_defensivas_090102",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1081,
+  "geometryType": "Point",
+  "bbox": [
+    -72.88845859,
+    -54.81819193,
+    -54.04421216,
+    -22.0498389
+  ],
+  "syncedAt": "2026-06-29T21:08:19.430Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_estructuras_operativas_y_defensivas_090102_d72feb21.geojson"
+  ],
+  "indexFile": "indexes/ign_estructuras_operativas_y_defensivas_090102_d72feb21.index.json",
+  "statsFile": "stats/ign_estructuras_operativas_y_defensivas_090102_d72feb21.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

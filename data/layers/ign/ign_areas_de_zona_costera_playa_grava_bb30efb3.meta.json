@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_zona_costera_playa_grava_2b5432ea",
+  "title": "Playa de grava",
+  "typeName": "ign:areas_de_zona_costera_playa_grava",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "smc",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 61,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.39935249,
+    -51.69364166,
+    -58.17868201,
+    -34.42902728
+  ],
+  "syncedAt": "2026-06-29T21:16:54.875Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_zona_costera_playa_grava_bb30efb3.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_zona_costera_playa_grava_bb30efb3.index.json",
+  "statsFile": "stats/ign_areas_de_zona_costera_playa_grava_bb30efb3.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

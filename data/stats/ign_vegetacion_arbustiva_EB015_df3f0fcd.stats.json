@@ -1,0 +1,67 @@
+{
+  "featureCount": 1633,
+  "bbox": [
+    -71.97900391,
+    -52.95264596,
+    -57.72492553,
+    -21.78188372
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 1633
+    },
+    "objeto": {
+      "Estepa arbustiva": 1614,
+      "Etapa arbustiva": 16,
+      "Bosque artificial": 2,
+      "Afloramiento Rocoso": 1
+    },
+    "fdc": {
+      "Esri-World Imagery 2010": 470,
+      "Esri-World_Imagery": 275,
+      "IGN": 162,
+      "Esri-Word_Imagery": 102,
+      "Esri-world_imagery-2010": 63,
+      "Esri-Word_Imagery_2010": 63,
+      "ESRI-World_Imagery": 25,
+      "Esri-world_imagery": 22,
+      "Esri World Imagery": 19,
+      "ESRI-World_Imagery-2010": 17,
+      "Esri-World_Imagery_2010": 12,
+      "Esri-Word imagery": 12,
+      "Esri-World_Imagery 2010": 11,
+      "Esri World Imágery": 8,
+      "Esri-Word_Imagery 2010": 7,
+      "Esri-World Imagery": 5,
+      "ESRI-World_Imagery 2010": 5,
+      "Esri World IMagery": 5,
+      "ESRI_World-Imagery": 4,
+      "Departamento de Fotogrametría": 3,
+      "ESRI-World_Imagery_2010": 2,
+      "Esri-World_imagery": 2,
+      "Proyectos Especiales": 1,
+      "Esri-Worl_Imagery": 1,
+      "Esri_Word Imagery": 1,
+      "Esri_word_Imagery": 1
+    },
+    "sag": {
+      "IGN": 1263,
+      "Geografía": 327,
+      "-1": 1
+    }
+  }
+}

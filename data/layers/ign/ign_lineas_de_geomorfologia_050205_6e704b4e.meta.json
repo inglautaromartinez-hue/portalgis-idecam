@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_050205_5986f35f",
+  "title": "Cordillera",
+  "typeName": "ign:lineas_de_geomorfologia_050205",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "alt",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 70,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -72.589509,
+    -83.69373103,
+    -23.13579315,
+    -24.509974
+  ],
+  "syncedAt": "2026-06-29T21:07:21.996Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_050205_6e704b4e.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_050205_6e704b4e.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_050205_6e704b4e.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

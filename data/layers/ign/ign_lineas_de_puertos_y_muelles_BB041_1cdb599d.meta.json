@@ -1,0 +1,36 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_puertos_y_muelles_BB041_f54cef78",
+  "title": "Rompeolas",
+  "typeName": "ign:lineas_de_puertos_y_muelles_BB041",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "tro",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 18,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -67.45757065,
+    -45.86372047,
+    -57.51779286,
+    -34.57035376
+  ],
+  "syncedAt": "2026-06-29T21:19:50.212Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_puertos_y_muelles_BB041_1cdb599d.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_puertos_y_muelles_BB041_1cdb599d.index.json",
+  "statsFile": "stats/ign_lineas_de_puertos_y_muelles_BB041_1cdb599d.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

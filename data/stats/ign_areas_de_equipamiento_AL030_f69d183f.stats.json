@@ -1,0 +1,112 @@
+{
+  "featureCount": 1846,
+  "bbox": [
+    -72.3469774,
+    -54.8108577,
+    -53.6489147,
+    -21.87248204
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 1846
+    },
+    "objeto": {
+      "Cementerio": 1846
+    },
+    "gna": {
+      "Cementerio": 1377,
+      "Cementerio Municipal": 195,
+      "Cementerio Parque": 50,
+      "Cementerio Privado": 18,
+      "Cementerio Israelita": 12,
+      "Cementerio Jardín": 8,
+      "Cementerio Comunal": 4,
+      "Cementerio Antiguo": 2,
+      "Cementerio Parque Municipal": 2,
+      "Nuevo Cementerio": 2,
+      "Cementerio Judío": 2,
+      "Cementerio Salesiano": 1,
+      "Cementerio Católico": 1,
+      "Cementerio Histórico": 1,
+      "Crematorio": 1,
+      "Cementerio Cementerio PrivadoPrivado": 1,
+      "Parque": 1,
+      "Cementerio de Animales": 1,
+      "Parque Memorial": 1,
+      "Cementerio Protestante": 1,
+      "Antiguo Cementerio": 1
+    },
+    "fdc": {
+      "OSM": 1377,
+      "IGN": 182,
+      "IGN04/IGN01": 146,
+      "IGN04": 33,
+      "IGN01/IGN04": 19,
+      "IGN01": 11,
+      "Esri-World_Imagery 2010/IGN04": 7,
+      "Esri-World_Imagery 2010": 6,
+      "Esri-World_Imagery 2010/IGN04/IGN01": 5,
+      "IGN04/IGN01/Catastro Pcial.": 4,
+      "IGN04/Catastro Pcial.": 4,
+      "Esri-World_Imagery": 4,
+      "IGN04/OSM": 3,
+      "IGN04/Street View": 3,
+      "Esri World Imagery 2010/IGN04": 3,
+      "Imagery": 3,
+      "Esri-world_imagery-2010/IGN04/OSM": 2,
+      "Esri-World_imagery": 2,
+      "Esri World Imagery 2010/IGN04/IGN01": 2,
+      "Esri WorldImagery2010/IGN01/IGN04": 2,
+      "IDE Mendoza": 2,
+      "Esri-world_imagery-2010/IGN04/Catastro Pcial.": 1,
+      "Esri-world_imagery-2010/IGN04/Catastro Pcial./Sitio Web de la Municipalidad": 1,
+      "Esri-World Imagery/IGN04/Sitio Web de la Empresa": 1,
+      "IGN04/IGN01/Dirección Provincial de Estadísticas y Censos Pcial./Castro Pcial.": 1,
+      "Esri-world_imagery-2010/IGN01": 1,
+      "Esri-world_imagery-2010/IGN04": 1,
+      "Esri-Word_Imagery": 1,
+      "IGN04/IGN01/Dirección Provincial de Estadísticas y Censos Pcial.": 1,
+      "IGN04/Catastro Pcial./Street View": 1,
+      "IGN04/Dirección Pcial. de Estadísticas y Censos": 1,
+      "Esri-World_Imagery/IGN04/Catrastro Pcial.": 1,
+      "Esri-World Imagery 2010": 1,
+      "Esri World Imagery/IGN04/IGN01": 1,
+      "Esri-Word_Imagery/IGN01/IGN04": 1,
+      "IGN04/IGN01/Dirección Pcial. de Estadística y Censos": 1,
+      "IGN04/IGN01/Catastro Pcial./Dirección Pcial. de Estadística y Censos": 1,
+      "IGN04/IGN01/Dirección Pcial. de Estadística y Censos/Catastro Pcial.": 1,
+      "IGN04/Open Street Virw": 1,
+      "IGN01/Dirección de Estadísticas y Censos Pcial./Catastro Pcial.": 1,
+      "IGN04/IGN 3769-I 1990": 1,
+      "Esri-World_Imagery/Street View": 1,
+      "Esri World Imagery 2010/IGN04/OSM": 1,
+      "Esri_word_Imagery 2010/IGN01/IGN04": 1,
+      "IGN04/IGN01/Sitio web de la empresa": 1,
+      "Esri_word Imagery 2010/IGN04": 1,
+      "Esri_World Imagery 2010/IGN04/IGN01": 1
+    },
+    "sag": {
+      "IGN": 1846
+    }
+  }
+}

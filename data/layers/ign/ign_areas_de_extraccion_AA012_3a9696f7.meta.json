@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_areas_de_extraccion_AA012_6892992b",
+  "title": "Cantera",
+  "typeName": "ign:areas_de_extraccion_AA012",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "ppo",
+    "sag",
+    "fdc",
+    "fna",
+    "nam",
+    "gna"
+  ],
+  "group": "ign",
+  "featureCount": 416,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -71.47007149,
+    -52.1644831,
+    -55.8679242,
+    -27.46932528
+  ],
+  "syncedAt": "2026-06-29T21:07:09.385Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_areas_de_extraccion_AA012_3a9696f7.geojson"
+  ],
+  "indexFile": "indexes/ign_areas_de_extraccion_AA012_3a9696f7.index.json",
+  "statsFile": "stats/ign_areas_de_extraccion_AA012_3a9696f7.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

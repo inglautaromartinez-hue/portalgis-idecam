@@ -1,0 +1,37 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_ciencia_y_educacion_020602_6e639612",
+  "title": "Universidad",
+  "typeName": "ign:puntos_de_ciencia_y_educacion_020602",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 1132,
+  "geometryType": "Point",
+  "bbox": [
+    -72.341797,
+    -54.832135,
+    -53.736202,
+    -22.104758
+  ],
+  "syncedAt": "2026-06-29T21:20:24.319Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_ciencia_y_educacion_020602_963b7e0f.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_ciencia_y_educacion_020602_963b7e0f.index.json",
+  "statsFile": "stats/ign_puntos_de_ciencia_y_educacion_020602_963b7e0f.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

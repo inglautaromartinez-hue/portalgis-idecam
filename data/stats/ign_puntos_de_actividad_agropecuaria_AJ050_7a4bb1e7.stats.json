@@ -1,0 +1,55 @@
+{
+  "featureCount": 4050,
+  "bbox": [
+    -70.87299133,
+    -40.35632665,
+    -57.65482591,
+    -22.07821626
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fun": "number",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "2": 4050
+    },
+    "objeto": {
+      "Molino de Viento": 4050
+    },
+    "sag": {
+      "IGN": 4050
+    },
+    "fun": {
+      "6": 5,
+      "-1": 4045
+    },
+    "fdc": {
+      "Campo 2010": 3327,
+      "Campaña Año 2010": 286,
+      "Plancheta Año 1993": 159,
+      "IGN01": 52,
+      "Interpretación y Nomenclatura": 50,
+      "Imagery Esri 1991-2001-2002-2006": 2,
+      "Esri-World_Imagery": 2,
+      "IGN02": 2,
+      "IGN04/Open Street View": 2,
+      "Rongo": 1,
+      "Tig Sig Gabinete": 1,
+      "Esri World Imagery": 1,
+      "Esri-Word imagery": 1
+    }
+  }
+}

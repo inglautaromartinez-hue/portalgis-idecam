@@ -1,0 +1,24 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_mareas_y_corrientes_040601_55b8677d",
+  "title": "Accidente submarino",
+  "typeName": "ign:lineas_de_mareas_y_corrientes_040601",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [],
+  "group": "ign",
+  "featureCount": 0,
+  "geometryType": null,
+  "bbox": null,
+  "syncedAt": "2026-06-29T21:06:29.288Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_mareas_y_corrientes_040601_8032c047.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_mareas_y_corrientes_040601_8032c047.index.json",
+  "statsFile": "stats/ign_lineas_de_mareas_y_corrientes_040601_8032c047.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

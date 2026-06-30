@@ -1,0 +1,50 @@
+{
+  "featureCount": 258,
+  "bbox": [
+    -71.63294332,
+    -51.69632143,
+    -57.82100715,
+    -34.83333333
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "sag",
+    "fun",
+    "fdc"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "sag": "string",
+    "fun": "number",
+    "fdc": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "1": 258
+    },
+    "objeto": {
+      "Invernadero, Vivero, Huerta": 258
+    },
+    "sag": {
+      "IGN": 258
+    },
+    "fun": {
+      "6": 5,
+      "-1": 253
+    },
+    "fdc": {
+      "IGN": 248,
+      "Esri-World_Imagery 2010": 2,
+      "Esri-Word_Imagery_2010": 2,
+      "Esri-World_Imagery": 2,
+      "Imagery": 1,
+      "Esri-world_imagery-2010": 1,
+      "Esri-world_imagery": 1,
+      "World_imagery": 1
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "featureCount": 5564,
+  "bbox": [
+    -70.57577513,
+    -37.57391198,
+    -66.48291778,
+    -32.00041705
+  ],
+  "fields": [
+    "fid",
+    "TIPO",
+    "NOMBRE",
+    "REGIMEN",
+    "FUENTE"
+  ],
+  "fieldTypes": {
+    "fid": "number",
+    "TIPO": "string",
+    "NOMBRE": "string",
+    "REGIMEN": "string",
+    "FUENTE": "string"
+  },
+  "categoricalCounts": {
+    "TIPO": {
+      "ARROYO": 3690,
+      "RIO": 1758,
+      "QUEBRADA": 79,
+      "CAÑADA": 33,
+      "SIN DATOS": 2,
+      "CAÑADON": 1,
+      "": 1
+    },
+    "REGIMEN": {
+      "PERMANENTE": 3294,
+      "NO PERMANENTE": 2263,
+      "": 5,
+      "SIN DATOS": 2
+    },
+    "FUENTE": {
+      "IGM-FAO-DGI": 5556,
+      "": 6,
+      "SIN DATOS": 2
+    }
+  }
+}

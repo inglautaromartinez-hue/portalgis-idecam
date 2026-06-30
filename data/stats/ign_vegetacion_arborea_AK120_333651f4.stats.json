@@ -1,0 +1,57 @@
+{
+  "featureCount": 395,
+  "bbox": [
+    -71.22508779,
+    -41.11533673,
+    -57.46549713,
+    -23.20378353
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "3": 395
+    },
+    "objeto": {
+      "Parque artificial": 395
+    },
+    "fdc": {
+      "Interpretación y Nomenclatura": 176,
+      "Esri World Imagery 2010": 113,
+      "Departamento de Fotogrametría": 24,
+      "Departamento Interpretación y nomenclatura": 21,
+      "Departamento Interpretación y Nomenclatura": 10,
+      "Departamento de Fotogrametía": 8,
+      "Departamento  Fotogrametría": 8,
+      "Gabinete TIG-SIG": 6,
+      "Gabinete Tig Sig": 3,
+      "Esri-World_Imagery 2010-2002-2001": 3,
+      "Departamento Fotogrametría": 3,
+      "Plancheta 1994": 2,
+      "Gabinete TIG Sig_Dirección de CartografÍa": 2,
+      "Departamento Geocartografía": 2,
+      "IDepartamento de Fotogrametría": 2,
+      "Plancheta": 1,
+      "Tig Sig Gabinete": 1,
+      "-": 1,
+      "Imagery Esri 1991-2001-2002-2006": 1,
+      "Esri-World_Imagery 2010": 1,
+      "Esri-World_Imagery": 1
+    },
+    "sag": {
+      "IGN": 395
+    }
+  }
+}

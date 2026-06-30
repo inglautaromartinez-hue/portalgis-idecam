@@ -1,0 +1,40 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_cruces_y_enlaces_AQ130_28c500ed",
+  "title": "Tunel",
+  "typeName": "ign:puntos_de_cruces_y_enlaces_AQ130",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fun",
+    "feo",
+    "fdc",
+    "sag",
+    "fna",
+    "gna",
+    "nam"
+  ],
+  "group": "ign",
+  "featureCount": 28,
+  "geometryType": "Point",
+  "bbox": [
+    -70.07194708,
+    -32.8356461,
+    -60.50179122,
+    -22.81122613
+  ],
+  "syncedAt": "2026-06-29T21:20:24.042Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_cruces_y_enlaces_AQ130_d9e899ac.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_cruces_y_enlaces_AQ130_d9e899ac.index.json",
+  "statsFile": "stats/ign_puntos_de_cruces_y_enlaces_AQ130_d9e899ac.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

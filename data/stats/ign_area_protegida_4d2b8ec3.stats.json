@@ -1,0 +1,72 @@
+{
+  "featureCount": 506,
+  "bbox": [
+    -73.56658935,
+    -82.55634,
+    -44.958213,
+    -21.81487826
+  ],
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "tap",
+    "jap",
+    "caa",
+    "fdc",
+    "sag"
+  ],
+  "fieldTypes": {
+    "gid": "number",
+    "entidad": "number",
+    "objeto": "string",
+    "fna": "string",
+    "gna": "string",
+    "nam": "string",
+    "tap": "number",
+    "jap": "number",
+    "caa": "number",
+    "fdc": "string",
+    "sag": "string"
+  },
+  "categoricalCounts": {
+    "entidad": {
+      "0": 506
+    },
+    "objeto": {
+      "Area Protegida": 506
+    },
+    "tap": {
+      "1": 100,
+      "2": 345,
+      "3": 13,
+      "-2": 48
+    },
+    "jap": {
+      "1": 47,
+      "2": 115,
+      "3": 269,
+      "4": 39,
+      "5": 33,
+      "-1": 2,
+      "-2": 1
+    },
+    "caa": {
+      "3": 33,
+      "17": 406,
+      "-2": 48,
+      "-1": 19
+    },
+    "sag": {
+      "IGN": 441,
+      "MAyDS": 50,
+      " IGN": 7,
+      "IDE La Pampa": 5,
+      "IGN ": 2,
+      " ": 1
+    }
+  }
+}

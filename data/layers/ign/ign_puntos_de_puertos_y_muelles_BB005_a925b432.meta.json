@@ -1,0 +1,39 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_puntos_de_puertos_y_muelles_BB005_3d4ec86e",
+  "title": "Puerto",
+  "typeName": "ign:puntos_de_puertos_y_muelles_BB005",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fuc",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 155,
+  "geometryType": "Point",
+  "bbox": [
+    -71.81386022,
+    -54.81046957,
+    -54.57970906,
+    -25.37332171
+  ],
+  "syncedAt": "2026-06-29T21:17:22.771Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_puntos_de_puertos_y_muelles_BB005_a925b432.geojson"
+  ],
+  "indexFile": "indexes/ign_puntos_de_puertos_y_muelles_BB005_a925b432.index.json",
+  "statsFile": "stats/ign_puntos_de_puertos_y_muelles_BB005_a925b432.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

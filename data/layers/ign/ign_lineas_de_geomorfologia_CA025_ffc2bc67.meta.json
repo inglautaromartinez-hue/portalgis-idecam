@@ -1,0 +1,38 @@
+{
+  "id": "dynamic_https_wms_ign_gob_ar_geoserver_ows_ign_lineas_de_geomorfologia_CA025_add63e0f",
+  "title": "Valle",
+  "typeName": "ign:lineas_de_geomorfologia_CA025",
+  "workspace": "ign",
+  "sourceWfs": "https://wms.ign.gob.ar/geoserver/ows",
+  "sourceWms": "https://wms.ign.gob.ar/geoserver/ows",
+  "crs": "EPSG:4326",
+  "fields": [
+    "gid",
+    "entidad",
+    "objeto",
+    "fna",
+    "gna",
+    "nam",
+    "fdc",
+    "sag"
+  ],
+  "group": "ign",
+  "featureCount": 167,
+  "geometryType": "MultiLineString",
+  "bbox": [
+    -71.84431991,
+    -54.71438692,
+    -57.87741283,
+    -24.76063919
+  ],
+  "syncedAt": "2026-06-29T21:20:30.493Z",
+  "status": "ok",
+  "errors": [],
+  "files": [
+    "layers/ign/ign_lineas_de_geomorfologia_CA025_ffc2bc67.geojson"
+  ],
+  "indexFile": "indexes/ign_lineas_de_geomorfologia_CA025_ffc2bc67.index.json",
+  "statsFile": "stats/ign_lineas_de_geomorfologia_CA025_ffc2bc67.stats.json",
+  "wmsAvailable": true,
+  "wfsAvailable": true
+}

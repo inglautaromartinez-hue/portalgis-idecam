@@ -1,0 +1,35 @@
+{
+  "id": "dynamic_https_geonode-cam_marketsis_com_ar_geoserver_wfs_geonode_relevamientos_17c0b6f7",
+  "title": "relevamientos",
+  "typeName": "geonode:relevamientos",
+  "workspace": "geonode",
+  "sourceWfs": "https://geonode-cam.marketsis.com.ar/geoserver/wfs",
+  "sourceWms": "https://geonode-cam.marketsis.com.ar/geoserver/wms",
+  "crs": "EPSG:4326",
+  "fields": [
+    "fid",
+    "Tipo",
+    "Prof",
+    "contacto"
+  ],
+  "group": "geonode",
+  "wmsAvailable": true,
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "bbox": [
+    -68.85055887,
+    -33.01836913,
+    -68.83264796,
+    -33.00523794
+  ],
+  "syncedAt": "2026-06-29T21:45:13.714Z",
+  "status": "ok",
+  "errors": [],
+  "warnings": [],
+  "files": [
+    "layers/geonode/geonode_relevamientos_3779dd2b.geojson"
+  ],
+  "indexFile": "indexes/geonode_relevamientos_3779dd2b.index.json",
+  "statsFile": "stats/geonode_relevamientos_3779dd2b.stats.json",
+  "wfsAvailable": true
+}
