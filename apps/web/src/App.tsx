@@ -53,6 +53,7 @@ import {
 } from './statisticsService';
 import { recommendedReportFields } from './reportFieldProfiles';
 import { IRRIGATION_RIGHTS_PRESET_ID, THEMATIC_MAP_PRESETS, type ThematicMapPreset } from './thematicMaps';
+import { choosePrimaryIdentifyCandidate } from './identifySelection';
 
 const API_URL = String(import.meta.env.VITE_API_BASE_URL ?? import.meta.env.VITE_API_URL ?? '/api').replace(/\/$/, '') || '/api';
 const EPSG_22172 =
@@ -160,6 +161,7 @@ interface IdentifyPopup {
   x: number;
   y: number;
   items: IdentifyItem[];
+  boundaryHit?: boolean;
 }
 
 interface LayerContextMenu {
@@ -1122,6 +1124,7 @@ export function App() {
   const hiddenIrrigationCategoriesRef = useRef<Set<string>>(new Set());
   const measureModeRef = useRef<MeasureMode | null>(null);
   const digitalizeModeRef = useRef<DigitalizeMode | null>(null);
+  const editVerticesRef = useRef(false);
   const requestSeqRef = useRef<Record<string, number>>({});
   const abortRef = useRef<Record<string, AbortController>>({});
   const cacheRef = useRef<Map<string, Feature[]>>(new Map());
@@ -1139,6 +1142,8 @@ export function App() {
   const [catalogError, setCatalogError] = useState<string | null>(null);
   const [theme, setTheme] = useState<ThemeMode>(readInitialTheme);
   const [identifyPopup, setIdentifyPopup] = useState<IdentifyPopup | null>(null);
+  const [identifiedFeatures, setIdentifiedFeatures] = useState<Feature[]>([]);
+  const [selectedFeature, setSelectedFeature] = useState<Feature | null>(null);
   const [contextMenu, setContextMenu] = useState<LayerContextMenu | null>(null);
   const [filterPanel, setFilterPanel] = useState<LayerFilterPanel | null>(null);
   const [filters, setFilters] = useState<Record<string, LayerFilter>>({});
@@ -1193,6 +1198,7 @@ export function App() {
   const [irrigationStatistics, setIrrigationStatistics] = useState<StatisticsQueryResponse | null>(null);
   const [irrigationContextMenu, setIrrigationContextMenu] = useState<IrrigationContextMenu | null>(null);
   const [digitalizeMode, setDigitalizeMode] = useState<DigitalizeMode | null>(null);
+  const [editVertices, setEditVertices] = useState(false);
   const [digitalizeResult, setDigitalizeResult] = useState('');
   const statisticsViewportRevision = statisticsScope === 'area' ? mapRevision : 0;
 
@@ -1234,11 +1240,11 @@ export function App() {
     [filters, statuses, visibleIds],
   );
   const selectedParcelLabel = useMemo(() => {
-    const parcel = identifyPopup?.items.find((item) => isParcelLayer(item.layerName));
+    const parcel = selectedFeature ?? identifiedFeatures[0];
     if (!parcel) return '-';
-    const keyAttribute = parcel.attributes.find(([key]) => /nomen|padron|parcela|id/i.test(key));
-    return keyAttribute?.[1] ?? parcel.layerName;
-  }, [identifyPopup]);
+    const keyAttribute = featureAttributes(parcel).find(([key]) => /nomen|padron|parcela|id/i.test(key));
+    return keyAttribute?.[1] ?? '-';
+  }, [identifiedFeatures, selectedFeature]);
   const loadedVisibleFeatureTotal = useMemo(
     () =>
       Object.entries(vectorLayersRef.current).reduce((total, [layerId, layer]) => {
@@ -1340,6 +1346,8 @@ export function App() {
     const highlightSource = highlightLayerRef.current?.getSource();
     highlightSource?.clear(true);
     highlightSource?.addFeature(clone);
+    setIdentifiedFeatures([clone]);
+    setSelectedFeature(clone);
 
     let popupPixel = [24, 24];
     if (map && geometry) {
@@ -1359,7 +1367,7 @@ export function App() {
   const identifyByWfs = useCallback(async (pixel: number[], coordinate: number[]) => {
     const map = mapRef.current;
     const resolution = map?.getView().getResolution() ?? 1;
-    const delta = Math.max(resolution * 12, 20);
+    const delta = Math.max(resolution * 3, 2);
     const bbox = [coordinate[0] - delta, coordinate[1] - delta, coordinate[0] + delta, coordinate[1] + delta];
     const activeLayers = [...layersByIdRef.current.values()]
       .filter((layer) => visibleIdsRef.current.has(layer.id) && layer.provider === 'WFS' && layer.endpointUrl && layer.typename)
@@ -1368,12 +1376,13 @@ export function App() {
 
     if (!activeLayers.length) {
       setIdentifyPopup(null);
+      setIdentifiedFeatures([]);
+      setSelectedFeature(null);
       highlightLayerRef.current?.getSource()?.clear(true);
       return;
     }
 
-    const items: IdentifyItem[] = [];
-    const highlightCandidates: Feature[] = [];
+    const candidates: Array<{ item: IdentifyItem; feature: Feature; parcel: boolean }> = [];
     for (const layer of activeLayers) {
       const propertyFields = recommendedReportFields(layer.name, catalogFieldsForLayer(layer)).slice(0, 12);
       const params = new URLSearchParams({
@@ -1403,27 +1412,42 @@ export function App() {
         if (!features.length) continue;
         loadedFeaturesRef.current[layer.id] = mergeFeaturePreview(loadedFeaturesRef.current[layer.id] ?? [], features);
         for (const feature of features.slice(0, 3)) {
+          if (!feature.getGeometry()) continue;
           const attributes = featureAttributes(feature);
           if (!attributes.length) continue;
-          items.push({ id: `${layer.id}-identify-${items.length}`, layerName: layer.name, attributes });
-          highlightCandidates.push(feature);
+          candidates.push({
+            item: { id: `${layer.id}-identify-${candidates.length}`, layerName: layer.name, attributes },
+            feature,
+            parcel: isPortalParcelLayer(layer),
+          });
         }
       } catch {
         // La identificación WFS es best effort; no bloquea el visor.
       }
-      if (items.length >= 6) break;
+      if (candidates.length >= 6) break;
     }
 
-    if (!items.length) {
+    const selection = choosePrimaryIdentifyCandidate(candidates, coordinate);
+    if (!selection.primary) {
       setIdentifyPopup(null);
+      setIdentifiedFeatures([]);
+      setSelectedFeature(null);
       highlightLayerRef.current?.getSource()?.clear(true);
       return;
     }
 
+    const selected = selection.primary.feature.clone();
     const highlightSource = highlightLayerRef.current?.getSource();
     highlightSource?.clear(true);
-    highlightSource?.addFeatures(highlightCandidates.slice(0, 8).map((feature) => feature.clone()));
-    setIdentifyPopup({ x: pixel[0], y: pixel[1], items });
+    highlightSource?.addFeature(selected);
+    setIdentifiedFeatures(selection.ordered.map((candidate) => candidate.feature.clone()));
+    setSelectedFeature(selected);
+    setIdentifyPopup({
+      x: pixel[0],
+      y: pixel[1],
+      items: selection.ordered.map((candidate) => candidate.item),
+      boundaryHit: selection.boundaryHit,
+    });
   }, []);
 
   const renderLayerFeatures = useCallback((layerId: string, features: Feature[]) => {
@@ -1894,6 +1918,11 @@ export function App() {
   }, [digitalizeMode]);
 
   useEffect(() => {
+    editVerticesRef.current = editVertices;
+    modifyRef.current?.setActive(editVertices);
+  }, [editVertices]);
+
+  useEffect(() => {
     filtersRef.current = filters;
     for (const [layerId, features] of Object.entries(loadedFeaturesRef.current)) {
       renderLayerFeatures(layerId, features);
@@ -1923,6 +1952,7 @@ export function App() {
     digitalizeLayerRef.current = digitalizeLayer;
     map.addLayer(digitalizeLayer);
     const modify = new Modify({ source: digitalizeLayer.getSource() ?? undefined });
+    modify.setActive(false);
     modifyRef.current = modify;
     map.addInteraction(modify);
 
@@ -1949,8 +1979,8 @@ export function App() {
     };
 
     const onMapClick = (event: { pixel: number[]; coordinate: number[] }) => {
-      if (measureModeRef.current || digitalizeModeRef.current) return;
-      const hits: Array<IdentifyItem & { feature: Feature }> = [];
+      if (measureModeRef.current || digitalizeModeRef.current || editVerticesRef.current) return;
+      const hits: Array<{ item: IdentifyItem; feature: Feature; parcel: boolean }> = [];
       map.forEachFeatureAtPixel(event.pixel, (featureLike, layerLike) => {
         const layerId = layerLike?.get('portalLayerId') as string | undefined;
         if (!layerId) return;
@@ -1958,20 +1988,31 @@ export function App() {
         const feature = featureLike as Feature;
         const attributes = featureAttributes(feature);
         if (!attributes.length) return;
-        hits.push({ id: `${layerId ?? layerName}-${hits.length}`, layerName, attributes, feature });
-      });
+        hits.push({
+          item: { id: `${layerId}-${hits.length}`, layerName, attributes },
+          feature,
+          parcel: isParcelLayer(layerName),
+        });
+      }, { hitTolerance: 3 });
 
       if (!hits.length) {
         void identifyByWfs(event.pixel, event.coordinate);
         return;
       }
 
-      hits.sort((a, b) => Number(isParcelLayer(b.layerName)) - Number(isParcelLayer(a.layerName)));
-      selectFeature(hits[0].feature, hits[0].layerName, false);
+      const selection = choosePrimaryIdentifyCandidate(hits, event.coordinate);
+      if (!selection.primary) return;
+      const selected = selection.primary.feature.clone();
+      const highlightSource = highlightLayerRef.current?.getSource();
+      highlightSource?.clear(true);
+      highlightSource?.addFeature(selected);
+      setIdentifiedFeatures(selection.ordered.map((candidate) => candidate.feature.clone()));
+      setSelectedFeature(selected);
       setIdentifyPopup({
         x: event.pixel[0],
         y: event.pixel[1],
-        items: hits.map(({ feature: _feature, ...item }) => item),
+        items: selection.ordered.map((candidate) => candidate.item),
+        boundaryHit: selection.boundaryHit,
       });
     };
 
@@ -1989,6 +2030,7 @@ export function App() {
       measureLayerRef.current = null;
       digitalizeLayerRef.current = null;
       modifyRef.current = null;
+      editVerticesRef.current = false;
       mapRef.current = null;
     };
   }, [identifyByWfs, reloadVisibleLayers, selectFeature]);
@@ -2362,6 +2404,8 @@ export function App() {
   const clearStatisticsSelection = () => {
     highlightLayerRef.current?.getSource()?.clear(true);
     setIdentifyPopup(null);
+    setIdentifiedFeatures([]);
+    setSelectedFeature(null);
   };
 
   const exportStatisticsCsv = () => {
@@ -2781,6 +2825,21 @@ export function App() {
     measureLayerRef.current?.getSource()?.clear(true);
   };
 
+  const activateIdentify = () => {
+    drawRef.current?.abortDrawing();
+    setMeasureMode(null);
+    setDigitalizeMode(null);
+    setEditVertices(false);
+    setNotice('Modo identificar activo.');
+  };
+
+  const clearIdentifySelection = () => {
+    setIdentifyPopup(null);
+    setIdentifiedFeatures([]);
+    setSelectedFeature(null);
+    highlightLayerRef.current?.getSource()?.clear(true);
+  };
+
 
   const clearDigitalization = () => {
     drawRef.current?.abortDrawing();
@@ -2912,13 +2971,17 @@ export function App() {
         <MeasureToolbar
           mode={measureMode}
           result={measureResult}
-          onModeChange={(mode) => { setDigitalizeMode(null); setMeasureMode((current) => (current === mode ? null : mode)); }}
+          onModeChange={(mode) => { setDigitalizeMode(null); setEditVertices(false); setMeasureMode((current) => (current === mode ? null : mode)); }}
           onClear={clearMeasurement}
         />
         <DigitalizeToolbar
           mode={digitalizeMode}
+          editMode={editVertices}
+          identifyActive={!measureMode && !digitalizeMode && !editVertices}
           result={digitalizeResult}
-          onModeChange={(mode) => { setMeasureMode(null); setDigitalizeMode((current) => (current === mode ? null : mode)); }}
+          onIdentify={activateIdentify}
+          onEditModeChange={() => { setMeasureMode(null); setDigitalizeMode(null); setEditVertices((current) => !current); }}
+          onModeChange={(mode) => { setMeasureMode(null); setEditVertices(false); setDigitalizeMode((current) => (current === mode ? null : mode)); }}
           onClear={clearDigitalization}
           onExport={exportDigitalizationGeoJson}
         />
@@ -2936,7 +2999,7 @@ export function App() {
         <div ref={mapElementRef} className="map" data-testid="idecam-map" />
         {toolPanel === 'print' && printSettings.showArea ? <div className={`print-area-overlay ${printSettings.template}`} aria-hidden="true" /> : null}
         {measureLive ? <MeasureLiveOverlay live={measureLive} /> : null}
-        {identifyPopup ? <IdentifyPopupView popup={identifyPopup} onClose={() => setIdentifyPopup(null)} /> : null}
+        {identifyPopup ? <IdentifyPopupView popup={identifyPopup} onClose={clearIdentifySelection} /> : null}
       </section>
 
       {toolPanel === 'catalog' ? (
@@ -3930,13 +3993,21 @@ function MeasureToolbar({
 
 function DigitalizeToolbar({
   mode,
+  editMode,
+  identifyActive,
   result,
+  onIdentify,
+  onEditModeChange,
   onModeChange,
   onClear,
   onExport,
 }: {
   mode: DigitalizeMode | null;
+  editMode: boolean;
+  identifyActive: boolean;
   result: string;
+  onIdentify: () => void;
+  onEditModeChange: () => void;
   onModeChange: (mode: DigitalizeMode) => void;
   onClear: () => void;
   onExport: () => void;
@@ -3944,12 +4015,14 @@ function DigitalizeToolbar({
   return (
     <div className="digitalize-toolbar" aria-label="Herramientas de digitalización">
       <span className="measure-title" aria-hidden="true">✎ Digitalizar</span>
+      <button type="button" aria-pressed={identifyActive} onClick={onIdentify}>Identificar</button>
       <button type="button" aria-pressed={mode === 'Point'} onClick={() => onModeChange('Point')}>Punto</button>
       <button type="button" aria-pressed={mode === 'LineString'} onClick={() => onModeChange('LineString')}>Línea</button>
       <button type="button" aria-pressed={mode === 'Polygon'} onClick={() => onModeChange('Polygon')}>Polígono</button>
+      <button type="button" aria-pressed={editMode} onClick={onEditModeChange}>Editar vértices</button>
       <button type="button" onClick={onExport}>GeoJSON</button>
       <button type="button" onClick={onClear}>Limpiar</button>
-      <output>{result || (mode ? 'Click izq vértices · click der finaliza · ESC cancela' : 'Edición de vértices activa')}</output>
+      <output>{editMode ? 'Edición de vértices activa' : result || (mode ? 'Click izq vértices · click der finaliza · ESC cancela' : 'Modo identificar activo')}</output>
     </div>
   );
 }
@@ -4278,9 +4351,12 @@ function IdentifyPopupView({ popup, onClose }: { popup: IdentifyPopup; onClose: 
         </button>
       </header>
       <div className="identify-results">
-        {popup.items.map((item) => (
+        {popup.boundaryHit ? <p className="identify-boundary">Click sobre límite parcelario: se muestran candidatas cercanas.</p> : null}
+        {popup.items.map((item, index) => (
           <article key={item.id} className="identify-card">
-            <h3>{item.layerName}</h3>
+            {index === 1 && isParcelLayer(item.layerName) ? <p className="identify-secondary-title">Otras parcelas detectadas cerca del click</p> : null}
+            <h3>{index === 0 && isParcelLayer(item.layerName) ? 'Parcela seleccionada' : item.layerName}</h3>
+            {index === 0 && isParcelLayer(item.layerName) ? <p>{item.layerName}</p> : null}
             <dl>
               {item.attributes.map(([key, value]) => (
                 <div key={key}>

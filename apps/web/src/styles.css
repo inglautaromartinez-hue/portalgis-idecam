@@ -1241,6 +1241,23 @@ select {
   padding: 10px 12px 12px;
 }
 
+.identify-boundary,
+.identify-secondary-title {
+  margin: 0 0 8px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.identify-boundary {
+  padding: 8px;
+  border: 1px solid #d97706;
+  border-radius: 6px;
+}
+
+.identify-secondary-title {
+  font-weight: 700;
+}
+
 .identify-card + .identify-card {
   margin-top: 12px;
   padding-top: 12px;
