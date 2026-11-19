@@ -1,5 +1,7 @@
 name: Cruces espaciales en Chrome
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [fix/cruces-espaciales]
 permissions:
