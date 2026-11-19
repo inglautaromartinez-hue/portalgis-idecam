@@ -32,4 +32,6 @@ panel.cjs requiere jsdom disponible para Node (se puede instalar en un directori
 
 Las líneas disjuntas son (0,0)–(2,2) y (0,1)–(2,3). La secante de control es (0,2)–(2,0). matriz.cjs verifica las ocho respuestas de la ruta y el caso del informe con dos respuestas truncadas (dos entidades informadas y una recibida por lado).
 
-Para repetir en Chromium con Playwright para Python, servir los mismos snapshots con node tests/cruces/api.cjs, iniciar Vite en el puerto 3100 y ejecutar python tests/cruces/visor.py. En este entorno se ejecutó la matriz de la API y del panel con DOM simulado. Chromium independiente no pudo abrir el socket de inicio. No se realizó una comprobación visual del mapa ni un despliegue.
+Para repetir en Chromium con Playwright para Python, servir los mismos snapshots con node tests/cruces/api.cjs, iniciar Vite en el puerto 3100 y ejecutar python tests/cruces/visor.py.
+
+El 19/11/2026 Chrome pasó los ocho casos desde el panel del visor en GitHub Actions. La captura muestra los dos avisos de cobertura y el mensaje de cero coincidencias. [Ejecución](https://github.com/inglautaromartinez-hue/portalgis-idecam/actions/runs/44528048934) · [Captura](evidencia/cero-ambas-parciales.png) · [Resultados del panel](evidencia/matriz.txt)

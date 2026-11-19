@@ -1,0 +1,12 @@
+objetivo-0-0 agrupamiento-0-0 empty Sin datos | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 0. No se encontraron cruces.
+objetivo-0-0 agrupamiento-0-1 ready Listo | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 1. Grupo QA
+1
+objetivo-0-0 agrupamiento-1-0 partial Datos parciales | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 | Capa de agrupamiento incompleta. Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 0. No se encontraron cruces entre las entidades cargadas. Puede haber otros en los datos pendientes.
+objetivo-0-0 agrupamiento-1-1 partial Datos parciales | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 | Capa de agrupamiento incompleta. Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 1. Grupo QA
+1
+objetivo-1-0 agrupamiento-0-0 partial Datos parciales | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 | Capa objetivo incompleta. Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 0. No se encontraron cruces entre las entidades cargadas. Puede haber otros en los datos pendientes.
+objetivo-1-0 agrupamiento-0-1 partial Datos parciales | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 | Capa objetivo incompleta. Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 1. Grupo QA
+1
+objetivo-1-0 agrupamiento-1-0 partial Datos parciales | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 | Capa objetivo incompleta. | Capa de agrupamiento incompleta. Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 0. No se encontraron cruces entre las entidades cargadas. Puede haber otros en los datos pendientes.
+objetivo-1-0 agrupamiento-1-1 partial Datos parciales | Cruce global | Fuente: dataset local sincronizado desde WFS | Sincronizado: 1/1/2026, 12:00:00 | Capa objetivo incompleta. | Capa de agrupamiento incompleta. Objetivo: 1 features. Agrupamiento: 1 features. Coincidencias: 1. Grupo QA
+1
