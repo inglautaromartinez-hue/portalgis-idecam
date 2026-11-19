@@ -752,7 +752,7 @@ function crossCompatibilityWarning(target: CatalogLayer | undefined, group: Cata
   if (targetGeom === 'punto' && groupGeom === 'punto') {
     return 'Punto + punto no es un cruce recomendado. Use una capa poligonal como Distritos de Mendoza para agrupar.';
   }
-  if (groupGeom !== 'poligono') {
+  if (groupGeom !== 'poligono' && operation !== 'intersects') {
     return 'La capa de agrupamiento deberia ser poligonal. Para VESEP/PH por distrito use Distritos de Mendoza.';
   }
   return null;
@@ -1317,7 +1317,7 @@ export function App() {
         .sort((a, b) => Number(visibleIds.has(b.id)) - Number(visibleIds.has(a.id)) || a.treeOrder - b.treeOrder),
     [layers, visibleIds],
   );
-  const crossGroupLayers = useMemo(() => crossLayers.filter(isPolygonLayer), [crossLayers]);
+  const crossGroupLayers = useMemo(() => crossLayers.filter(layer => isPolygonLayer(layer) || geometryLabel(layer) === 'linea'), [crossLayers]);
   const crossTargetLayer = crossDashboard.targetLayerId ? layersByIdRef.current.get(crossDashboard.targetLayerId) : crossLayers[0];
   const crossGroupLayer = crossDashboard.groupLayerId ? layersByIdRef.current.get(crossDashboard.groupLayerId) : crossGroupLayers[0];
   const crossGroupFields = categoricalFieldsForLayer(crossGroupLayer, []);
@@ -1634,14 +1634,15 @@ export function App() {
       activePresetId === IRRIGATION_RIGHTS_PRESET_ID
         ? preferredIrrigationStatsLayer(crossLayers)
         : findLayerByName(crossLayers, /^PH$/i) ?? findLayerByName(crossLayers, /MENSURA/i) ?? crossLayers[0];
-    const preferredGroup = findLayerByName(crossGroupLayers, /Distritos de Mendoza/i) ?? crossGroupLayers[0];
+    const preferredGroup = findLayerByName(crossGroupLayers, /Distritos de Mendoza/i) ?? crossGroupLayers.find(isPolygonLayer) ?? crossGroupLayers[0];
     if (!preferredTarget || !preferredGroup) return;
     setCrossDashboard((current) => ({
       ...current,
       targetLayerId: current.targetLayerId || preferredTarget.id,
       groupLayerId: current.groupLayerId || preferredGroup.id,
       groupByField: current.groupByField || (catalogFieldsForLayer(preferredGroup).find((field) => /DISTRITO/i.test(field)) ?? ''),
-      spatialOperation: geometryLabel(preferredTarget) === 'punto' ? 'within' : 'intersects',
+      spatialOperation: current.groupLayerId ? current.spatialOperation :
+        geometryLabel(preferredTarget) === 'punto' && isPolygonLayer(preferredGroup) ? 'within' : 'intersects',
     }));
   }, [activePresetId, crossGroupLayers, crossLayers]);
 
@@ -2422,6 +2423,8 @@ export function App() {
             ['Capa objetivo', crossTargetLayer?.name ?? '-'],
             ['Capa agrupamiento', crossGroupLayer?.name ?? '-'],
             ['Operacion', crossDashboard.spatialOperation],
+            ['Cobertura', crossStatisticsResult?.partial ? 'Parcial' : 'Completa'],
+            ...(crossStatisticsResult?.warnings ?? []).map(warning => ['Advertencia', warning]),
             ['Alcance', statisticsState.scopeLabel],
             ['Fecha', new Date().toLocaleString()],
           ]
@@ -2492,7 +2495,7 @@ export function App() {
       numericField: '',
       highlightGroup: preset === 'ph-district' ? 'CAPITAL' : '',
     });
-    setNotice('Preset de estadistica cruzada aplicado sobre snapshots locales completos. Pulse Calcular.');
+    setNotice('Preset de estadistica cruzada aplicado sobre snapshots locales. Pulse Calcular.');
   };
 
   const calculateCrossStatistics = () => {
@@ -2526,7 +2529,7 @@ export function App() {
       ...current,
       status: 'loading',
       source: 'local-snapshot',
-      scopeLabel: statisticsScope === 'global' ? 'Cruzada global - capas completas' : 'Area actual / poligono',
+      scopeLabel: statisticsScope === 'global' ? 'Cruce global' : 'Area actual / poligono',
       error: null,
       warnings: localWarnings,
     }));
@@ -2551,7 +2554,7 @@ export function App() {
         setStatisticsState({
           status: result.status,
           source: result.source,
-          scopeLabel: result.scope === 'global' ? 'Cruzada global - capas completas' : polygon ? 'Resultado calculado sobre el poligono dibujado.' : 'Resultado parcial calculado sobre el area visible.',
+          scopeLabel: result.scope === 'global' ? 'Cruce global' : polygon ? 'Polígono dibujado' : 'Área visible',
           featureCount: result.matchedFeatureCount,
           updatedAt: result.syncedAt ?? result.updatedAt,
           partial: result.partial,
@@ -2566,7 +2569,7 @@ export function App() {
         setStatisticsState({
           status: 'error',
           source: 'local-snapshot',
-          scopeLabel: statisticsScope === 'global' ? 'Cruzada global - capas completas' : 'Area actual / poligono',
+          scopeLabel: statisticsScope === 'global' ? 'Cruce global' : 'Area actual / poligono',
           featureCount: 0,
           updatedAt: new Date().toISOString(),
           partial: false,
@@ -3558,7 +3561,12 @@ function DashboardPanelView({
             </label>
             <label>
               Capa de agrupamiento
-              <select value={crossGroupLayer?.id ?? ''} onChange={(event) => onCrossChange({ ...crossState, groupLayerId: event.currentTarget.value, groupByField: '' })}>
+              <select value={crossGroupLayer?.id ?? ''} onChange={(event) => {
+                const groupLayerId = event.currentTarget.value;
+                const selected = crossGroupLayers.find(layer => layer.id === groupLayerId);
+                onCrossChange({ ...crossState, groupLayerId, groupByField: '',
+                  spatialOperation: geometryLabel(selected) === 'linea' ? 'intersects' : crossState.spatialOperation });
+              }}>
                 <option value="">Seleccionar</option>
                 {crossGroupLayers.map((layer) => (
                   <option key={layer.id} value={layer.id}>
@@ -3570,9 +3578,9 @@ function DashboardPanelView({
             <label>
               Operacion espacial
               <select value={crossState.spatialOperation} onChange={(event) => onCrossChange({ ...crossState, spatialOperation: event.currentTarget.value as SpatialOperation })}>
-                <option value="within">Dentro de</option>
+                <option value="within" disabled={geometryLabel(crossGroupLayer) === 'linea'}>Dentro de</option>
                 <option value="intersects">Intersecta</option>
-                <option value="contains">Contiene</option>
+                <option value="contains" disabled={geometryLabel(crossGroupLayer) === 'linea'}>Contiene</option>
               </select>
             </label>
             <label>
@@ -3610,7 +3618,7 @@ function DashboardPanelView({
             <button type="button" onClick={onCrossCalculate} disabled={statisticsState.status === 'loading' || !crossTargetLayer || !crossGroupLayer || !crossGroupField}>
               {scope === 'global' ? 'Calcular cruce global' : 'Calcular cruce del area actual'}
             </button>
-            <span>{scope === 'global' ? 'Cruzada global - capas completas.' : 'Resultado parcial calculado sobre el area visible.'}</span>
+            <span>{scope === 'global' ? 'Cruce global.' : 'Cruce del área visible o polígono.'}</span>
           </div>
           {crossResult ? (
             <p className="analysis-note">
@@ -3650,7 +3658,11 @@ function DashboardPanelView({
           ) : (
             <p>
               {mode === 'cross'
-                ? 'Configure el cruce y pulse Calcular.'
+                ? crossResult && statisticsState.status !== 'loading'
+                  ? crossResult.partial
+                    ? 'No se encontraron cruces entre las entidades cargadas. Puede haber otros en los datos pendientes.'
+                    : 'No se encontraron cruces.'
+                  : 'Configure el cruce y pulse Calcular.'
                 : 'Seleccione una capa con snapshot local sincronizado.'}
             </p>
           )}

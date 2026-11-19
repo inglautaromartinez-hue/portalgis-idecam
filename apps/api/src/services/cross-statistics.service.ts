@@ -1,3 +1,4 @@
+import { coordinatesIntersect } from './intersection';
 import { getProj4 } from '@portalgis/gis-core';
 import { WfsProxyService } from './wfs-proxy.service';
 import type { StatisticsFilter, StatisticsFilterOperator, StatisticsLayer, StatisticsMetric } from './statistics.service';
@@ -179,12 +180,6 @@ function pointInRing(point: number[], ring: number[][]): boolean {
   return inside;
 }
 
-function polygonRings(geometry: GeoJsonGeometry): number[][][] {
-  if (geometry.type === 'Polygon') return geometry.coordinates as number[][][];
-  if (geometry.type === 'MultiPolygon') return (geometry.coordinates as number[][][][]).flat();
-  return [];
-}
-
 function polygons(geometry: GeoJsonGeometry): number[][][][] {
   if (geometry.type === 'Polygon') return [geometry.coordinates as number[][][]];
   if (geometry.type === 'MultiPolygon') return geometry.coordinates as number[][][][];
@@ -197,31 +192,6 @@ function pointInPolygon(point: number[], polygon: GeoJsonGeometry): boolean {
 
 function bboxIntersects(a: [number, number, number, number], b: [number, number, number, number]): boolean {
   return a[0] <= b[2] && a[2] >= b[0] && a[1] <= b[3] && a[3] >= b[1];
-}
-
-function ccw(a: number[], b: number[], c: number[]): boolean {
-  return (c[1] - a[1]) * (b[0] - a[0]) > (b[1] - a[1]) * (c[0] - a[0]);
-}
-
-function segmentsIntersect(a: number[], b: number[], c: number[], d: number[]): boolean {
-  return ccw(a, c, d) !== ccw(b, c, d) && ccw(a, b, c) !== ccw(a, b, d);
-}
-
-function polygonIntersectsPolygon(a: GeoJsonGeometry, b: GeoJsonGeometry): boolean {
-  const aRings = polygonRings(a);
-  const bRings = polygonRings(b);
-  if (!aRings.length || !bRings.length) return false;
-  if (aRings.some((ring) => ring.some((point) => pointInPolygon(point, b)))) return true;
-  if (bRings.some((ring) => ring.some((point) => pointInPolygon(point, a)))) return true;
-  return aRings.some((aRing) =>
-    bRings.some((bRing) =>
-      aRing.slice(1).some((point, index) => bRing.slice(1).some((other, otherIndex) => segmentsIntersect(aRing[index], point, bRing[otherIndex], other))),
-    ),
-  );
-}
-
-function isPointGeometry(geometry: GeoJsonGeometry): boolean {
-  return geometry.type === 'Point' || geometry.type === 'MultiPoint';
 }
 
 function isPolygonGeometry(geometry: GeoJsonGeometry): boolean {
@@ -246,12 +216,7 @@ function spatialMatch(target: CrossFeature, group: CrossFeature, operation: Spat
     if (point && isPolygonGeometry(target.geometry)) return pointInPolygon(point, target.geometry);
     return isPolygonGeometry(target.geometry) && isPolygonGeometry(group.geometry) && geometryCoordinates(group.geometry).every((point) => pointInPolygon(point, target.geometry));
   }
-  if (isPointGeometry(target.geometry) && isPolygonGeometry(group.geometry)) {
-    const point = firstPoint(target.geometry);
-    return Boolean(point && pointInPolygon(point, group.geometry));
-  }
-  if (isPolygonGeometry(target.geometry) && isPolygonGeometry(group.geometry)) return polygonIntersectsPolygon(target.geometry, group.geometry);
-  return bboxIntersects(target.bbox, group.bbox);
+  return coordinatesIntersect(target.geometry, group.geometry, pointInPolygon);
 }
 
 export class CrossStatisticsService {
