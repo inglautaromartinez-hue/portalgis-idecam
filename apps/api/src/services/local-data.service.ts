@@ -1,3 +1,4 @@
+import { coordinatesIntersect } from './intersection';
 import { readFile, writeFile } from 'node:fs/promises';
 import { isAbsolute, join } from 'node:path';
 import { gunzipSync } from 'node:zlib';
@@ -154,30 +155,11 @@ function pointInPolygon(point: number[], geometry: LocalGeometry): boolean {
   return polygons(geometry).some((rings) => Boolean(rings[0]) && pointInRing(point, rings[0]) && rings.slice(1).every((hole) => !pointInRing(point, hole)));
 }
 
-function segmentsIntersect(a: number[], b: number[], c: number[], d: number[]): boolean {
-  const orient = (p: number[], q: number[], r: number[]) => Math.sign((q[1] - p[1]) * (r[0] - q[0]) - (q[0] - p[0]) * (r[1] - q[1]));
-  return orient(a, b, c) !== orient(a, b, d) && orient(c, d, a) !== orient(c, d, b);
-}
-
-function polygonIntersects(a: LocalGeometry, b: LocalGeometry): boolean {
-  const ap = polygons(a); const bp = polygons(b);
-  if (ap.some((polygon) => polygon[0]?.some((point) => pointInPolygon(point, b)))) return true;
-  if (bp.some((polygon) => polygon[0]?.some((point) => pointInPolygon(point, a)))) return true;
-  return ap.some((pa) => bp.some((pb) => (pa[0] ?? []).slice(1).some((point, i) => (pb[0] ?? []).slice(1).some((other, j) => segmentsIntersect(pa[0][i], point, pb[0][j], other)))));
-}
-
 export function geometriesIntersect(a: LocalGeometry, b: LocalGeometry): boolean {
   const fa = featureBbox({ type: 'Feature', geometry: a, properties: {} });
   const fb = featureBbox({ type: 'Feature', geometry: b, properties: {} });
   if (!fa || !fb || !bboxIntersects(fa, fb)) return false;
-  if ((a.type === 'Point' || a.type === 'MultiPoint') && polygons(b).length) {
-    const points: number[][] = []; geometryPoints(a.coordinates, points); return points.some((point) => pointInPolygon(point, b));
-  }
-  if ((b.type === 'Point' || b.type === 'MultiPoint') && polygons(a).length) {
-    const points: number[][] = []; geometryPoints(b.coordinates, points); return points.some((point) => pointInPolygon(point, a));
-  }
-  if (polygons(a).length && polygons(b).length) return polygonIntersects(a, b);
-  return true;
+  return coordinatesIntersect(a, b, pointInPolygon);
 }
 
 function geometryWithin(a: LocalGeometry, b: LocalGeometry): boolean {
@@ -220,6 +202,15 @@ function ringAreaM2(ring: number[][]): number {
 function geometryAreaM2(geometry: LocalGeometry | null): number {
   if (!geometry) return 0;
   return polygons(geometry).reduce((total, polygon) => total + ringAreaM2(polygon[0] ?? []) - polygon.slice(1).reduce((holes, ring) => holes + ringAreaM2(ring), 0), 0);
+}
+
+function crossCoverage(targetPartial: boolean, groupPartial: boolean, matches: number) {
+  const warnings: string[] = [];
+  if (targetPartial) warnings.push('Capa objetivo incompleta.');
+  if (groupPartial) warnings.push('Capa de agrupamiento incompleta.');
+  const partial = targetPartial || groupPartial;
+  return { targetPartial, groupPartial, partial, warnings,
+    status: partial ? 'partial' : matches ? 'ready' : 'empty' };
 }
 
 export class LocalDataService {
@@ -309,7 +300,7 @@ export class LocalDataService {
       features: selected.slice(0, limit).map((feature) => properties ? { ...feature, properties: Object.fromEntries(Object.entries(feature.properties).filter(([key]) => properties.has(key))) } : feature),
       numberMatched: selected.length,
       numberReturned: Math.min(selected.length, limit),
-      partial: selected.length > limit,
+      partial: meta.status === 'partial' || selected.length > limit,
       source: 'local-snapshot' as const,
       syncedAt: meta.syncedAt,
       crs: 'EPSG:4326',
@@ -422,7 +413,7 @@ export class LocalDataService {
       }
     }
     const results = [...output.values()].map((row) => ({ ...row, avg: row.count ? row.sum / row.count : 0 })).sort((a, b) => b.count - a.count);
-    return { scope: input.scope ?? 'global', source: 'local-snapshot', status: results.length ? 'ready' : 'empty', targetLayerId: targetMeta.id, targetLayerName: targetMeta.title, groupLayerId: groupMeta.id, groupLayerName: groupMeta.title, spatialOperation: input.spatialOperation, groupByField: input.groupByField, metric: input.metric, numericField: input.numericField ?? null, targetFeatureCount: targets.length, groupFeatureCount: groups.length, matchedFeatureCount, usedPropertyName: false, usedCqlFilter: false, partial: false, pageSize: null, maxFeatures: null, syncedAt: [targetMeta.syncedAt, groupMeta.syncedAt].sort()[0], updatedAt: new Date().toISOString(), results, warnings: [], author: 'laugis' as const };
+    return { scope: input.scope ?? 'global', source: 'local-snapshot', targetLayerId: targetMeta.id, targetLayerName: targetMeta.title, groupLayerId: groupMeta.id, groupLayerName: groupMeta.title, spatialOperation: input.spatialOperation, groupByField: input.groupByField, metric: input.metric, numericField: input.numericField ?? null, targetFeatureCount: targets.length, groupFeatureCount: groups.length, matchedFeatureCount, usedPropertyName: false, usedCqlFilter: false, pageSize: null, maxFeatures: null, syncedAt: [targetMeta.syncedAt, groupMeta.syncedAt].sort()[0], updatedAt: new Date().toISOString(), results, ...crossCoverage(targetPayload.partial, groupPayload.partial, matchedFeatureCount), author: 'laugis' as const };
   }
 
   private async provincialIrrigationCrossStatistics(input: { groupLayerId: string; spatialOperation: 'within' | 'intersects' | 'contains'; groupByField: string; metric: 'count' | 'sum' | 'avg'; numericField?: string; filters?: LocalFilter[]; scope?: 'global' | 'area'; bbox?: number[]; mapCrs?: string; polygon?: LocalGeometry; irrigationOnly?: boolean }) {
@@ -434,7 +425,7 @@ export class LocalDataService {
     ]);
     if (!targetMeta || !groupMeta) throw new Error('SNAPSHOT_NOT_FOUND');
     const snapshotKey = [...layers.map((layer) => `${layer.id}:${layer.syncedAt}`), `${groupMeta.id}:${groupMeta.syncedAt}`].join('|');
-    const queryKey = JSON.stringify({ snapshotKey, groupLayerId: input.groupLayerId, spatialOperation: input.spatialOperation, groupByField: input.groupByField, metric: input.metric, numericField: input.numericField ?? '', irrigationOnly: Boolean(input.irrigationOnly) });
+    const queryKey = JSON.stringify({ version: 2, groupPartial: groupPayload.partial, snapshotKey, groupLayerId: input.groupLayerId, spatialOperation: input.spatialOperation, groupByField: input.groupByField, metric: input.metric, numericField: input.numericField ?? '', irrigationOnly: Boolean(input.irrigationOnly) });
     const cachePath = dataPath('stats/irrigation-provincial-cross.stats.json');
     if ((input.scope ?? 'global') === 'global' && !input.filters?.length) {
       const cached = await readFile(cachePath, 'utf8').then((text) => JSON.parse(text) as { queryKey?: string; result?: Record<string, unknown> }).catch(() => null);
@@ -444,10 +435,12 @@ export class LocalDataService {
       .filter((feature) => feature.geometry)
       .map((feature) => ({ feature, bbox: featureBbox(feature) }));
     const output = new Map<string, { group: string; count: number; sum: number; avg: number }>();
+    let targetPartial = false;
     let targetFeatureCount = 0;
     let matchedFeatureCount = 0;
     for (const layer of layers) {
       const payload = await this.queryFeatures({ layerId: layer.id, bbox: input.scope === 'area' ? input.bbox : undefined, mapCrs: input.mapCrs, polygon: input.scope === 'area' ? input.polygon : undefined, limit: 1_000_000, filters: input.filters });
+      targetPartial ||= payload.partial;
       for (const target of payload.features) {
         if (!target.geometry) continue;
         if (input.irrigationOnly && irrigationCategory(target.properties) === 'Sin dato / NULL') continue;
@@ -465,7 +458,7 @@ export class LocalDataService {
       }
     }
     const results = [...output.values()].map((row) => ({ ...row, avg: row.count ? row.sum / row.count : 0 })).sort((a, b) => b.count - a.count);
-    const result = { scope: input.scope ?? 'global', source: 'local-snapshot' as const, status: results.length ? 'ready' : 'empty', targetLayerId: targetMeta.id, targetLayerName: targetMeta.title, groupLayerId: groupMeta.id, groupLayerName: groupMeta.title, spatialOperation: input.spatialOperation, groupByField: input.groupByField, metric: input.metric, numericField: input.numericField ?? null, targetFeatureCount, groupFeatureCount: groups.length, matchedFeatureCount, usedPropertyName: false, usedCqlFilter: false, partial: false, pageSize: null, maxFeatures: null, syncedAt: [targetMeta.syncedAt, groupMeta.syncedAt].sort()[0], updatedAt: new Date().toISOString(), results, warnings: [`Cruce provincial calculado sobre ${layers.length} parcelarios municipales completos.`], author: 'laugis' as const, sourceLayers: layers.length };
+    const result = { scope: input.scope ?? 'global', source: 'local-snapshot' as const, targetLayerId: targetMeta.id, targetLayerName: targetMeta.title, groupLayerId: groupMeta.id, groupLayerName: groupMeta.title, spatialOperation: input.spatialOperation, groupByField: input.groupByField, metric: input.metric, numericField: input.numericField ?? null, targetFeatureCount, groupFeatureCount: groups.length, matchedFeatureCount, usedPropertyName: false, usedCqlFilter: false, pageSize: null, maxFeatures: null, syncedAt: [targetMeta.syncedAt, groupMeta.syncedAt].sort()[0], updatedAt: new Date().toISOString(), results, ...crossCoverage(targetPartial, groupPayload.partial, matchedFeatureCount), author: 'laugis' as const, sourceLayers: layers.length };
     if ((input.scope ?? 'global') === 'global' && !input.filters?.length) await writeFile(cachePath, JSON.stringify({ queryKey, result }));
     return result;
   }
