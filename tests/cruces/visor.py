@@ -1,11 +1,13 @@
 """Desde la raíz del repo: python tests/cruces/visor.py [base|corregido]."""
+import os
 import sys
+from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 
 baseline = sys.argv[1:] == ["base"]
 with sync_playwright() as playwright:
-    browser = playwright.chromium.launch(executable_path="/usr/bin/chromium", args=["--no-sandbox"])
-    page = browser.new_page()
+    browser = playwright.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH", "/usr/bin/chromium"), args=["--no-sandbox"])
+    page = browser.new_page(viewport={"width": 1440, "height": 1600}, locale="es-AR")
     page.route("**/*", lambda r: r.continue_() if r.request.url.startswith("http://127.0.0.1:3100/") else r.abort())
     page.goto("http://127.0.0.1:3100/", wait_until="domcontentloaded")
     page.get_by_role("button", name="Estadísticas", exact=True).click(timeout=8000)
@@ -36,6 +38,12 @@ with sync_playwright() as playwright:
                         expected = ("No se encontraron cruces entre las entidades cargadas. "
                                     "Puede haber otros en los datos pendientes.") if target_partial or group_partial else "No se encontraron cruces."
                         expect(panel.locator(".bar-chart")).to_have_text(expected)
+                    if target_partial and group_partial and not crosses:
+                        for message in ("Capa objetivo incompleta.", "Capa de agrupamiento incompleta.", expected):
+                            expect(panel.get_by_text(message, exact=True)).to_be_in_viewport(ratio=1)
+                        output = Path(os.environ.get("EVIDENCE_DIR", "evidencia-cruces"))
+                        output.mkdir(parents=True, exist_ok=True)
+                        panel.screenshot(path=str(output / "cero-ambas-parciales.png"))
                 print(target_id, group_id, status, panel.locator(".analysis-status").inner_text().replace("\n"," | "),
                       panel.locator(".analysis-note").inner_text(), panel.locator(".bar-chart").inner_text(), flush=True)
     browser.close()
